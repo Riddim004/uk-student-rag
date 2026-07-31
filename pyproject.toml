@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ragkit"
+version = "1.0.0"
+description = "A small, tested, hybrid-retrieval RAG engine with retrieval-quality evaluation."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=1.0.1",
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=8.0.0"]
+
+[project.scripts]
+ragkit = "ragkit.__main__:main"
+
+[tool.setuptools]
+packages = ["ragkit", "ragkit.retrievers", "ragkit.evals"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = [".", "tests"]
