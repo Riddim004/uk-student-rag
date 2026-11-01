@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Evidence Desk — UK Student Visa</title>
+  <meta name="description" content="A cited UK student-visa assistant with retrieval evidence, gate decisions, and a reproducible evaluation." />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23171512'/%3E%3Crect x='5' y='5' width='22' height='22' fill='none' stroke='%23f1e9d8'/%3E%3Ctext x='16' y='21' font-family='monospace' font-size='10' fill='%23f1e9d8' text-anchor='middle'%3EED%3C/text%3E%3C/svg%3E" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <a class="skip" href="#main">Skip to the desk</a>
+
+  <aside class="rail">
+    <div class="rail-top">
+      <div class="brand">
+        <span class="brand-mark">ED</span>
+        <span class="brand-name">Evidence Desk</span>
+        <span class="brand-issue">02</span>
+      </div>
+      <p class="rail-lede" data-i18n="railLede">A UK student-visa answer desk built on a frozen gov.uk snapshot. Every claim carries an exhibit.</p>
+    </div>
+
+    <div class="rail-block">
+      <div class="rail-label" data-i18n="status">Status</div>
+      <div class="status-line">
+        <span class="dot" id="mode-dot"></span>
+        <span id="mode-label">connecting</span>
+      </div>
+      <dl class="facts" id="facts">
+        <div><dt data-i18n="gate">Gate</dt><dd>—</dd></div>
+        <div><dt data-i18n="corpus">Corpus</dt><dd>—</dd></div>
+        <div><dt data-i18n="chunks">Chunks</dt><dd>—</dd></div>
+        <div><dt data-i18n="startup">Cold start</dt><dd>—</dd></div>
+      </dl>
+      <p class="rail-warning" id="rail-warning" hidden></p>
+    </div>
+
+    <div class="rail-block rail-samples">
+      <div class="rail-label" data-i18n="caseQuestions">Case questions</div>
+      <div id="samples" class="sample-list"></div>
+    </div>
+
+    <div class="rail-foot">
+      <p data-i18n="railFoot">Not legal advice. The corpus is a 2026-11-01 snapshot; rules and fees change. Open the cited gov.uk page before acting.</p>
+      <div class="lang-toggle" role="group" aria-label="Language">
+        <button type="button" data-lang="en" class="is-on">EN</button>
+        <button type="button" data-lang="zh">中文</button>
+      </div>
+    </div>
+  </aside>
+
+  <main id="main" class="desk">
+    <header class="masthead">
+      <div class="masthead-line">
+        <span class="kicker" data-i18n="kicker">Case file / Student route</span>
+        <span class="kicker kicker-right" id="snapshot">Snapshot —</span>
+      </div>
+      <div class="masthead-grid">
+        <h1>
+          <span data-i18n="titleA">Answers with</span><br />
+          <em data-i18n="titleB">receipts.</em>
+        </h1>
+        <p class="deck" data-i18n="deck">
+          Hybrid retrieval over official guidance, a cross-encoder that decides when to refuse,
+          and a visible trail for every citation. No black box, no invented policy.
+        </p>
+      </div>
+      <div class="score-strip" id="score-strip" aria-label="Evaluation summary">
+        <div class="score"><span class="score-label">recall@10</span><span class="score-value" id="score-recall">—</span></div>
+        <div class="score"><span class="score-label">nDCG@10</span><span class="score-value" id="score-ndcg">—</span></div>
+        <div class="score"><span class="score-label">gate accuracy</span><span class="score-value" id="score-gate">—</span></div>
+        <div class="score"><span class="score-label">labelled queries</span><span class="score-value" id="score-n">—</span></div>
+        <div class="score score-hash"><span class="score-label">chunk hash</span><span class="score-value" id="score-hash">—</span></div>
+      </div>
+    </header>
+
+    <section class="docket" aria-labelledby="docket-label">
+      <div class="docket-head">
+        <label id="docket-label" class="rail-label" for="question" data-i18n="questionLabel">Question under review</label>
+        <span class="docket-count"><span id="char-count">0</span>/500</span>
+      </div>
+      <div class="docket-row">
+        <textarea id="question" rows="2" maxlength="500" spellcheck="false"
+          placeholder="How many hours can I work during term time?"
+          data-i18n-placeholder="placeholder"></textarea>
+        <button id="ask" class="ask-button" type="button">
+          <span data-i18n="ask">Check the file</span>
+          <span aria-hidden="true">↗</span>
+        </button>
+      </div>
+      <div class="docket-meta">
+        <span data-i18n="hint">⌘ / Ctrl + Enter</span>
+        <span>·</span>
+        <span data-i18n="hintTwo">50 hand-labelled questions · EN / 中文</span>
+      </div>
+    </section>
+
+    <section id="process" class="process" aria-label="Pipeline stages" hidden>
+      <div class="stage" data-stage="retrieve">
+        <span class="stage-no">01</span>
+        <span class="stage-name" data-i18n="stageRetrieve">Hybrid retrieval</span>
+        <span class="stage-time">—</span>
+      </div>
+      <div class="stage" data-stage="gate">
+        <span class="stage-no">02</span>
+        <span class="stage-name" data-i18n="stageGate">Admissibility gate</span>
+        <span class="stage-time">—</span>
+      </div>
+      <div class="stage" data-stage="generate">
+        <span class="stage-no">03</span>
+        <span class="stage-name" data-i18n="stageGenerate">Drafting</span>
+        <span class="stage-time">—</span>
+      </div>
+    </section>
+
+    <div class="workspace">
+      <section id="verdict" class="verdict" aria-live="polite" hidden>
+        <div class="verdict-head">
+          <div>
+            <div class="rail-label" data-i18n="finding">Finding</div>
+            <div id="verdict-state" class="verdict-state">—</div>
+          </div>
+          <button id="share" class="ghost-button" type="button" data-i18n="copyLink">Copy link</button>
+        </div>
+
+        <p id="verdict-meta" class="verdict-meta">—</p>
+        <div id="answer-kicker" class="answer-kicker" hidden></div>
+
+        <div id="degraded-note" class="notice" hidden></div>
+        <div id="answer-text" class="answer"></div>
+
+        <div id="refusal-extra" class="refusal-extra" hidden>
+          <p data-i18n="refusalExplain">This question falls outside the frozen corpus. The closest passages are shown beside this card, but none cleared the admissibility gate. Check the official pages below rather than treating a nearby passage as an answer.</p>
+          <div class="official-links">
+            <a href="https://www.gov.uk/student-visa" target="_blank" rel="noopener">Student visa ↗</a>
+            <a href="https://www.gov.uk/graduate-visa" target="_blank" rel="noopener">Graduate visa ↗</a>
+            <a href="https://www.gov.uk/healthcare-immigration-application" target="_blank" rel="noopener">Immigration Health Surcharge ↗</a>
+          </div>
+        </div>
+
+        <div id="citation-list" class="citation-list" hidden>
+          <div class="rail-label" data-i18n="exhibitsCited">Exhibits cited</div>
+          <ol id="citations"></ol>
+        </div>
+
+        <div class="verdict-foot">
+          <span id="answer-mode">—</span>
+          <span id="answer-time">—</span>
+          <span id="answer-gate">—</span>
+        </div>
+      </section>
+
+      <aside id="exhibit-panel" class="exhibit-panel" hidden>
+        <div class="exhibit-head">
+          <div>
+            <div class="rail-label" data-i18n="exhibits">Exhibits</div>
+            <p class="exhibit-sub" id="exhibit-sub">—</p>
+          </div>
+          <span class="exhibit-count" id="exhibit-count">0</span>
+        </div>
+        <div id="exhibits" class="exhibits"></div>
+
+        <details class="why" id="why">
+          <summary data-i18n="why">Why this answer</summary>
+          <div id="why-body"></div>
+        </details>
+      </aside>
+    </div>
+
+    <section id="empty" class="empty">
+      <div class="empty-rule"></div>
+      <div class="empty-grid">
+        <div>
+          <div class="rail-label" data-i18n="howItReads">How the desk reads</div>
+          <p data-i18n="howA">Questions are embedded locally and matched against 167 chunks of gov.uk guidance. BM25 and dense results are fused by rank; a multilingual cross-encoder then decides whether the file can answer at all.</p>
+        </div>
+        <div>
+          <div class="rail-label" data-i18n="whatYouSee">What you see</div>
+          <p data-i18n="howB">The answer, the exact passages behind each citation, dense/sparse/rerank scores, the gate verdict, and stage timings. If the evidence is weak, the desk refuses instead of guessing.</p>
+        </div>
+        <div>
+          <div class="rail-label" data-i18n="howToCheck">How to check it</div>
+          <p data-i18n="howC">The score strip comes from a 50-question eval with 25 held-out test queries and 8 unanswerable ones. Reports, calibration, incidents and benchmark commands live in the repository.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="desk-foot">
+      <span>Evidence Desk · ragkit</span>
+      <span id="foot-corpus">corpus —</span>
+      <span><a href="/docs" target="_blank" rel="noopener">API</a> · <a href="https://www.gov.uk" target="_blank" rel="noopener">gov.uk</a></span>
+    </footer>
+  </main>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="/app.js"></script>
+</body>
+</html>

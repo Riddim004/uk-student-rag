@@ -1,0 +1,6 @@
+# Local retrieval models (CPU). Install the CPU torch wheel first if you want
+# to avoid a multi-GB CUDA download:
+#   pip install torch --index-url https://download.pytorch.org/whl/cpu
+sentence-transformers>=3.0,<7
+torch>=2.2
+numpy>=1.26

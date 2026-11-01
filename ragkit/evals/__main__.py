@@ -1,21 +1,17 @@
-"""Compare retrievers on the labelled set: ``python -m ragkit.evals``.
+"""CLI: ``python -m ragkit.evals``.
 
-Runs **offline by default** using the deterministic ``HashingEmbedder``, so it
-needs no API key — you get a bm25 / dense / hybrid comparison table out of the
-box. Pass ``--openai`` to use real embeddings instead.
+Runs the versioned eval set against bm25 / dense / hybrid (and optionally
+hybrid+rerank), then prints a Markdown report with confidence intervals.
 """
 
 from __future__ import annotations
 
 import argparse
+from dataclasses import replace
 from pathlib import Path
 
 from ..config import Settings
-from ..embeddings import HashingEmbedder, OpenAIEmbedder
-from ..ingest import build_corpus, load_documents
-from .runner import compare_to_markdown, evaluate_retriever
-
-DEFAULT_DATA_DIR = Path(__file__).resolve().parents[2] / "data" / "uk_student_visa"
+from .run import DEFAULT_DATA, DEFAULT_EVAL_DIR, render_report, run_evaluation
 
 
 def main() -> None:
@@ -23,32 +19,33 @@ def main() -> None:
         prog="ragkit.evals",
         description="Evaluate and compare retrievers on the labelled query set.",
     )
-    parser.add_argument("--data", default=str(DEFAULT_DATA_DIR), help="documents directory")
-    parser.add_argument("-k", type=int, default=5, help="cut-off k (default: 5)")
+    parser.add_argument("--data", default=str(DEFAULT_DATA), help="documents.jsonl")
+    parser.add_argument("--eval", default=str(DEFAULT_EVAL_DIR), help="eval directory")
+    parser.add_argument("-k", type=int, default=10, help="cut-off k (default: 10)")
     parser.add_argument(
-        "--openai", action="store_true", help="use real OpenAI embeddings (needs API key)"
+        "--embedding-backend",
+        choices=["local", "openai", "hashing"],
+        help="override EMBEDDING_BACKEND",
     )
-    parser.add_argument("-o", "--output", help="write the comparison table to this file")
+    parser.add_argument("--rerank", action="store_true", help="add hybrid+rerank")
+    parser.add_argument("-o", "--output", help="write the report to this file")
     args = parser.parse_args()
 
     settings = Settings.from_env()
-    embedder = (
-        OpenAIEmbedder(settings.embedding_model, settings.api_base)
-        if args.openai
-        else HashingEmbedder()
+    if args.embedding_backend:
+        settings = replace(settings, embedding_backend=args.embedding_backend)
+
+    run = run_evaluation(
+        data_path=args.data,
+        eval_dir=args.eval,
+        settings=settings,
+        k=args.k,
+        include_rerank=args.rerank,
     )
-
-    corpus = build_corpus(load_documents(args.data), embedder, settings)
-    reports = {
-        "bm25": evaluate_retriever(corpus.bm25, k=args.k),
-        "dense": evaluate_retriever(corpus.dense, k=args.k),
-        "hybrid": evaluate_retriever(corpus.hybrid, k=args.k),
-    }
-
-    table = compare_to_markdown(reports)
-    print(table)
+    report = render_report(run, include_rerank=args.rerank)
+    print(report)
     if args.output:
-        Path(args.output).write_text(table, encoding="utf-8")
+        Path(args.output).write_text(report, encoding="utf-8")
         print(f"\nSaved to {args.output}")
 
 

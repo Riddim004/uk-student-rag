@@ -1,9 +1,9 @@
-"""Word-window chunking with overlap.
+"""Section-aware, overlapping word-window chunking.
 
-Deliberately simple and pure: given a document and a (size, overlap) in words,
-produce deterministic, overlapping chunks. Overlap preserves context that would
-otherwise be split across a boundary. A paragraph-aware splitter is noted as
-future work in the design doc.
+Each ``Document`` is already a meaningful section (a gov.uk guide part or an H2
+section of a detailed guide). The chunker keeps that section boundary and adds
+an explicit context header, so a chunk never loses the page/section it came
+from. Word-window overlap preserves context across boundaries.
 """
 
 from __future__ import annotations
@@ -20,11 +20,7 @@ def _tokenize_words(text: str) -> list[str]:
 
 
 def chunk_text(text: str, chunk_size: int, overlap: int) -> list[str]:
-    """Split raw text into overlapping word windows.
-
-    ``overlap`` must be smaller than ``chunk_size`` so the window always
-    advances; this is validated to avoid an infinite loop.
-    """
+    """Split raw text into overlapping word windows."""
     if chunk_size <= 0:
         raise ValueError("chunk_size must be positive")
     if not 0 <= overlap < chunk_size:
@@ -44,17 +40,52 @@ def chunk_text(text: str, chunk_size: int, overlap: int) -> list[str]:
     return chunks
 
 
-def chunk_document(doc: Document, chunk_size: int, overlap: int) -> list[Chunk]:
-    """Chunk a document, carrying its metadata onto every chunk."""
+def _context_header(doc: Document) -> str:
+    section = doc.section_path[-1] if doc.section_path else (doc.title or doc.id)
+    document_title = doc.title or doc.doc_id or doc.id
+    return f"[Document: {document_title} | Section: {section}]"
+
+
+def chunk_document(
+    doc: Document,
+    chunk_size: int,
+    overlap: int,
+    include_context: bool = True,
+) -> list[Chunk]:
+    """Chunk one section, carrying its metadata onto every chunk."""
     pieces = chunk_text(doc.text, chunk_size, overlap)
-    return [
-        Chunk(
-            id=f"{doc.id}#{i}",
-            doc_id=doc.id,
-            ordinal=i,
-            text=piece,
-            title=doc.title,
-            source=doc.source,
+    header = _context_header(doc) if include_context else ""
+    section_id = doc.section_id or doc.id
+    chunks: list[Chunk] = []
+    for i, piece in enumerate(pieces):
+        text = f"{header}\n{piece}" if header else piece
+        chunks.append(
+            Chunk(
+                id=f"{doc.id}#{i}",
+                doc_id=doc.doc_id or doc.id,
+                ordinal=i,
+                text=text,
+                title=doc.title,
+                source=doc.source,
+                section_id=section_id,
+                section_ids=(section_id,),
+                section_path=doc.section_path,
+                updated_at=doc.updated_at,
+                fetched_at=doc.fetched_at,
+                source_type=doc.source_type,
+            )
         )
-        for i, piece in enumerate(pieces)
-    ]
+    return chunks
+
+
+def chunk_documents(
+    documents: list[Document],
+    chunk_size: int,
+    overlap: int,
+    include_context: bool = True,
+) -> list[Chunk]:
+    """Chunk every section, preserving corpus order."""
+    chunks: list[Chunk] = []
+    for doc in documents:
+        chunks.extend(chunk_document(doc, chunk_size, overlap, include_context))
+    return chunks

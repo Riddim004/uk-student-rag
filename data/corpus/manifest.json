@@ -1,0 +1,111 @@
+{
+  "chunk_hash": "40c5b768d5e6d2c49a15d6ef904f62aa4ff240705d82483911cc7d3c4700cb20",
+  "chunk_overlap": 40,
+  "chunk_size": 260,
+  "corpus_hash": "e12e0d7011f1d5c1d1df0ea3d975281729478dba4cc2619bc340ce98ecd41083",
+  "generated_at": "2026-11-01T17:50:46+00:00",
+  "sources": [
+    {
+      "content_hash": "d76e3856957ee377aeda0dad2db57276df680ff40cade1b42b902ce01d85ffdd",
+      "doc_id": "student-visa",
+      "document_type": "guide",
+      "documents": 9,
+      "fetched_at": "2026-11-01T17:17:49+00:00",
+      "public_updated_at": "2024-10-31T17:00:02+00:00",
+      "title": "Student visa",
+      "url": "https://www.gov.uk/student-visa",
+      "words": 5753
+    },
+    {
+      "content_hash": "59103fc91fbbb2d29dd6508d36c7b93d239b0665e007f861bac86eaa08f2fe39",
+      "doc_id": "graduate-visa",
+      "document_type": "guide",
+      "documents": 6,
+      "fetched_at": "2026-11-01T17:17:49+00:00",
+      "public_updated_at": "2024-10-31T17:01:07+00:00",
+      "title": "Graduate visa",
+      "url": "https://www.gov.uk/graduate-visa",
+      "words": 3139
+    },
+    {
+      "content_hash": "adaba816a1bb7105a9d5a77f8404b8ff4f1f94311d806b3a43f207009e971b06",
+      "doc_id": "ihs",
+      "document_type": "guide",
+      "documents": 5,
+      "fetched_at": "2026-11-01T17:17:50+00:00",
+      "public_updated_at": "2024-11-28T10:11:14+00:00",
+      "title": "Pay for UK healthcare as part of your immigration application",
+      "url": "https://www.gov.uk/healthcare-immigration-application",
+      "words": 2095
+    },
+    {
+      "content_hash": "692e96fbd7a161fb00eca3e50cbe3cf4b1e497c8fde107b67ffee10a47567152",
+      "doc_id": "evisa",
+      "document_type": "guide",
+      "documents": 7,
+      "fetched_at": "2026-11-01T17:17:50+00:00",
+      "public_updated_at": "2025-07-15T10:07:02+01:00",
+      "title": "eVisas: access and use your online immigration status",
+      "url": "https://www.gov.uk/evisa/what-an-evisa-is",
+      "words": 3409
+    },
+    {
+      "content_hash": "82af173da1c2a55a8caaeea3cb2506904c662a88b3e06ef5ecf3cb81f86eeb03",
+      "doc_id": "brp",
+      "document_type": "answer",
+      "documents": 5,
+      "fetched_at": "2026-11-01T17:17:50+00:00",
+      "public_updated_at": "2024-10-31T17:00:02+00:00",
+      "title": "Biometric residence permits (BRPs)",
+      "url": "https://www.gov.uk/biometric-residence-permits",
+      "words": 499
+    },
+    {
+      "content_hash": "29828cbe98fb6cddcb8262bb7589b88f189f76b7bfe0051e5113b835d5e2ff83",
+      "doc_id": "atas",
+      "document_type": "detailed_guide",
+      "documents": 15,
+      "fetched_at": "2026-11-01T17:17:50+00:00",
+      "public_updated_at": "2026-03-24T10:09:39+00:00",
+      "title": "Academic Technology Approval Scheme (ATAS)",
+      "url": "https://www.gov.uk/guidance/academic-technology-approval-scheme",
+      "words": 3794
+    },
+    {
+      "content_hash": "c4ced751bced489d6eaff5dc8b40792d01a141460078db028f0f3daecf323062",
+      "doc_id": "visa-processing-times",
+      "document_type": "detailed_guide",
+      "documents": 11,
+      "fetched_at": "2026-11-01T17:17:51+00:00",
+      "public_updated_at": "2026-09-09T15:50:18+01:00",
+      "title": "Visa processing times: applications outside the UK",
+      "url": "https://www.gov.uk/guidance/visa-processing-times-applications-outside-the-uk",
+      "words": 1024
+    },
+    {
+      "content_hash": "5bc5272463b54d55bf15811d80a1fc40c3a046d552ebbba7030fa08205cbe707",
+      "doc_id": "financial-evidence",
+      "document_type": "detailed_guide",
+      "documents": 6,
+      "fetched_at": "2026-11-01T17:17:51+00:00",
+      "public_updated_at": "2025-12-31T16:47:19+00:00",
+      "title": "Financial evidence for Student and Child Student visa applicants",
+      "url": "https://www.gov.uk/guidance/financial-evidence-for-student-and-child-student-route-applicants",
+      "words": 1367
+    },
+    {
+      "content_hash": "e549bcf713d5d502c4f9bf4ff8c426a546e75c2e4920ff413ee268bf5f7c4da0",
+      "doc_id": "immigration-rules-student",
+      "document_type": "manual_section",
+      "documents": 10,
+      "fetched_at": "2026-11-01T17:17:51+00:00",
+      "public_updated_at": "2026-10-08T08:54:41+01:00",
+      "title": "Immigration Rules: Appendix Student",
+      "url": "https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-student",
+      "words": 8955
+    }
+  ],
+  "total_chunks": 167,
+  "total_documents": 74,
+  "total_words": 30035
+}

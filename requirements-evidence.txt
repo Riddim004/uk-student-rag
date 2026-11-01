@@ -1,0 +1,4 @@
+# Reproduce the evaluation and benchmark evidence.
+-r requirements-local.txt
+psutil>=5.9
+tiktoken>=0.7

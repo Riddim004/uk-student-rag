@@ -1,0 +1,300 @@
+
+[q01] ok How many hours can I work per week during term time on a Student visa?
+  category=exact hints=['immigration-rules-student__work-conditions-for-a-student']
+  - immigration-rules-student__work-conditions-for-a-student#0 | Immigration Rules: Appendix Student > Work Conditions for a Student
+    matched=['20 hours per week during term-time'] | [Document: Immigration Rules: Appendix Student | Section: Work Conditions for a Student] ## Work Conditions for a Student ST26.1. The applicant will be granted permission with the 
+
+[q02] ok How much does a Student visa application cost from outside the UK?
+  category=exact hints=['student-visa__overview']
+  - student-visa__overview#2 | Student visa > Overview
+    matched=['£558 to apply for a student visa from outside the uk'] | [Document: Student visa | Section: Overview] before your course starts. This can be either: - up to 1 week before, if your course lasts 6 months or less - up to 1 month before, if 
+
+[q03] ok How long does a Student visa decision usually take if I apply from outside the UK?
+  category=exact hints=['student-visa__overview', 'student-visa__apply-online']
+  - student-visa__overview#0 | Student visa > Overview
+    matched=["3 weeks, if you're outside the uk"] | [Document: Student visa | Section: Overview] You can apply for a Student visa to study in the UK if you’re 16 or over and you: - have been offered a place on [a course by a license
+  - student-visa__apply-online#0 | Student visa > Apply online
+    matched=['decision within 3 weeks'] | [Document: Student visa | Section: Apply online] You must apply online for a Student visa. Check which [documents you’ll need to apply](https://www.gov.uk/student-visa/documents-yo
+
+[q04] ok What is the earliest I can apply for a Student visa from outside the UK?
+  category=exact hints=['student-visa__overview']
+  - student-visa__overview#0 | Student visa > Overview
+    matched=['6 months before you start your course'] | [Document: Student visa | Section: Overview] You can apply for a Student visa to study in the UK if you’re 16 or over and you: - have been offered a place on [a course by a license
+
+[q05] ok How long can I stay on a Student visa if my course is below degree level?
+  category=exact hints=['student-visa__overview']
+  - student-visa__overview#1 | Student visa > Overview
+    matched=['below degree level, you can usually stay in the uk for up to 2 years'] | [Document: Student visa | Section: Overview] UK You may be able to pay to [get a faster decision](https://www.gov.uk/faster-decision-visa-settlement/applying-outside-the-uk) - you’
+
+[q06] ok What English level do I need for a degree-level course?
+  category=exact hints=['student-visa__knowledge-of-english']
+  - student-visa__knowledge-of-english#1 | Student visa > Knowledge of English
+    matched=['cefr level b2'] | [Document: Student visa | Section: Knowledge of English] - passing an English test from an approved provider ## If you have a UK school qualification You can prove your knowledge o
+  - student-visa__knowledge-of-english#2 | Student visa > Knowledge of English
+    matched=['cefr level b2'] | [Document: Student visa | Section: Knowledge of English] to a certain level on the [Common European Framework of Reference for Languages (CEFR) scale](https://www.coe.int/en/web/co
+
+[q07] ok What is the Graduate visa application fee?
+  category=exact hints=['graduate-visa__overview', 'graduate-visa__how-much-it-costs']
+  - graduate-visa__overview#2 | Graduate visa > Overview
+    matched=['£937 application fee'] | [Document: Graduate visa | Section: Overview] a decision on your visa within 8 weeks. You can stay in the UK while you wait for a decision. ## How much it costs When you apply for 
+  - graduate-visa__how-much-it-costs#0 | Graduate visa > How much it costs
+    matched=['£937 application fee'] | [Document: Graduate visa | Section: How much it costs] When you apply for a Graduate visa, you’ll need to: - pay the £937 application fee - pay the healthcare surcharge - this is u
+
+[q08] ok How long does a Graduate visa last if I apply on or after 1 January 2027?
+  category=exact hints=['graduate-visa__overview']
+  - graduate-visa__overview#0 | Graduate visa > Overview
+    matched=['18 months if you apply on or after 1 january 2027'] | [Document: Graduate visa | Section: Overview] A Graduate visa gives you permission to stay in the UK for at least 18 months after successfully completing an eligible course in the 
+
+[q09] ok How long does a Graduate visa last for a PhD graduate?
+  category=exact hints=['graduate-visa__overview']
+  - graduate-visa__overview#0 | Graduate visa > Overview
+    matched=['phd or other doctoral qualification, it will last for 3 years'] | [Document: Graduate visa | Section: Overview] A Graduate visa gives you permission to stay in the UK for at least 18 months after successfully completing an eligible course in the 
+
+[q10] ok How much is the Immigration Health Surcharge for a student per year?
+  category=exact hints=['ihs__how-much-pay']
+  - ihs__how-much-pay#0 | Pay for UK healthcare as part of your immigration application > How much you have to pay
+    matched=['£776 per year for students'] | [Document: Pay for UK healthcare as part of your immigration application | Section: How much you have to pay] The exact amount you pay depends on the length of your visa. A visa ma
+
+[q11] ok What's the maximum weekly employment allowed while my course is running?
+  category=paraphrase hints=['immigration-rules-student__work-conditions-for-a-student']
+  - immigration-rules-student__work-conditions-for-a-student#0 | Immigration Rules: Appendix Student > Work Conditions for a Student
+    matched=['20 hours per week during term-time'] | [Document: Immigration Rules: Appendix Student | Section: Work Conditions for a Student] ## Work Conditions for a Student ST26.1. The applicant will be granted permission with the 
+
+[q12] ok How much cash do I need in my bank account to cover living costs in London?
+  category=paraphrase hints=['student-visa__money', 'financial-evidence__how-much-money-you-need-student-visa']
+  - student-visa__money#0 | Student visa > Money you need
+    matched=['£1,529'] | [Document: Student visa | Section: Money you need] You must have enough money to pay for your course and support yourself in the UK. How much money you need depends on your circums
+  - financial-evidence__how-much-money-you-need-student-visa#0 | Financial evidence for Student and Child Student visa applicants > How much money you need - Student visa
+    matched=['£1,529'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: How much money you need - Student visa] ## How much money you need - Student visa ### Course 
+
+[q13] ok Can time spent outside the UK during term breaks count toward the Graduate visa study requirement?
+  category=paraphrase hints=['graduate-visa__course-you-studied']
+  - graduate-visa__course-you-studied#1 | Graduate visa > The course you studied
+    matched=['left the uk during term breaks or on weekends'] | [Document: Graduate visa | Section: The course you studied] Bar Practice Course in England and Wales, or the Bar Course in Northern Ireland - a Postgraduate Certificate in Educatio
+  - graduate-visa__course-you-studied#2 | Graduate visa > The course you studied
+    matched=['left the uk during term breaks or on weekends'] | [Document: Graduate visa | Section: The course you studied] provider needed you to be there - for example, to go to lectures or meet with a tutor. Example If you were taking a 1 ye
+
+[q14] ok Can I be self-employed on a Graduate visa?
+  category=paraphrase hints=['graduate-visa__overview']
+  - graduate-visa__overview#2 | Graduate visa > Overview
+    matched=['be self-employed'] | [Document: Graduate visa | Section: Overview] a decision on your visa within 8 weeks. You can stay in the UK while you wait for a decision. ## How much it costs When you apply for 
+
+[q15] ok As a Chinese national, do I need to provide financial evidence upfront for a Student visa?
+  category=paraphrase hints=['student-visa__money', 'financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence']
+  - student-visa__money#1 | Student visa > Money you need
+    matched=['china', 'differential evidence requirement'] | [Document: Student visa | Section: Money you need] money for each family member you bring](https://www.gov.uk/student-visa/family-members) with you. You must have this money for at
+  - student-visa__money#2 | Student visa > Money you need
+    matched=['china'] | [Document: Student visa | Section: Money you need] Austria - Bahrain - Barbados - Belgium - Botswana - Brazil - Brunei - Bulgaria - Cambodia - Canada - Chile - China - Croatia - Re
+  - financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence#0 | Financial evidence for Student and Child Student visa applicants > Nationalities that do not need to provide financial evidence at the point of application
+    matched=['china'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: Nationalities that do not need to provide financial evidence at the point of application] ## 
+
+[q16] ok Can my partner join me if I'm studying a one-year taught master's starting in 2026?
+  category=paraphrase hints=['student-visa__family-members']
+  - student-visa__family-members#0 | Student visa > Your partner and children
+    matched=['if your postgraduate level course starts on or after 1 january 2024', 'research-based higher degree'] | [Document: Student visa | Section: Your partner and children] Your partner and children (‘dependants’) may be able to apply to come to the UK or stay longer in the UK. You must be 
+
+[q17] ok How long is an ATAS certificate valid for a visa application?
+  category=paraphrase hints=['atas__']
+  - atas__atas-immigration-rules#0 | Academic Technology Approval Scheme (ATAS) > ATAS immigration rules
+    matched=['valid for 6 months'] | [Document: Academic Technology Approval Scheme (ATAS) | Section: ATAS immigration rules] ## ATAS immigration rules You need your ATAS certificate to apply for some UK visas. [Read 
+
+[q18] ok How long does an ATAS application take?
+  category=paraphrase hints=['atas__']
+  - atas__the-application-process#0 | Academic Technology Approval Scheme (ATAS) > The application process
+    matched=['30 working days (6 weeks)'] | [Document: Academic Technology Approval Scheme (ATAS) | Section: The application process] ## The application process ATAS applications take at least 30 working days (6 weeks) to pr
+
+[q19] ok Can I use my expired BRP to prove my immigration status?
+  category=paraphrase hints=['brp__biometric-residence-permits-brps', 'evisa__set-up-ukvi-account']
+  - evisa__set-up-ukvi-account#1 | eVisas: access and use your online immigration status > Set up a UKVI account to access your eVisa
+    matched=['24 months after the expiry date'] | [Document: eVisas: access and use your online immigration status | Section: Set up a UKVI account to access your eVisa] a UKVI account You’ll already have a UKVI account if you’ve 
+  - brp__biometric-residence-permits-brps#0 | Biometric residence permits (BRPs)
+    matched=['24 months after the expiry date'] | [Document: Biometric residence permits (BRPs) | Section: Biometric residence permits (BRPs)] Biometric residence permits (BRPs) are cards that were used to prove immigration status
+
+[q20] ok What should I do if my eVisa details are wrong?
+  category=paraphrase hints=['evisa__report-error-evisa']
+  - evisa__report-error-evisa#0 | eVisas: access and use your online immigration status > Report an error with your eVisa
+    matched=['report an error'] | [Document: eVisas: access and use your online immigration status | Section: Report an error with your eVisa] You should report an error if: - your eVisa details are wrong - for exa
+  - evisa__report-error-evisa#1 | eVisas: access and use your online immigration status > Report an error with your eVisa
+    matched=['report an error', '5 working days'] | [Document: eVisas: access and use your online immigration status | Section: Report an error with your eVisa] unique application number (UAN) from your visa application - UKVI custo
+
+[q21] ok What is the maintenance amount per month for a course outside London?
+  category=numeric hints=['student-visa__money', 'financial-evidence__how-much-money-you-need-student-visa']
+  - student-visa__money#0 | Student visa > Money you need
+    matched=['£1,171'] | [Document: Student visa | Section: Money you need] You must have enough money to pay for your course and support yourself in the UK. How much money you need depends on your circums
+  - financial-evidence__how-much-money-you-need-student-visa#0 | Financial evidence for Student and Child Student visa applicants > How much money you need - Student visa
+    matched=['£1,171'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: How much money you need - Student visa] ## How much money you need - Student visa ### Course 
+
+[q22] ok How much extra money do I need for a dependant outside London?
+  category=numeric hints=['student-visa__family-members', 'financial-evidence__how-much-money-you-need-student-visa']
+  - student-visa__family-members#1 | Student visa > Your partner and children
+    matched=['£680'] | [Document: Student visa | Section: Your partner and children] provide 2 of the following documents confirming their address: - a bank statement - credit card bills - driving licenc
+  - financial-evidence__how-much-money-you-need-student-visa#0 | Financial evidence for Student and Child Student visa applicants > How much money you need - Student visa
+    matched=['£680'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: How much money you need - Student visa] ## How much money you need - Student visa ### Course 
+
+[q23] ok What is the IHS cost for a 2-year Student visa?
+  category=numeric hints=['ihs__how-much-pay']
+  - ihs__how-much-pay#0 | Pay for UK healthcare as part of your immigration application > How much you have to pay
+    matched=['£1,552'] | [Document: Pay for UK healthcare as part of your immigration application | Section: How much you have to pay] The exact amount you pay depends on the length of your visa. A visa ma
+
+[q24] ok How much is the Graduate visa IHS for 3 years?
+  category=numeric hints=['graduate-visa__how-much-it-costs', 'ihs__how-much-pay']
+  - graduate-visa__how-much-it-costs#0 | Graduate visa > How much it costs
+    matched=['£3,105'] | [Document: Graduate visa | Section: How much it costs] When you apply for a Graduate visa, you’ll need to: - pay the £937 application fee - pay the healthcare surcharge - this is u
+  - ihs__how-much-pay#0 | Pay for UK healthcare as part of your immigration application > How much you have to pay
+    matched=['£3,105'] | [Document: Pay for UK healthcare as part of your immigration application | Section: How much you have to pay] The exact amount you pay depends on the length of your visa. A visa ma
+
+[q25] ok How many days in a row must maintenance funds be held?
+  category=numeric hints=['student-visa__money', 'financial-evidence__evidence-you-need-to-provide']
+  - student-visa__money#0 | Student visa > Money you need
+    matched=['28 days'] | [Document: Student visa | Section: Money you need] You must have enough money to pay for your course and support yourself in the UK. How much money you need depends on your circums
+  - student-visa__money#1 | Student visa > Money you need
+    matched=['28 days'] | [Document: Student visa | Section: Money you need] money for each family member you bring](https://www.gov.uk/student-visa/family-members) with you. You must have this money for at
+  - financial-evidence__evidence-you-need-to-provide#1 | Financial evidence for Student and Child Student visa applicants > Evidence you need to provide
+    matched=['28 days'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: Evidence you need to provide] form of personal bank or building society account, such as a cu
+
+[q26] ok How long before my course can I apply for a Student visa from inside the UK?
+  category=numeric hints=['student-visa__overview', 'student-visa__apply-online', 'student-visa__extend-your-visa']
+  - student-visa__overview#0 | Student visa > Overview
+    matched=['3 months before your course starts'] | [Document: Student visa | Section: Overview] You can apply for a Student visa to study in the UK if you’re 16 or over and you: - have been offered a place on [a course by a license
+  - student-visa__extend-your-visa#2 | Student visa > Extend your visa
+    matched=['3 months before your course starts'] | [Document: Student visa | Section: Extend your visa] or medical science degree after completing an intercalated course - applying to extend your stay to complete your studies becau
+
+[q27] ok How long can I stay on a Student visa at degree level?
+  category=numeric hints=['student-visa__overview']
+  - student-visa__overview#1 | Student visa > Overview
+    matched=['up to 5 years'] | [Document: Student visa | Section: Overview] UK You may be able to pay to [get a faster decision](https://www.gov.uk/faster-decision-visa-settlement/applying-outside-the-uk) - you’
+
+[q28] ok How long does a Graduate visa decision usually take?
+  category=numeric hints=['graduate-visa__apply', 'graduate-visa__overview']
+  - graduate-visa__overview#1 | Graduate visa > Overview
+    matched=['within 8 weeks'] | [Document: Graduate visa | Section: Overview] doctoral qualification, it will last for 3 years. Your visa will start from the day your application is approved. ### If you want to s
+  - graduate-visa__overview#2 | Graduate visa > Overview
+    matched=['within 8 weeks'] | [Document: Graduate visa | Section: Overview] a decision on your visa within 8 weeks. You can stay in the UK while you wait for a decision. ## How much it costs When you apply for 
+  - graduate-visa__apply#1 | Graduate visa > Apply
+    matched=['within 8 weeks'] | [Document: Graduate visa | Section: Apply] to your account](https://www.gov.uk/sign-in-visa). ### Get help to apply online You can [get help with completing the online form](https:
+
+[q29] ok I'm doing a PhD and want to bring my partner. How long can I stay after graduation, and what is the Graduate visa fee?
+  category=multi_hop hints=['graduate-visa__overview', 'graduate-visa__how-much-it-costs']
+  - graduate-visa__overview#0 | Graduate visa > Overview
+    matched=['phd or other doctoral qualification, it will last for 3 years'] | [Document: Graduate visa | Section: Overview] A Graduate visa gives you permission to stay in the UK for at least 18 months after successfully completing an eligible course in the 
+  - graduate-visa__overview#1 | Graduate visa > Overview
+    matched=['£937'] | [Document: Graduate visa | Section: Overview] doctoral qualification, it will last for 3 years. Your visa will start from the day your application is approved. ### If you want to s
+  - graduate-visa__overview#2 | Graduate visa > Overview
+    matched=['£937'] | [Document: Graduate visa | Section: Overview] a decision on your visa within 8 weeks. You can stay in the UK while you wait for a decision. ## How much it costs When you apply for 
+  - graduate-visa__how-much-it-costs#0 | Graduate visa > How much it costs
+    matched=['£937'] | [Document: Graduate visa | Section: How much it costs] When you apply for a Graduate visa, you’ll need to: - pay the £937 application fee - pay the healthcare surcharge - this is u
+
+[q30] ok I'm a Chinese national applying for a one-year master's in London. Do I need to show maintenance funds upfront, and how much per month?
+  category=multi_hop hints=['student-visa__money', 'financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence']
+  - student-visa__money#0 | Student visa > Money you need
+    matched=['£1,529'] | [Document: Student visa | Section: Money you need] You must have enough money to pay for your course and support yourself in the UK. How much money you need depends on your circums
+  - student-visa__money#1 | Student visa > Money you need
+    matched=['china'] | [Document: Student visa | Section: Money you need] money for each family member you bring](https://www.gov.uk/student-visa/family-members) with you. You must have this money for at
+  - student-visa__money#2 | Student visa > Money you need
+    matched=['china'] | [Document: Student visa | Section: Money you need] Austria - Bahrain - Barbados - Belgium - Botswana - Brazil - Brunei - Bulgaria - Cambodia - Canada - Chile - China - Croatia - Re
+  - financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence#0 | Financial evidence for Student and Child Student visa applicants > Nationalities that do not need to provide financial evidence at the point of application
+    matched=['china'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: Nationalities that do not need to provide financial evidence at the point of application] ## 
+
+[q31] ok I'm extending my Student visa inside the UK. What is the fee and how long does a decision take?
+  category=multi_hop hints=['student-visa__extend-your-visa']
+  - student-visa__extend-your-visa#2 | Student visa > Extend your visa
+    matched=['£558 to extend this visa'] | [Document: Student visa | Section: Extend your visa] or medical science degree after completing an intercalated course - applying to extend your stay to complete your studies becau
+  - student-visa__extend-your-visa#3 | Student visa > Extend your visa
+    matched=['within 8 weeks'] | [Document: Student visa | Section: Extend your visa] (biometric information) taken - there’s no fee for this. ## Apply You must apply online. As part of your application you’ll nee
+
+[q32] ok I have a visit visa and want to switch to a Student visa. Can I, and when is the earliest I can apply?
+  category=multi_hop hints=['student-visa__switch-to-this-visa']
+  - student-visa__switch-to-this-visa#0 | Student visa > Switch to this visa
+    matched=['you cannot switch to this visa if you have one of the following visas', '3 months before your course starts'] | [Document: Student visa | Section: Switch to this visa] You may be able to switch to a Student visa if you already have permission to be in the UK. You cannot switch to this visa i
+
+[q33] ok I'm bringing my partner and child to London. How much maintenance do they each need, and what is the visa fee per person?
+  category=multi_hop hints=['student-visa__family-members']
+  - student-visa__family-members#1 | Student visa > Your partner and children
+    matched=['£845 a month'] | [Document: Student visa | Section: Your partner and children] provide 2 of the following documents confirming their address: - a bank statement - credit card bills - driving licenc
+  - student-visa__family-members#4 | Student visa > Your partner and children
+    matched=['£558 for the visa'] | [Document: Student visa | Section: Your partner and children] your own visa](https://www.gov.uk/student-visa/switch-to-this-visa) - at any time before their current visa expires Th
+
+[q34] ok If my Student visa expires on 1 December, when must my new course begin and when must I apply?
+  category=multi_hop hints=['student-visa__extend-your-visa', 'student-visa__switch-to-this-visa']
+  - student-visa__extend-your-visa#2 | Student visa > Extend your visa
+    matched=['must apply for a new visa before 1 december', 'new course must begin by 29 december'] | [Document: Student visa | Section: Extend your visa] or medical science degree after completing an intercalated course - applying to extend your stay to complete your studies becau
+  - student-visa__switch-to-this-visa#0 | Student visa > Switch to this visa
+    matched=['must apply for a new visa before 1 december', 'new course must begin by 29 december'] | [Document: Student visa | Section: Switch to this visa] You may be able to switch to a Student visa if you already have permission to be in the UK. You cannot switch to this visa i
+  - student-visa__switch-to-this-visa#1 | Student visa > Switch to this visa
+    matched=['must apply for a new visa before 1 december', 'new course must begin by 29 december'] | [Document: Student visa | Section: Switch to this visa] course must begin within 28 days of your current visa expiring. For example, if your visa expires on 1 December, you must ap
+
+[q35] ok Can I bring my dog with me on a Student visa?
+  category=unanswerable hints=[]
+
+[q36] ok What IELTS band score do I need for a Student visa?
+  category=unanswerable hints=[]
+
+[q37] ok How much is the Child Student visa application fee?
+  category=unanswerable hints=[]
+
+[q38] ok Do I need to register with the police after arriving in the UK?
+  category=unanswerable hints=[]
+
+[q39] ok What is the minimum salary for a Skilled Worker visa?
+  category=unanswerable hints=[]
+
+[q40] ok How do I apply for British citizenship after my Student visa?
+  category=unanswerable hints=[]
+
+[q41] ok What tuition fees does the University of York charge for international students?
+  category=unanswerable hints=[]
+
+[q42] ok Do I need private health insurance in addition to the Immigration Health Surcharge?
+  category=unanswerable hints=[]
+
+[q43] ok 学期期间每周最多能工作多少小时？
+  category=chinese hints=['immigration-rules-student__work-conditions-for-a-student']
+  - immigration-rules-student__work-conditions-for-a-student#0 | Immigration Rules: Appendix Student > Work Conditions for a Student
+    matched=['20 hours per week during term-time'] | [Document: Immigration Rules: Appendix Student | Section: Work Conditions for a Student] ## Work Conditions for a Student ST26.1. The applicant will be granted permission with the 
+
+[q44] ok 伦敦地区每月生活费需要准备多少钱？
+  category=chinese hints=['student-visa__money', 'financial-evidence__how-much-money-you-need-student-visa']
+  - student-visa__money#0 | Student visa > Money you need
+    matched=['£1,529'] | [Document: Student visa | Section: Money you need] You must have enough money to pay for your course and support yourself in the UK. How much money you need depends on your circums
+  - financial-evidence__how-much-money-you-need-student-visa#0 | Financial evidence for Student and Child Student visa applicants > How much money you need - Student visa
+    matched=['£1,529'] | [Document: Financial evidence for Student and Child Student visa applicants | Section: How much money you need - Student visa] ## How much money you need - Student visa ### Course 
+
+[q45] ok 毕业生签证申请费是多少？
+  category=chinese hints=['graduate-visa__overview', 'graduate-visa__how-much-it-costs']
+  - graduate-visa__overview#2 | Graduate visa > Overview
+    matched=['£937 application fee'] | [Document: Graduate visa | Section: Overview] a decision on your visa within 8 weeks. You can stay in the UK while you wait for a decision. ## How much it costs When you apply for 
+  - graduate-visa__how-much-it-costs#0 | Graduate visa > How much it costs
+    matched=['£937 application fee'] | [Document: Graduate visa | Section: How much it costs] When you apply for a Graduate visa, you’ll need to: - pay the £937 application fee - pay the healthcare surcharge - this is u
+
+[q46] ok 博士毕业后毕业生签证可以停留多久？
+  category=chinese hints=['graduate-visa__overview']
+  - graduate-visa__overview#0 | Graduate visa > Overview
+    matched=['phd or other doctoral qualification, it will last for 3 years'] | [Document: Graduate visa | Section: Overview] A Graduate visa gives you permission to stay in the UK for at least 18 months after successfully completing an eligible course in the 
+
+[q47] ok 申请学生签证需要提供英语成绩吗？
+  category=chinese hints=['student-visa__knowledge-of-english']
+  - student-visa__knowledge-of-english#0 | Student visa > Knowledge of English
+    matched=['prove your knowledge of the english language'] | [Document: Student visa | Section: Knowledge of English] You’ll usually need to prove your knowledge of the English language when you apply. ## Who does not need to prove their kno
+  - student-visa__knowledge-of-english#1 | Student visa > Knowledge of English
+    matched=['selt'] | [Document: Student visa | Section: Knowledge of English] - passing an English test from an approved provider ## If you have a UK school qualification You can prove your knowledge o
+
+[q48] ok 我可以带配偶和孩子一起去英国吗？
+  category=chinese hints=['student-visa__family-members']
+  - student-visa__family-members#0 | Student visa > Your partner and children
+    matched=['postgraduate level course', 'research-based higher degree'] | [Document: Student visa | Section: Your partner and children] Your partner and children (‘dependants’) may be able to apply to come to the UK or stay longer in the UK. You must be 
+
+[q49] ok BRP 过期了还能用吗？
+  category=chinese hints=['brp__biometric-residence-permits-brps', 'evisa__set-up-ukvi-account']
+  - evisa__set-up-ukvi-account#1 | eVisas: access and use your online immigration status > Set up a UKVI account to access your eVisa
+    matched=['24 months after the expiry date'] | [Document: eVisas: access and use your online immigration status | Section: Set up a UKVI account to access your eVisa] a UKVI account You’ll already have a UKVI account if you’ve 
+  - brp__biometric-residence-permits-brps#0 | Biometric residence permits (BRPs)
+    matched=['24 months after the expiry date'] | [Document: Biometric residence permits (BRPs) | Section: Biometric residence permits (BRPs)] Biometric residence permits (BRPs) are cards that were used to prove immigration status
+
+[q50] ok ATAS 认证需要多长时间？
+  category=chinese hints=['atas__']
+  - atas__the-application-process#0 | Academic Technology Approval Scheme (ATAS) > The application process
+    matched=['30 working days (6 weeks)'] | [Document: Academic Technology Approval Scheme (ATAS) | Section: The application process] ## The application process ATAS applications take at least 30 working days (6 weeks) to pr
+
+wrote D:\Code\07-tools-skills\Qoder workspace\uk-student-rag\evidence\eval\labels.firstpass.jsonl
+
+queries=50 problems=0

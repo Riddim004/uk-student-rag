@@ -1,0 +1,648 @@
+{
+  "analytics_identifier": null,
+  "base_path": "/evisa",
+  "content_id": "6f3be85d-4ac0-4f9a-8e78-13ef23081842",
+  "description": "How to access and use an eVisa: set up a UKVI account, update your details and get a share code to prove your immigration status when you work, rent or travel.",
+  "details": {
+    "external_related_links": [],
+    "hide_chapter_navigation": false,
+    "parts": [
+      {
+        "body": "<p>An eVisa is a digital record of:</p>\n\n<ul>\n  <li>your identity and immigration status - for example the type of visa you have or if you have indefinite leave to remain (settlement) in the UK</li>\n  <li>the conditions of your status - for example if you’re allowed to work or study in the UK</li>\n</ul>\n\n<p>You’ll get an eVisa when you successfully <a href=\"/apply-to-come-to-the-uk\">apply for a visa</a> or other type of permission to be in the UK.</p>\n\n<p>eVisas have replaced physical immigration documents.</p>\n\n<p>If you have a biometric residence card (BRC) you may still be able to use it <a href=\"/uk-residence-card\">in some situations</a>.</p>\n\n<p>If you have a visa vignette (sticker), it will remain valid until it expires.</p>\n\n<h2 id=\"access-your-evisa\">Access your eVisa</h2>\n\n<p>You need a UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) account to access your eVisa.</p>\n\n<p>You can <a href=\"/evisa/set-up-ukvi-account\">set up a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if you do not already have one.  </p>\n\n<p>You do not need to pay to set up a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account or access your eVisa.</p>\n\n<p>You’ll usually be able to access your eVisa straight away if it has been linked to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account, but it can take up to 24 hours.</p>\n\n<h2 id=\"how-to-use-your-evisa\">How to use your eVisa</h2>\n\n<p>You can <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa and get a share code to prove your immigration status</a>, for example when you get a new job or rent a home.</p>\n\n<p>You can <a href=\"/evisa/travel-with-evisa\">travel with your eVisa</a> after you add your passport or travel document details.</p>\n\n",
+        "slug": "what-an-evisa-is",
+        "title": "What an eVisa is"
+      },
+      {
+        "body": "<p>You need a UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) account to access your eVisa. </p>\n\n<p>If your partner and children are joining you in the UK as ‘dependants’ then they need their own <abbr title=\"UK Visas and Immigration\">UKVI</abbr> accounts to access their eVisas.</p>\n\n<h2 id=\"who-can-use-this-service\">Who can use this service</h2>\n\n<p>You can use this service to access an eVisa if you have:</p>\n\n<ul>\n  <li>any visa for the UK (England, Scotland, Wales or Northern Ireland)</li>\n  <li>settlement in the UK (also called ‘indefinite leave to remain’)</li>\n</ul>\n\n<p>You can also use this service to get access to:</p>\n\n<ul>\n  <li>a ‘digital record of exemption’, if you’re exempt from immigration control - for example, if you’re a diplomat</li>\n  <li>a ‘digital certificate of entitlement’, if you have ‘right of abode’ in the UK</li>\n</ul>\n\n<p>You can choose whether to access an eVisa if:</p>\n\n<ul>\n  <li>you have a physical immigration document which has no expiry date and proves you have settlement in the UK - you’ll need to make a <a href=\"/evisa/get-evisa-settlement-uk\">‘no time limit’ application</a>\n</li>\n  <li>you have a valid visa vignette (sticker) in your passport</li>\n</ul>\n\n<h3 id=\"when-you-do-not-need-an-evisa\">When you do not need an eVisa</h3>\n\n<p>You do not need an eVisa if you:</p>\n\n<ul>\n  <li>are visiting the UK with an <a href=\"/eta\">electronic travel authorisation (<abbr title=\"electronic travel authorisation\">ETA</abbr>)</a>\n</li>\n  <li>have permission to stay in the Channel Islands, the Isle of Man or Gibraltar</li>\n</ul>\n\n<h2 id=\"check-if-you-already-have-a-ukvi-account\">Check if you already have a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</h2>\n\n<p>You’ll already have a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account if you’ve ever:</p>\n\n<ul>\n  <li>used the ‘UK Immigration: ID Check’ app to confirm your identity when applying for a visa</li>\n  <li>created an account when applying for a visa - you’ll have received a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account confirmation email</li>\n  <li>replaced a physical immigration document with an eVisa, for example a biometric residence permit (<abbr title=\"biometric residence permit\">BRP</abbr>) or biometric residence card (<abbr title=\"biometric residence card\">BRC</abbr>)</li>\n  <li>applied to the EU Settlement Scheme</li>\n</ul>\n\n<p>If you’re not sure whether you already have a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account, you can try to sign in to <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa</a>.</p>\n\n<p>If you already have a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account then you should not create another one. </p>\n\n<h2 id=\"create-a-ukvi-account\">Create a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</h2>\n\n<p>To create an account, you’ll need a phone number and email address that you can use each time you sign in.  </p>\n\n<p>You’ll also need one of the following, if you have them:</p>\n\n<ul>\n  <li>a valid passport and your visa application number - this is a global web form (<abbr title=\"global web form\">GWF</abbr>) number or unique application number (<abbr title=\"unique application number\">UAN</abbr>)  </li>\n  <li>a valid passport and your <abbr title=\"biometric residence permit\">BRP</abbr> number  </li>\n  <li>your expired <abbr title=\"biometric residence permit\">BRP</abbr> - you can use it for 24 months after the expiry date printed on your card or until 31 December 2026, whichever comes first</li>\n</ul>\n\n<p><a class=\"gem-c-button govuk-button govuk-button--start\" role=\"button\" data-module=\"govuk-button\" data-ga4-attributes='{\"event_name\":\"navigation\",\"type\":\"start button\"}' draggable=\"false\" href=\"https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/sar_in_uk\"><span> Create a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account </span><svg class=\"govuk-button__start-icon govuk-!-display-none-print\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewbox=\"0 0 33 40\" focusable=\"false\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path></svg></a></p>\n\n<h2 id=\"access-your-evisa\">Access your eVisa</h2>\n\n<p>After you create your account you’ll be asked to confirm your identity and link your account to your eVisa.</p>\n\n<p>You cannot access your eVisa until you have completed these steps. You can <a rel=\"external\" href=\"https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/dashboard/\">link your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account to your eVisa</a> if you did not do it when you created your account.</p>\n\n<p>You’ll need access to a smartphone so you can install an app to confirm your identity. You’ll be able to confirm your identity another way if you either:</p>\n\n<ul>\n  <li>do not have a valid passport or an expired <abbr title=\"biometric residence permit\">BRP</abbr> card  </li>\n  <li>cannot access a smartphone or use the app</li>\n</ul>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>You’ll usually be able to access your eVisa straight away if it has been linked to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account, but it can take up to 24 hours.</p>\n</div>\n\n<h2 id=\"get-help\">Get help</h2>\n\n<p>You can <a rel=\"external\" href=\"https://ukvi-evisa-support-webchat.homeoffice.gov.uk\">use webchat</a> to ask about your eVisa or <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>You can also <a href=\"/government/collections/evisa-support-videos\">watch eVisa support videos</a>.</p>\n\n<h2 id=\"help-someone-else\">Help someone else</h2>\n\n<p>You can help someone else to create their <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account, for example someone who cannot use the internet. </p>\n\n<p>You can manage the other person’s account if you’re acting on their behalf, for example if they’re your child or you have power of attorney. Use your own phone number and email address when you create the account, so you can use them to sign in.</p>\n\n<p>If the person becomes able to manage their own account or a child reaches 18, you should <a href=\"/evisa/update-ukvi-account\">update their <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account details</a>. Use their phone number and email address so that they can sign in.</p>\n\n",
+        "slug": "set-up-ukvi-account",
+        "title": "Set up a UKVI account to access your eVisa"
+      },
+      {
+        "body": "<p>You can choose whether to get an eVisa if you have physical proof of your immigration status, such as a wet ink stamp or vignette (sticker) which: </p>\n\n<ul>\n  <li>has no expiry date </li>\n  <li>proves you have settlement in the UK - also known as indefinite leave to remain (<abbr title=\"indefinite leave to remain\">ILR</abbr>) or indefinite leave to enter (<abbr title=\"indefinite leave to enter\">ILE</abbr>)</li>\n</ul>\n\n<p>If you get an eVisa then you’ll have a digital record to prove your identity and immigration status.</p>\n\n<p>Getting an eVisa will not change your immigration status. You’ll still be able to use your physical document.</p>\n\n<p>To get an eVisa, you need to make a free ‘no time limit’ (<abbr title=\"no time limit\">NTL</abbr>) application. </p>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>Do not make an <abbr title=\"no time limit\">NTL</abbr> application if you have another type of evidence of your settled status in the UK, for example an expired biometric residence permit (<abbr title=\"biometric residence permit\">BRP</abbr>) or status under the EU Settlement Scheme. There’s a <a href=\"/evisa/set-up-ukvi-account\">different way to access your eVisa</a>.</p>\n</div>\n\n<h2 id=\"make-an-ntl-application\">Make an <abbr title=\"no time limit\">NTL</abbr> application</h2>\n\n<p>You need:</p>\n\n<ul>\n  <li>a phone number and email address that you can use each time you sign in</li>\n  <li>the passport or travel document you used when you last entered the UK</li>\n</ul>\n\n<p>You’ll also need the physical document that proves that you have settlement, if you have one.</p>\n\n<p>You need a UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) account to access your eVisa. You’ll create a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account either:</p>\n\n<ul>\n  <li>at the start of your <abbr title=\"no time limit\">NTL</abbr> application - if you have a valid passport</li>\n  <li>when your <abbr title=\"no time limit\">NTL</abbr> application is approved - if you do not have a valid passport</li>\n</ul>\n\n<p><a class=\"gem-c-button govuk-button govuk-button--start\" role=\"button\" data-module=\"govuk-button\" data-ga4-attributes='{\"event_name\":\"navigation\",\"type\":\"start button\"}' draggable=\"false\" href=\"https://apply-to-visit-or-stay-in-the-uk.homeoffice.gov.uk/sort/start/sar_in_uk\"><span> Make an <abbr title=\"no time limit\">NTL</abbr> application </span><svg class=\"govuk-button__start-icon govuk-!-display-none-print\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewbox=\"0 0 33 40\" focusable=\"false\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path></svg></a></p>\n\n<h2 id=\"after-you-apply\">After you apply</h2>\n\n<p>You’ll need to have your fingerprints and photo (biometric information) taken at a <a href=\"/ukvcas\">UK Visa and Citizenship Application Services (<abbr title=\"UK Visa and Citizenship Application Services\">UKVCAS</abbr>)</a> service point.</p>\n\n<p>You’ll also be asked to provide supporting documents. You’ll be told what you need at the end of your application.</p>\n\n<p>You can either:</p>\n\n<ul>\n  <li>upload the documents into the <abbr title=\"UK Visa and Citizenship Application Services\">UKVCAS</abbr> online service</li>\n  <li>pay to have them scanned at your <abbr title=\"UK Visa and Citizenship Application Services\">UKVCAS</abbr> appointment</li>\n</ul>\n\n<p>It can take up to 6 months to process an <abbr title=\"no time limit\">NTL</abbr> application. </p>\n\n<p>You can continue to use your physical immigration document while your application is processed.</p>\n\n<h2 id=\"get-help\">Get help</h2>\n\n<p>You can <a rel=\"external\" href=\"https://ukvi-evisa-support-webchat.homeoffice.gov.uk\">use webchat</a> to ask about your eVisa or <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>You can also <a href=\"/government/collections/evisa-support-videos\">watch eVisa support videos</a>.</p>\n\n",
+        "slug": "get-evisa-settlement-uk",
+        "title": "Get an eVisa if you have settlement in the UK"
+      },
+      {
+        "body": "<p>Your eVisa shows your identity and immigration status. This includes what rights you have in the UK, for example to work, rent or claim benefits.</p>\n\n<p>You can get a share code to prove your immigration status to people such as employers or landlords, or when you travel.</p>\n\n<p>You’ll need to give them your date of birth. You will not need to show them your eVisa.</p>\n\n<p>The person who uses your share code will see some of your personal details. When you get your share code you’ll be told what they’ll see.</p>\n\n<p>A share code lasts for 90 days. You can:</p>\n\n<ul>\n  <li>use the share code as many times as you need before it expires</li>\n  <li>get a new share code whenever you need one</li>\n</ul>\n\n<h2 id=\"view-your-evisa-and-get-a-share-code\">View your eVisa and get a share code</h2>\n\n<p>You’ll need the details you use to sign in to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account. This could be your:</p>\n\n<ul>\n  <li>passport</li>\n  <li>national identity card</li>\n  <li>biometric residence card (<abbr title=\"biometric residence card\">BRC</abbr>) - this can be valid or expired</li>\n  <li>expired biometric residence permit (<abbr title=\"biometric residence permit\">BRP</abbr>)</li>\n  <li>\n<abbr title=\"UK Visas and Immigration\">UKVI</abbr> customer number</li>\n</ul>\n\n<p>You’ll also need access to the mobile phone number or email address you use to sign in to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p><a class=\"gem-c-button govuk-button govuk-button--start\" role=\"button\" data-module=\"govuk-button\" data-ga4-attributes='{\"event_name\":\"navigation\",\"type\":\"start button\"}' draggable=\"false\" href=\"https://view-immigration-status.service.gov.uk/status\"><span> View your eVisa and get a share code </span><svg class=\"govuk-button__start-icon govuk-!-display-none-print\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewbox=\"0 0 33 40\" focusable=\"false\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path></svg></a></p>\n\n<h2 id=\"report-an-error-with-your-evisa\">Report an error with your eVisa</h2>\n\n<p>You should <a href=\"/evisa/report-error-evisa\">report an error with your eVisa</a> if:</p>\n\n<ul>\n  <li>your eVisa is wrong - for example it’s showing the wrong date of birth or immigration status</li>\n  <li>you can view your eVisa but you cannot use it to get a share code</li>\n</ul>\n\n<h2 id=\"update-your-details-before-you-get-a-share-code\">Update your details before you get a share code</h2>\n\n<p>You should <a href=\"/evisa/update-ukvi-account\">update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> before you get a share code if:</p>\n\n<ul>\n  <li>you’ve changed your name or nationality</li>\n  <li>you need to change your photo because you cannot be recognised from the current one</li>\n</ul>\n\n<h2 id=\"if-you-cannot-view-your-evisa\">If you cannot view your eVisa</h2>\n\n<p>Check that you have finished <a href=\"/evisa/set-up-ukvi-account\">setting up your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account to access your eVisa</a>.  </p>\n\n<p>You can use different services to <a href=\"/prove-right-to-work\">prove your right to work</a> or <a href=\"/prove-right-to-rent\">prove your right to rent</a> if you cannot access an eVisa.</p>\n\n<h2 id=\"get-help\">Get help</h2>\n\n<p>You can get help to <a rel=\"external\" href=\"https://update-your-details.homeoffice.gov.uk/account-recovery/help\">recover your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if you’re having problems signing in to view your eVisa.</p>\n\n<p>You can <a rel=\"external\" href=\"https://ukvi-evisa-support-webchat.homeoffice.gov.uk\">chat to <abbr title=\"UK Visas and Immigration\">UKVI</abbr> using webchat</a> if you have other questions about your eVisa or <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>You can also <a href=\"/government/collections/evisa-support-videos\">watch eVisa support videos</a>.</p>\n\n",
+        "slug": "view-evisa-get-share-code-prove-immigration-status",
+        "title": "View your eVisa and get a share code to prove your immigration status"
+      },
+      {
+        "body": "<p>You must check that your UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) account and eVisa details are correct before you travel to or from the UK.</p>\n\n<p>You’ll have an eVisa if you’ve successfully applied for a visa or another type of permission to be in the UK. This includes if you have status under the EU Settlement Scheme.</p>\n\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Your carrier may not let you travel if your details are wrong. You may also be delayed at the UK border.</p>\n</div>\n\n<p>You must make sure that:</p>\n\n<ul>\n  <li>your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account has your correct personal details and current passport or travel document - you can <a href=\"/evisa/update-ukvi-account\">update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a>\n</li>\n  <li>your eVisa is correct, for example it shows the right immigration status  - you can <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa to check</a>\n</li>\n  <li>your details exactly match the passenger information you give to your carrier (for example your airline)</li>\n</ul>\n\n<p>If you cannot view your eVisa check that you have <a href=\"/evisa/set-up-ukvi-account\">set up your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> correctly.</p>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>An eVisa is different from an <a href=\"/eta\">electronic travel authorisation (<abbr title=\"electronic travel authorisation\">ETA</abbr>)</a>. An <abbr title=\"electronic travel authorisation\">ETA</abbr> allows people who do not need a visa to travel to the UK for up to 6 months.</p>\n</div>\n\n<h2 id=\"when-you-travel\">When you travel</h2>\n\n<p>You must travel with a valid passport or travel document that you’ve added to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>Your eVisa will be checked when you:</p>\n\n<ul>\n  <li>leave and enter the UK, either by a border control officer or when you use the eGates</li>\n  <li>check in with your carrier to return to the UK</li>\n</ul>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>The country you’re visiting might have other entry or exit requirements - check before you travel.</p>\n</div>\n\n<h3 id=\"if-youre-asked-to-show-additional-proof-of-your-immigration-status\">If you’re asked to show additional proof of your immigration status</h3>\n\n<p>You might be asked to show additional proof of your immigration status by a carrier or border official.</p>\n\n<p>You can:</p>\n\n<ul>\n  <li>get a share code</li>\n  <li>use a physical immigration document if you have one</li>\n</ul>\n\n<p>Sign in to <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa and get a share code</a>.</p>\n\n<p>A share code for travel is valid for 90 days so you can get it before you travel. It can be used more than once.</p>\n\n<p>If you have a physical document which proves your valid immigration status, you may want to carry it with you as additional proof.</p>\n\n<p>Physical documents include a:</p>\n\n<ul>\n  <li>sticker or stamp which shows you have indefinite leave to remain or enter (settlement) in an old passport</li>\n  <li>right of abode certificate of entitlement in your passport</li>\n  <li>Home Office travel document</li>\n</ul>\n\n<h2 id=\"if-you-have-more-than-one-nationality\">If you have more than one nationality</h2>\n\n<p>Make sure you add the passport you’ll use to travel to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account. You can add more than one passport.</p>\n\n<p>If one of your nationalities is British or Irish, you do not need an eVisa. You must travel with your British or Irish passport or a passport with a certificate of entitlement. Read the <a href=\"/dual-citizenship\">guidance for British or Irish dual citizens</a>.</p>\n\n<h2 id=\"if-your-passport-or-personal-details-change-when-youre-outside-the-uk\">If your passport or personal details change when you’re outside the UK</h2>\n\n<p>To return to the UK you’ll need to either:</p>\n\n<ul>\n  <li>update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</li>\n  <li>ask <abbr title=\"UK Visas and Immigration\">UKVI</abbr> to update your account for you</li>\n</ul>\n\n<p>Whether you can update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account while you’re out of the UK depends on what details have changed and if you have a biometric passport.</p>\n\n<h3 id=\"if-you-have-a-biometric-passport\">If you have a biometric passport</h3>\n\n<p>You can <a href=\"/evisa/update-ukvi-account\">update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if any of the following have changed:</p>\n\n<ul>\n  <li>passport details (passport number and expiry date)</li>\n  <li>name</li>\n  <li>nationality</li>\n</ul>\n\n<p>If any other personal details have changed, you’ll need to <a rel=\"external\" href=\"https://visas-immigration.service.gov.uk/product/umd-lost-hotd-fav-ooc\">ask <abbr title=\"UK Visas and Immigration\">UKVI</abbr> to update your account for you</a>. You may need to submit your fingerprints and photo (biometric information) at a visa application centre.</p>\n\n<h3 id=\"if-you-do-not-have-a-biometric-passport\">If you do not have a biometric passport</h3>\n\n<p>You can <a href=\"/evisa/update-ukvi-account\">update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> with your passport number and expiry date only.</p>\n\n<p>If any other personal details have changed, you’ll need to <a rel=\"external\" href=\"https://visas-immigration.service.gov.uk/product/umd-lost-hotd-fav-ooc\">ask <abbr title=\"UK Visas and Immigration\">UKVI</abbr> to update your account for you</a>. You may need to submit your fingerprints and photo (biometric information) at a visa application centre.</p>\n\n<h2 id=\"get-help\">Get help</h2>\n\n<p>You can <a rel=\"external\" href=\"https://update-your-details.homeoffice.gov.uk/account-recovery/help\">recover your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if you cannot sign in because you’ve lost access to your phone or changed email address.</p>\n\n<p>You can <a href=\"/evisa/report-error-evisa\">report an error with your eVisa</a> if you cannot view it when you sign in to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>You can <a rel=\"external\" href=\"https://ukvi-evisa-support-webchat.homeoffice.gov.uk\">chat to <abbr title=\"UK Visas and Immigration\">UKVI</abbr> using webchat</a> if you have other questions about your eVisa, <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account or sharing your immigration status.</p>\n\n<p>You can also <a href=\"/government/collections/evisa-support-videos\">watch eVisa support videos</a>.</p>\n\n<h3 id=\"if-your-carrier-cannot-check-your-evisa\">If your carrier cannot check your eVisa</h3>\n\n<p>Ask your carrier to contact the UK Border Force carrier support hub for help.</p>\n\n",
+        "slug": "travel-with-evisa",
+        "title": "Travel with your eVisa"
+      },
+      {
+        "body": "<p>You should keep your personal details and passport or travel document information up to date so that:</p>\n\n<ul>\n  <li>the details are correct when you <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa and get a share code to prove your immigration status</a>\n</li>\n  <li>you can travel with your current passport or travel document</li>\n  <li>UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) can contact you, for example if you’re waiting for a visa decision or to have your documents returned</li>\n</ul>\n\n<p>You update your details in your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>If your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account is not up to date you might experience delays when you travel or when waiting for a visa decision.</p>\n\n<h2 id=\"what-you-need-to-update\">What you need to update</h2>\n\n<p>You should update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account if you change your:</p>\n\n<ul>\n  <li>passport or travel document</li>\n  <li>name</li>\n  <li>mobile phone number</li>\n  <li>email address</li>\n  <li>home address</li>\n  <li>postal address</li>\n</ul>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>You cannot change your name or your passport or travel document if you’re waiting for a visa application decision.</p>\n</div>\n\n<p>You can also:</p>\n\n<ul>\n  <li>correct your date of birth</li>\n  <li>add or change a nationality, for example if you have dual nationality</li>\n  <li>add another passport or travel document</li>\n  <li>change your photo, for example if your appearance has changed and you cannot be recognised from your current photo</li>\n</ul>\n\n<p>If you change your photo, you must make sure it <a href=\"/guidance/how-to-take-a-photo-for-a-visa-application-or-permission\">meets the rules for digital photos</a>. Your photo will be rejected if it does not meet the rules.</p>\n\n<h2 id=\"update-your-details\">Update your details</h2>\n\n<p>You’ll need the details you use to sign in to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account. This could be your:</p>\n\n<ul>\n  <li>passport</li>\n  <li>national identity card</li>\n  <li>biometric residence card (<abbr title=\"biometric residence card\">BRC</abbr>) - this can be valid or expired</li>\n  <li>expired biometric residence permit (<abbr title=\"biometric residence permit\">BRP</abbr>)</li>\n  <li>\n<abbr title=\"UK Visas and Immigration\">UKVI</abbr> customer number</li>\n</ul>\n\n<p>You’ll also need access to the mobile phone number or email address you use to sign in to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<p>If you’re updating your name, date of birth or nationality then you’ll need an identity document that proves that it has changed.</p>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p>You can only use this service to update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account details. You cannot update any immigration details, for example a visa or a citizenship application.</p>\n</div>\n\n<p><a class=\"gem-c-button govuk-button govuk-button--start\" role=\"button\" data-module=\"govuk-button\" data-ga4-attributes='{\"event_name\":\"navigation\",\"type\":\"start button\"}' draggable=\"false\" href=\"https://update-your-details.homeoffice.gov.uk/what-change\"><span> Update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account </span><svg class=\"govuk-button__start-icon govuk-!-display-none-print\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewbox=\"0 0 33 40\" focusable=\"false\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path></svg></a></p>\n\n<h2 id=\"when-you-cannot-use-this-service\">When you cannot use this service</h2>\n\n<p>There’s a <a rel=\"external\" href=\"https://visas-immigration.service.gov.uk/product/biometric-residence-permit-replacement-service\">different way to update your details</a> if you do not have an identity document that shows your new name, date of birth or nationality.</p>\n\n<p>You should <a href=\"/evisa/report-error-evisa\">report an error with your eVisa</a> if:</p>\n\n<ul>\n  <li>the details on your eVisa are wrong - for example it’s showing the wrong name or immigration status</li>\n  <li>the Home Office set up your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account and you’ve never been able to access it</li>\n</ul>\n\n<h2 id=\"update-details-for-someone-else\">Update details for someone else</h2>\n\n<p>If you manage a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account for someone else, you should update the account with their email address and phone number when either:</p>\n\n<ul>\n  <li>they become able to manage their own account</li>\n  <li>they reach 18 years old</li>\n</ul>\n\n<p>You cannot use this service if you have access to a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account because you helped someone apply for a visa. They need to update their own details.</p>\n\n<h2 id=\"get-help\">Get help</h2>\n\n<p>You can get help to <a rel=\"external\" href=\"https://update-your-details.homeoffice.gov.uk/account-recovery/help\">recover your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if you’re having problems signing in.</p>\n\n<p>You can <a rel=\"external\" href=\"https://ukvi-evisa-support-webchat.homeoffice.gov.uk\">chat to <abbr title=\"UK Visas and Immigration\">UKVI</abbr> using webchat</a> if you have other questions about your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account or eVisa.</p>\n\n<p>You can also <a href=\"/government/collections/evisa-support-videos\">watch eVisa support videos</a>.</p>\n\n",
+        "slug": "update-ukvi-account",
+        "title": "Update your details in your UKVI account"
+      },
+      {
+        "body": "<p>You should report an error if:</p>\n\n<ul>\n  <li>your eVisa details are wrong - for example it’s showing the wrong date of birth or immigration status</li>\n  <li>you can view your eVisa but you cannot use it to get a share code</li>\n  <li>the Home Office set up your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account and you’ve never been able to sign in to it</li>\n</ul>\n\n<h2 id=\"if-you-cannot-view-your-evisa\">If you cannot view your eVisa</h2>\n<p>Check that you have finished <a href=\"/evisa/set-up-ukvi-account\">setting up your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account to access your eVisa</a>.</p>\n\n<p>You’ll usually be able to access your eVisa straight away if it has been linked to your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account, but it can take up to 24 hours.</p>\n\n<p>Report an error if you still cannot view your eVisa after 24 hours or if you get a technical error when logging into your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account.</p>\n\n<h2 id=\"report-an-error-online\">Report an error online</h2>\n\n<p>You’ll need to give:</p>\n\n<ul>\n  <li>an email or UK postal address that <abbr title=\"UK Visas and Immigration\">UKVI</abbr> can use to contact you</li>\n  <li>your name, date of birth and nationality</li>\n</ul>\n\n<p>If you’re reporting that your name, date of birth or nationality are wrong, you’ll need to give them as they appear in your eVisa.</p>\n\n<p>You’ll also be asked to give one of the following:</p>\n\n<ul>\n  <li>passport number</li>\n  <li>expired biometric residence permit (<abbr title=\"biometric residence permit\">BRP</abbr>) number</li>\n  <li>global web form (<abbr title=\"global web form\">GWF</abbr>) number from your visa application</li>\n  <li>unique application number (<abbr title=\"unique application number\">UAN</abbr>) from your visa application</li>\n  <li>\n<abbr title=\"UK Visas and Immigration\">UKVI</abbr> customer number</li>\n</ul>\n\n<p><a class=\"gem-c-button govuk-button govuk-button--start\" role=\"button\" data-module=\"govuk-button\" data-ga4-attributes='{\"event_name\":\"navigation\",\"type\":\"start button\"}' draggable=\"false\" href=\"https://www.report-error-evisa.homeoffice.gov.uk/\"><span> Start now </span><svg class=\"govuk-button__start-icon govuk-!-display-none-print\" xmlns=\"http://www.w3.org/2000/svg\" width=\"17.5\" height=\"19\" viewbox=\"0 0 33 40\" focusable=\"false\" aria-hidden=\"true\"><path fill=\"currentColor\" d=\"M0 0h13l20 20-20 20H0l20-20z\"></path></svg></a></p>\n\n<h2 id=\"when-you-should-not-use-this-service\">When you should not use this service</h2>\n\n<p>There’s a different way to:</p>\n\n<ul>\n  <li>\n<a href=\"/evisa/update-ukvi-account\">update your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account details</a> - for example to change your name, address, email address, passport details or photo</li>\n  <li>\n<a rel=\"external\" href=\"https://update-your-details.homeoffice.gov.uk/account-recovery/help\">recover your <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account</a> if you’re having problems signing in</li>\n  <li>\n<a href=\"/guidance/prove-pre-settled-status-if-you-have-another-uk-immigration-status\">prove you have pre-settled status under the EU Settlement Scheme</a>, if your eVisa shows your other immigration status</li>\n  <li>\n<a href=\"/contact-ukvi-inside-outside-uk\">contact <abbr title=\"UK Visas and Immigration\">UKVI</abbr></a> to report an error on both your eVisa and your form for accompanying an eVisa</li>\n</ul>\n\n<h2 id=\"ask-someone-else-to-report-an-error\">Ask someone else to report an error</h2>\n\n<p>You can ask someone else to use this service to report the error for you, for example: </p>\n\n<ul>\n  <li>a legal representative</li>\n  <li>an employer</li>\n  <li>a friend or colleague</li>\n  <li>a member of staff at a university or charity</li>\n</ul>\n\n<h2 id=\"how-long-it-takes-to-fix\">How long it takes to fix</h2>\n\n<p><abbr title=\"UK Visas and Immigration\">UKVI</abbr> aims to fix most issues within 5 working days.</p>\n\n<p>If the issue is complex, it can take up to 15 working days.</p>\n\n<p>You’ll get an email if it is likely to take longer than 15 days to fix or if you need to give more information.</p>\n\n",
+        "slug": "report-error-evisa",
+        "title": "Report an error with your eVisa"
+      }
+    ]
+  },
+  "document_type": "guide",
+  "first_published_at": "2025-07-15T10:07:03+01:00",
+  "links": {
+    "available_translations": [
+      {
+        "api_path": "/api/content/evisa",
+        "api_url": "https://www.gov.uk/api/content/evisa",
+        "base_path": "/evisa",
+        "content_id": "6f3be85d-4ac0-4f9a-8e78-13ef23081842",
+        "document_type": "guide",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2025-07-15T09:07:02Z",
+        "schema_name": "guide",
+        "title": "eVisas: access and use your online immigration status",
+        "web_url": "https://www.gov.uk/evisa",
+        "withdrawn": false
+      }
+    ],
+    "document_collections": [
+      {
+        "api_path": "/api/content/government/collections/evisa-support-videos",
+        "api_url": "https://www.gov.uk/api/content/government/collections/evisa-support-videos",
+        "base_path": "/government/collections/evisa-support-videos",
+        "content_id": "47749859-04e6-4874-8b2d-c00b2c657f8f",
+        "document_type": "document_collection",
+        "links": {
+          "documents": [
+            {
+              "api_path": "/api/content/evisa",
+              "api_url": "https://www.gov.uk/api/content/evisa",
+              "base_path": "/evisa",
+              "content_id": "6f3be85d-4ac0-4f9a-8e78-13ef23081842",
+              "document_type": "guide",
+              "links": {},
+              "locale": "en",
+              "public_updated_at": "2025-07-15T09:07:02Z",
+              "schema_name": "guide",
+              "title": "eVisas: access and use your online immigration status",
+              "web_url": "https://www.gov.uk/evisa",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2026-01-21T14:20:16Z",
+        "schema_name": "document_collection",
+        "title": "eVisa support videos",
+        "web_url": "https://www.gov.uk/government/collections/evisa-support-videos",
+        "withdrawn": false
+      },
+      {
+        "api_path": "/api/content/government/collections/ukvi-support-videos",
+        "api_url": "https://www.gov.uk/api/content/government/collections/ukvi-support-videos",
+        "base_path": "/government/collections/ukvi-support-videos",
+        "content_id": "092224ab-6508-4f1c-811f-b816b844298a",
+        "document_type": "document_collection",
+        "links": {
+          "documents": [
+            {
+              "api_path": "/api/content/evisa",
+              "api_url": "https://www.gov.uk/api/content/evisa",
+              "base_path": "/evisa",
+              "content_id": "6f3be85d-4ac0-4f9a-8e78-13ef23081842",
+              "document_type": "guide",
+              "links": {},
+              "locale": "en",
+              "public_updated_at": "2025-07-15T09:07:02Z",
+              "schema_name": "guide",
+              "title": "eVisas: access and use your online immigration status",
+              "web_url": "https://www.gov.uk/evisa",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2026-08-04T10:42:57Z",
+        "schema_name": "document_collection",
+        "title": "UKVI support videos",
+        "web_url": "https://www.gov.uk/government/collections/ukvi-support-videos",
+        "withdrawn": false
+      }
+    ],
+    "mainstream_browse_pages": [
+      {
+        "api_path": "/api/content/browse/visas-immigration/eu-eea-swiss",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/eu-eea-swiss",
+        "base_path": "/browse/visas-immigration/eu-eea-swiss",
+        "content_id": "16e8b371-acd2-4b1b-a8a1-a430b04cb475",
+        "description": "Settled and pre-settled status, EU Settlement Scheme family permit, Frontier Worker permit",
+        "document_type": "mainstream_browse_page",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2026-01-21T11:03:42Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "EU, EEA and Swiss citizens",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/eu-eea-swiss",
+        "withdrawn": false
+      },
+      {
+        "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+        "base_path": "/browse/visas-immigration/what-you-need-to-do",
+        "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+        "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+        "document_type": "mainstream_browse_page",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2026-09-18T14:20:41Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "What you need to do",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+        "withdrawn": false
+      }
+    ],
+    "ordered_related_items": [
+      {
+        "api_path": "/api/content/check-uk-visa",
+        "api_url": "https://www.gov.uk/api/content/check-uk-visa",
+        "base_path": "/check-uk-visa",
+        "content_id": "dc1a1744-4089-43b3-b2e3-4e397b6b15b1",
+        "document_type": "smart_answer",
+        "links": {
+          "mainstream_browse_pages": [
+            {
+              "api_path": "/api/content/browse/visas-immigration/commonwealth-british-nationals-overseas",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/commonwealth-british-nationals-overseas",
+              "base_path": "/browse/visas-immigration/commonwealth-british-nationals-overseas",
+              "content_id": "2aaa0deb-65be-407c-b331-807c54ded5c1",
+              "description": "BNO visa, right of abode, UK Ancestry visa",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2022-12-21T09:01:45Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Commonwealth citizens and British nationals (overseas)",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/commonwealth-british-nationals-overseas",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/eu-eea-swiss",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/eu-eea-swiss",
+              "base_path": "/browse/visas-immigration/eu-eea-swiss",
+              "content_id": "16e8b371-acd2-4b1b-a8a1-a430b04cb475",
+              "description": "Settled and pre-settled status, EU Settlement Scheme family permit, Frontier Worker permit",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2026-01-21T11:03:42Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "EU, EEA and Swiss citizens",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/eu-eea-swiss",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/family-visas",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/family-visas",
+              "base_path": "/browse/visas-immigration/family-visas",
+              "content_id": "ea1f74cd-7c16-48d8-bf79-1a45b80508ef",
+              "description": "Partner, spouse, dependant and family member visas and permits",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2025-02-26T15:48:45Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Family in the UK",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/family-visas",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/student-visas",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/student-visas",
+              "base_path": "/browse/visas-immigration/student-visas",
+              "content_id": "f63075f3-d3a1-40d0-846e-6c3330263535",
+              "description": "Student visas for courses, degrees and independent schools",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2023-11-29T10:46:30Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Study in the UK",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/student-visas",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/arriving-in-the-uk",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/arriving-in-the-uk",
+              "base_path": "/browse/visas-immigration/arriving-in-the-uk",
+              "content_id": "2d9903ac-4194-4034-a53b-30d768f4fafb",
+              "description": "Moving your belongings, going through customs and tax",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2024-03-26T08:23:27Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Travelling to the UK",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/arriving-in-the-uk",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/tourist-short-stay-visas",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/tourist-short-stay-visas",
+              "base_path": "/browse/visas-immigration/tourist-short-stay-visas",
+              "content_id": "749762c5-0e80-4d04-b766-9850192764d4",
+              "description": "Visit for tourism, business or a short stay (up to 6 months), airport transit visas",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2025-05-28T15:39:59Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Visit the UK",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/tourist-short-stay-visas",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+              "base_path": "/browse/visas-immigration/what-you-need-to-do",
+              "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+              "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2026-09-18T14:20:41Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "What you need to do",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+              "withdrawn": false
+            },
+            {
+              "api_path": "/api/content/browse/visas-immigration/work-visas",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/work-visas",
+              "base_path": "/browse/visas-immigration/work-visas",
+              "content_id": "4ab4764d-d9ce-425f-a8cc-aaba4a38be09",
+              "description": "Skilled Worker visa, Graduate visa, other work visas, right to work",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2026-01-02T10:04:23Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Work in the UK",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/work-visas",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2021-06-16T08:18:46Z",
+        "schema_name": "smart_answer",
+        "title": "Check if you need a UK visa",
+        "web_url": "https://www.gov.uk/check-uk-visa",
+        "withdrawn": false
+      },
+      {
+        "api_path": "/api/content/apply-to-come-to-the-uk",
+        "api_url": "https://www.gov.uk/api/content/apply-to-come-to-the-uk",
+        "base_path": "/apply-to-come-to-the-uk",
+        "content_id": "76698ffe-70ab-4fda-be0d-755234f6d340",
+        "document_type": "guide",
+        "links": {
+          "mainstream_browse_pages": [
+            {
+              "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+              "base_path": "/browse/visas-immigration/what-you-need-to-do",
+              "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+              "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2026-09-18T14:20:41Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "What you need to do",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2024-10-31T17:00:10Z",
+        "schema_name": "guide",
+        "title": "How to apply for a visa to come to the UK",
+        "web_url": "https://www.gov.uk/apply-to-come-to-the-uk",
+        "withdrawn": false
+      },
+      {
+        "api_path": "/api/content/guidance/entering-the-uk-exemptions-to-controls",
+        "api_url": "https://www.gov.uk/api/content/guidance/entering-the-uk-exemptions-to-controls",
+        "base_path": "/guidance/entering-the-uk-exemptions-to-controls",
+        "content_id": "84639159-5754-425b-be47-b014546e1ffb",
+        "document_type": "detailed_guide",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2026-02-25T13:58:45Z",
+        "schema_name": "detailed_guide",
+        "title": "Entering the UK: exemptions to controls",
+        "web_url": "https://www.gov.uk/guidance/entering-the-uk-exemptions-to-controls",
+        "withdrawn": false
+      }
+    ],
+    "organisations": [
+      {
+        "analytics_identifier": "D16",
+        "api_path": "/api/content/government/organisations/home-office",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/home-office",
+        "base_path": "/government/organisations/home-office",
+        "content_id": "06056197-bc69-4147-aa28-070bca132178",
+        "details": {
+          "acronym": "Home Office",
+          "brand": "home-office",
+          "default_news_image": {
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/media/669fa7f5ce1fd0da7b592afc/s960_2MS_Home_Office_sign_-_landscape.jpg",
+            "url": "https://assets.publishing.service.gov.uk/media/669fa7f5ab418ab055592b21/s300_2MS_Home_Office_sign_-_landscape.jpg"
+          },
+          "logo": {
+            "crest": "ho",
+            "formatted_title": "Home Office"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Home Office",
+        "web_url": "https://www.gov.uk/government/organisations/home-office",
+        "withdrawn": false
+      },
+      {
+        "analytics_identifier": "OT554",
+        "api_path": "/api/content/government/organisations/uk-visas-and-immigration",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/uk-visas-and-immigration",
+        "base_path": "/government/organisations/uk-visas-and-immigration",
+        "content_id": "04148522-b0c1-4137-b687-5f3c3bdd561a",
+        "details": {
+          "acronym": "UKVI",
+          "brand": "home-office",
+          "default_news_image": null,
+          "logo": {
+            "crest": "ho",
+            "formatted_title": "UK Visas and Immigration"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "UK Visas and Immigration",
+        "web_url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+        "withdrawn": false
+      }
+    ],
+    "parent": [
+      {
+        "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+        "base_path": "/browse/visas-immigration/what-you-need-to-do",
+        "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+        "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+        "document_type": "mainstream_browse_page",
+        "links": {
+          "parent": [
+            {
+              "api_path": "/api/content/browse/visas-immigration",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+              "base_path": "/browse/visas-immigration",
+              "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+              "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+              "document_type": "mainstream_browse_page",
+              "links": {},
+              "locale": "en",
+              "public_updated_at": "2021-06-03T13:56:26Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Visas and immigration",
+              "web_url": "https://www.gov.uk/browse/visas-immigration",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2026-09-18T14:20:41Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "What you need to do",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+        "withdrawn": false
+      }
+    ],
+    "primary_publishing_organisation": [
+      {
+        "analytics_identifier": "OT1056",
+        "api_path": "/api/content/government/organisations/government-digital-service",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/government-digital-service",
+        "base_path": "/government/organisations/government-digital-service",
+        "content_id": "af07d5a5-df63-4ddc-9383-6a666845ebe9",
+        "details": {
+          "acronym": "GDS",
+          "brand": "government-digital-service",
+          "default_news_image": null,
+          "logo": {
+            "crest": "gds",
+            "formatted_title": "Government<br/>Digital Service"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Government Digital Service",
+        "web_url": "https://www.gov.uk/government/organisations/government-digital-service",
+        "withdrawn": false
+      }
+    ]
+  },
+  "locale": "en",
+  "phase": "live",
+  "public_updated_at": "2025-07-15T10:07:02+01:00",
+  "publishing_app": "publisher",
+  "publishing_request_id": "21-1791545456.291-10.13.20.229-2759",
+  "publishing_scheduled_at": null,
+  "rendering_app": "frontend",
+  "scheduled_publishing_delay_seconds": null,
+  "schema_name": "guide",
+  "title": "eVisas: access and use your online immigration status",
+  "updated_at": "2026-10-27T09:30:47+00:00",
+  "withdrawn_notice": {}
+}

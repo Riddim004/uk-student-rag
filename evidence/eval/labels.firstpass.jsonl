@@ -1,0 +1,50 @@
+{"query_id": "q01", "relevant_chunk_ids": ["immigration-rules-student__work-conditions-for-a-student#0"], "relevant_section_ids": ["immigration-rules-student__work-conditions-for-a-student"], "status": "ok"}
+{"query_id": "q02", "relevant_chunk_ids": ["student-visa__overview#2"], "relevant_section_ids": ["student-visa__overview"], "status": "ok"}
+{"query_id": "q03", "relevant_chunk_ids": ["student-visa__apply-online#0", "student-visa__overview#0"], "relevant_section_ids": ["student-visa__apply-online", "student-visa__overview"], "status": "ok"}
+{"query_id": "q04", "relevant_chunk_ids": ["student-visa__overview#0"], "relevant_section_ids": ["student-visa__overview"], "status": "ok"}
+{"query_id": "q05", "relevant_chunk_ids": ["student-visa__overview#1"], "relevant_section_ids": ["student-visa__overview"], "status": "ok"}
+{"query_id": "q06", "relevant_chunk_ids": ["student-visa__knowledge-of-english#1", "student-visa__knowledge-of-english#2"], "relevant_section_ids": ["student-visa__knowledge-of-english"], "status": "ok"}
+{"query_id": "q07", "relevant_chunk_ids": ["graduate-visa__how-much-it-costs#0", "graduate-visa__overview#2"], "relevant_section_ids": ["graduate-visa__how-much-it-costs", "graduate-visa__overview"], "status": "ok"}
+{"query_id": "q08", "relevant_chunk_ids": ["graduate-visa__overview#0"], "relevant_section_ids": ["graduate-visa__overview"], "status": "ok"}
+{"query_id": "q09", "relevant_chunk_ids": ["graduate-visa__overview#0"], "relevant_section_ids": ["graduate-visa__overview"], "status": "ok"}
+{"query_id": "q10", "relevant_chunk_ids": ["ihs__how-much-pay#0"], "relevant_section_ids": ["ihs__how-much-pay"], "status": "ok"}
+{"query_id": "q11", "relevant_chunk_ids": ["immigration-rules-student__work-conditions-for-a-student#0"], "relevant_section_ids": ["immigration-rules-student__work-conditions-for-a-student"], "status": "ok"}
+{"query_id": "q12", "relevant_chunk_ids": ["financial-evidence__how-much-money-you-need-student-visa#0", "student-visa__money#0"], "relevant_section_ids": ["financial-evidence__how-much-money-you-need-student-visa", "student-visa__money"], "status": "ok"}
+{"query_id": "q13", "relevant_chunk_ids": ["graduate-visa__course-you-studied#1", "graduate-visa__course-you-studied#2"], "relevant_section_ids": ["graduate-visa__course-you-studied"], "status": "ok"}
+{"query_id": "q14", "relevant_chunk_ids": ["graduate-visa__overview#2"], "relevant_section_ids": ["graduate-visa__overview"], "status": "ok"}
+{"query_id": "q15", "relevant_chunk_ids": ["financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence#0", "student-visa__money#1", "student-visa__money#2"], "relevant_section_ids": ["financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence", "student-visa__money"], "status": "ok"}
+{"query_id": "q16", "relevant_chunk_ids": ["student-visa__family-members#0"], "relevant_section_ids": ["student-visa__family-members"], "status": "ok"}
+{"query_id": "q17", "relevant_chunk_ids": ["atas__atas-immigration-rules#0"], "relevant_section_ids": ["atas__atas-immigration-rules"], "status": "ok"}
+{"query_id": "q18", "relevant_chunk_ids": ["atas__the-application-process#0"], "relevant_section_ids": ["atas__the-application-process"], "status": "ok"}
+{"query_id": "q19", "relevant_chunk_ids": ["brp__biometric-residence-permits-brps#0", "evisa__set-up-ukvi-account#1"], "relevant_section_ids": ["brp__biometric-residence-permits-brps", "evisa__set-up-ukvi-account"], "status": "ok"}
+{"query_id": "q20", "relevant_chunk_ids": ["evisa__report-error-evisa#0", "evisa__report-error-evisa#1"], "relevant_section_ids": ["evisa__report-error-evisa"], "status": "ok"}
+{"query_id": "q21", "relevant_chunk_ids": ["financial-evidence__how-much-money-you-need-student-visa#0", "student-visa__money#0"], "relevant_section_ids": ["financial-evidence__how-much-money-you-need-student-visa", "student-visa__money"], "status": "ok"}
+{"query_id": "q22", "relevant_chunk_ids": ["financial-evidence__how-much-money-you-need-student-visa#0", "student-visa__family-members#1"], "relevant_section_ids": ["financial-evidence__how-much-money-you-need-student-visa", "student-visa__family-members"], "status": "ok"}
+{"query_id": "q23", "relevant_chunk_ids": ["ihs__how-much-pay#0"], "relevant_section_ids": ["ihs__how-much-pay"], "status": "ok"}
+{"query_id": "q24", "relevant_chunk_ids": ["graduate-visa__how-much-it-costs#0", "ihs__how-much-pay#0"], "relevant_section_ids": ["graduate-visa__how-much-it-costs", "ihs__how-much-pay"], "status": "ok"}
+{"query_id": "q25", "relevant_chunk_ids": ["financial-evidence__evidence-you-need-to-provide#1", "student-visa__money#0", "student-visa__money#1"], "relevant_section_ids": ["financial-evidence__evidence-you-need-to-provide", "student-visa__money"], "status": "ok"}
+{"query_id": "q26", "relevant_chunk_ids": ["student-visa__extend-your-visa#2", "student-visa__overview#0"], "relevant_section_ids": ["student-visa__extend-your-visa", "student-visa__overview"], "status": "ok"}
+{"query_id": "q27", "relevant_chunk_ids": ["student-visa__overview#1"], "relevant_section_ids": ["student-visa__overview"], "status": "ok"}
+{"query_id": "q28", "relevant_chunk_ids": ["graduate-visa__apply#1", "graduate-visa__overview#1", "graduate-visa__overview#2"], "relevant_section_ids": ["graduate-visa__apply", "graduate-visa__overview"], "status": "ok"}
+{"query_id": "q29", "relevant_chunk_ids": ["graduate-visa__how-much-it-costs#0", "graduate-visa__overview#0", "graduate-visa__overview#1", "graduate-visa__overview#2"], "relevant_section_ids": ["graduate-visa__how-much-it-costs", "graduate-visa__overview"], "status": "ok"}
+{"query_id": "q30", "relevant_chunk_ids": ["financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence#0", "student-visa__money#0", "student-visa__money#1", "student-visa__money#2"], "relevant_section_ids": ["financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence", "student-visa__money"], "status": "ok"}
+{"query_id": "q31", "relevant_chunk_ids": ["student-visa__extend-your-visa#2", "student-visa__extend-your-visa#3"], "relevant_section_ids": ["student-visa__extend-your-visa"], "status": "ok"}
+{"query_id": "q32", "relevant_chunk_ids": ["student-visa__switch-to-this-visa#0"], "relevant_section_ids": ["student-visa__switch-to-this-visa"], "status": "ok"}
+{"query_id": "q33", "relevant_chunk_ids": ["student-visa__family-members#1", "student-visa__family-members#4"], "relevant_section_ids": ["student-visa__family-members"], "status": "ok"}
+{"query_id": "q34", "relevant_chunk_ids": ["student-visa__extend-your-visa#2", "student-visa__switch-to-this-visa#0", "student-visa__switch-to-this-visa#1"], "relevant_section_ids": ["student-visa__extend-your-visa", "student-visa__switch-to-this-visa"], "status": "ok"}
+{"query_id": "q35", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q36", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q37", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q38", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q39", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q40", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q41", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q42", "relevant_chunk_ids": [], "relevant_section_ids": [], "status": "ok"}
+{"query_id": "q43", "relevant_chunk_ids": ["immigration-rules-student__work-conditions-for-a-student#0"], "relevant_section_ids": ["immigration-rules-student__work-conditions-for-a-student"], "status": "ok"}
+{"query_id": "q44", "relevant_chunk_ids": ["financial-evidence__how-much-money-you-need-student-visa#0", "student-visa__money#0"], "relevant_section_ids": ["financial-evidence__how-much-money-you-need-student-visa", "student-visa__money"], "status": "ok"}
+{"query_id": "q45", "relevant_chunk_ids": ["graduate-visa__how-much-it-costs#0", "graduate-visa__overview#2"], "relevant_section_ids": ["graduate-visa__how-much-it-costs", "graduate-visa__overview"], "status": "ok"}
+{"query_id": "q46", "relevant_chunk_ids": ["graduate-visa__overview#0"], "relevant_section_ids": ["graduate-visa__overview"], "status": "ok"}
+{"query_id": "q47", "relevant_chunk_ids": ["student-visa__knowledge-of-english#0", "student-visa__knowledge-of-english#1"], "relevant_section_ids": ["student-visa__knowledge-of-english"], "status": "ok"}
+{"query_id": "q48", "relevant_chunk_ids": ["student-visa__family-members#0"], "relevant_section_ids": ["student-visa__family-members"], "status": "ok"}
+{"query_id": "q49", "relevant_chunk_ids": ["brp__biometric-residence-permits-brps#0", "evisa__set-up-ukvi-account#1"], "relevant_section_ids": ["brp__biometric-residence-permits-brps", "evisa__set-up-ukvi-account"], "status": "ok"}
+{"query_id": "q50", "relevant_chunk_ids": ["atas__the-application-process#0"], "relevant_section_ids": ["atas__the-application-process"], "status": "ok"}

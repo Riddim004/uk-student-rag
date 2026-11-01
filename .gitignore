@@ -17,3 +17,7 @@ env/
 # Generated eval outputs
 *.eval.md
 scorecard.md
+
+# Local scratch
+smoke.json
+ans.tmp.json

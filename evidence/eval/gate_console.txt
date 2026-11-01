@@ -1,0 +1,135 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 4007.48it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 3144.41it/s]
+[gate] 01/50 q01 answerable dense=0.886 sparse=21.41 rerank=2.982
+[gate] 02/50 q02 answerable dense=0.885 sparse=15.15 rerank=6.891
+[gate] 03/50 q03 answerable dense=0.917 sparse=17.76 rerank=9.576
+[gate] 04/50 q04 answerable dense=0.912 sparse=14.66 rerank=8.764
+[gate] 05/50 q05 answerable dense=0.893 sparse=20.31 rerank=7.071
+[gate] 06/50 q06 answerable dense=0.892 sparse=15.13 rerank=0.879
+[gate] 07/50 q07 answerable dense=0.879 sparse=8.61 rerank=3.552
+[gate] 08/50 q08 answerable dense=0.909 sparse=22.41 rerank=7.825
+[gate] 09/50 q09 answerable dense=0.906 sparse=17.58 rerank=3.222
+[gate] 10/50 q10 answerable dense=0.868 sparse=17.52 rerank=3.150
+[gate] 11/50 q11 answerable dense=0.854 sparse=9.78 rerank=-2.600
+[gate] 12/50 q12 answerable dense=0.896 sparse=18.16 rerank=-2.251
+[gate] 13/50 q13 answerable dense=0.895 sparse=30.89 rerank=7.621
+[gate] 14/50 q14 answerable dense=0.878 sparse=9.27 rerank=1.890
+[gate] 15/50 q15 answerable dense=0.913 sparse=26.58 rerank=7.060
+[gate] 16/50 q16 answerable dense=0.842 sparse=10.27 rerank=-0.920
+[gate] 17/50 q17 answerable dense=0.916 sparse=15.64 rerank=10.594
+[gate] 18/50 q18 answerable dense=0.915 sparse=11.21 rerank=10.794
+[gate] 19/50 q19 answerable dense=0.909 sparse=18.19 rerank=10.763
+[gate] 20/50 q20 answerable dense=0.900 sparse=15.73 rerank=9.279
+[gate] 21/50 q21 answerable dense=0.852 sparse=20.87 rerank=1.705
+[gate] 22/50 q22 answerable dense=0.874 sparse=23.28 rerank=1.404
+[gate] 23/50 q23 answerable dense=0.855 sparse=12.81 rerank=0.724
+[gate] 24/50 q24 answerable dense=0.870 sparse=17.29 rerank=1.089
+[gate] 25/50 q25 answerable dense=0.827 sparse=11.31 rerank=-2.890
+[gate] 26/50 q26 answerable dense=0.928 sparse=19.89 rerank=9.531
+[gate] 27/50 q27 answerable dense=0.899 sparse=16.87 rerank=5.156
+[gate] 28/50 q28 answerable dense=0.888 sparse=13.39 rerank=3.433
+[gate] 29/50 q29 answerable dense=0.897 sparse=20.66 rerank=-1.280
+[gate] 30/50 q30 answerable dense=0.881 sparse=24.01 rerank=-0.825
+[gate] 31/50 q31 answerable dense=0.922 sparse=16.68 rerank=4.293
+[gate] 32/50 q32 answerable dense=0.917 sparse=19.91 rerank=7.372
+[gate] 33/50 q33 answerable dense=0.891 sparse=23.89 rerank=2.310
+[gate] 34/50 q34 answerable dense=0.913 sparse=24.83 rerank=9.025
+[gate] 35/50 q35 unanswerable dense=0.847 sparse=7.65 rerank=-4.156
+[gate] 36/50 q36 unanswerable dense=0.874 sparse=7.88 rerank=-3.958
+[gate] 37/50 q37 unanswerable dense=0.864 sparse=11.61 rerank=5.100
+[gate] 38/50 q38 unanswerable dense=0.863 sparse=9.64 rerank=-3.509
+[gate] 39/50 q39 unanswerable dense=0.848 sparse=10.46 rerank=-5.365
+[gate] 40/50 q40 unanswerable dense=0.891 sparse=10.27 rerank=4.066
+[gate] 41/50 q41 unanswerable dense=0.785 sparse=8.63 rerank=-3.107
+[gate] 42/50 q42 unanswerable dense=0.876 sparse=20.80 rerank=3.604
+[gate] 43/50 q43 answerable dense=0.806 sparse=0.00 rerank=-1.422
+[gate] 44/50 q44 answerable dense=0.840 sparse=0.00 rerank=0.405
+[gate] 45/50 q45 answerable dense=0.829 sparse=0.00 rerank=4.551
+[gate] 46/50 q46 answerable dense=0.824 sparse=0.00 rerank=1.512
+[gate] 47/50 q47 answerable dense=0.852 sparse=0.00 rerank=5.879
+[gate] 48/50 q48 answerable dense=0.835 sparse=0.00 rerank=2.563
+[gate] 49/50 q49 answerable dense=0.819 sparse=5.10 rerank=4.910
+[gate] 50/50 q50 answerable dense=0.850 sparse=3.73 rerank=5.837
+# Relevance gate calibration
+
+Commit: `7b88dec` | rerank: `True` | candidate_k: 50 | rerank_k: 15
+
+The gate answers only when the strongest underlying score clears a
+threshold. Thresholds are selected on the **dev** split; the **test**
+split is a held-out check and is not used for selection.
+
+## Score distributions
+
+| split | label | field | n | min | median | max |
+|---|---|---|---|---|---|---|
+| dev | answerable | max_dense | 21 | 0.806 | 0.891 | 0.922 |
+| dev | answerable | max_sparse | 21 | 0.000 | 16.872 | 30.887 |
+| dev | answerable | max_rerank | 21 | -2.890 | 4.293 | 10.763 |
+| dev | unanswerable | max_dense | 4 | 0.847 | 0.864 | 0.874 |
+| dev | unanswerable | max_sparse | 4 | 7.647 | 8.757 | 11.612 |
+| dev | unanswerable | max_rerank | 4 | -4.156 | -3.733 | 5.100 |
+| test | answerable | max_dense | 21 | 0.824 | 0.885 | 0.928 |
+| test | answerable | max_sparse | 21 | 0.000 | 15.146 | 24.831 |
+| test | answerable | max_rerank | 21 | -2.251 | 3.150 | 10.794 |
+| test | unanswerable | max_dense | 4 | 0.785 | 0.862 | 0.891 |
+| test | unanswerable | max_sparse | 4 | 8.630 | 10.367 | 20.804 |
+| test | unanswerable | max_rerank | 4 | -5.365 | 0.248 | 4.066 |
+
+## Dense threshold sweep (dev)
+
+| threshold | unanswerable refused | answerable over-refused | balanced accuracy |
+|---|---|---|---|
+| 0.700 | 0.000 | 0.000 | 0.500 |
+| 0.705 | 0.000 | 0.000 | 0.500 |
+| 0.710 | 0.000 | 0.000 | 0.500 |
+| 0.715 | 0.000 | 0.000 | 0.500 |
+| 0.720 | 0.000 | 0.000 | 0.500 |
+| 0.725 | 0.000 | 0.000 | 0.500 |
+| 0.730 | 0.000 | 0.000 | 0.500 |
+| 0.735 | 0.000 | 0.000 | 0.500 |
+| 0.740 | 0.000 | 0.000 | 0.500 |
+| 0.745 | 0.000 | 0.000 | 0.500 |
+| 0.750 | 0.000 | 0.000 | 0.500 |
+| 0.755 | 0.000 | 0.000 | 0.500 |
+
+## Sparse threshold sweep (dev)
+
+| threshold | unanswerable refused | answerable over-refused | balanced accuracy |
+|---|---|---|---|
+| 12.000 | 1.000 | 0.333 | 0.833 |
+| 15.000 | 1.000 | 0.381 | 0.810 |
+| 10.000 | 0.750 | 0.286 | 0.732 |
+| 8.000 | 0.500 | 0.190 | 0.655 |
+| 0.000 | 0.000 | 0.143 | 0.429 |
+| 1.000 | 0.000 | 0.143 | 0.429 |
+| 2.000 | 0.000 | 0.143 | 0.429 |
+| 3.000 | 0.000 | 0.143 | 0.429 |
+| 4.000 | 0.000 | 0.143 | 0.429 |
+| 5.000 | 0.000 | 0.143 | 0.429 |
+| 6.000 | 0.000 | 0.190 | 0.405 |
+
+## Rerank threshold sweep (dev)
+
+| threshold | unanswerable refused | answerable over-refused | balanced accuracy |
+|---|---|---|---|
+| -5.000 | 0.000 | 0.000 | 0.500 |
+| -4.950 | 0.000 | 0.000 | 0.500 |
+| -4.900 | 0.000 | 0.000 | 0.500 |
+| -4.850 | 0.000 | 0.000 | 0.500 |
+| -4.800 | 0.000 | 0.000 | 0.500 |
+| -4.750 | 0.000 | 0.000 | 0.500 |
+| -4.700 | 0.000 | 0.000 | 0.500 |
+| -4.650 | 0.000 | 0.000 | 0.500 |
+| -4.600 | 0.000 | 0.000 | 0.500 |
+| -4.550 | 0.000 | 0.000 | 0.500 |
+| -4.500 | 0.000 | 0.000 | 0.500 |
+| -4.450 | 0.000 | 0.000 | 0.500 |
+
+## Selected thresholds
+
+| rule | threshold | dev unanswerable refused | dev answerable over-refused | dev balanced accuracy |
+
+Wrote D:\Code\07-tools-skills\Qoder workspace\uk-student-rag\evidence\eval\gate_calibration.md
+Wrote D:\Code\07-tools-skills\Qoder workspace\uk-student-rag\evidence\eval\gate_scores.jsonl
+Selected: {'min_dense_score': 0.875, 'min_sparse_score': 12.0, 'min_rerank_score': -3.0}

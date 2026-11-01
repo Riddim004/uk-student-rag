@@ -1,0 +1,7 @@
+* text=auto eol=lf
+
+# Corpus and eval artifacts are hashed over their bytes. They must check out
+# with LF on every platform, or data/corpus/manifest.json will not verify.
+data/corpus/** text eol=lf
+data/raw/** text eol=lf
+evidence/eval/** text eol=lf

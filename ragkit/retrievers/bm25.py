@@ -9,16 +9,10 @@ thing an interviewer probes. No numpy, no rank_bm25.
 from __future__ import annotations
 
 import math
-import re
 from collections import Counter
 
+from ..tokenization import tokenize
 from ..types import Chunk, ScoredChunk
-
-_TOKEN = re.compile(r"[a-z0-9]+")
-
-
-def tokenize(text: str) -> list[str]:
-    return _TOKEN.findall(text.lower())
 
 
 class BM25Retriever:
@@ -60,10 +54,12 @@ class BM25Retriever:
 
     def retrieve(self, query: str, k: int) -> list[ScoredChunk]:
         query_terms = tokenize(query)
-        scored = [
-            ScoredChunk(chunk=chunk, score=self._score(query_terms, i))
-            for i, chunk in enumerate(self._chunks)
-        ]
-        scored = [sc for sc in scored if sc.score > 0.0]
+        scored: list[ScoredChunk] = []
+        for i, chunk in enumerate(self._chunks):
+            score = self._score(query_terms, i)
+            if score > 0.0:
+                scored.append(
+                    ScoredChunk(chunk=chunk, score=score, components={"sparse": score})
+                )
         scored.sort(key=lambda sc: sc.score, reverse=True)
         return scored[:k]

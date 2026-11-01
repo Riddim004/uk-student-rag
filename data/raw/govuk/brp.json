@@ -1,0 +1,283 @@
+{
+  "analytics_identifier": null,
+  "base_path": "/biometric-residence-permits",
+  "content_id": "6bcb87c7-0d26-4fb0-8079-c2dfa09220f3",
+  "description": "Biometric residence permits (BRP) - what they are, personal data, how to report problems.",
+  "details": {
+    "body": "<p>Biometric residence permits (<abbr title=\"biometric residence permits\">BRPs</abbr>) are cards that were used to prove immigration status. You might have a <abbr title=\"biometric residence permit\">BRP</abbr> if you were granted permission to live or work in the UK on or before 31 October 2024.</p>\n\n<p>All <abbr title=\"biometric residence permits\">BRPs</abbr> have now expired and have been replaced by eVisas. An eVisa is a digital record of your identity and immigration status.</p>\n\n<p>If you have an expired <abbr title=\"biometric residence permit\">BRP</abbr> and still have permission to stay in the UK, you need to create a UK Visas and Immigration (<abbr title=\"UK Visas and Immigration\">UKVI</abbr>) account to <a href=\"/get-access-evisa\">get access to your eVisa</a>. </p>\n\n<p>You might be able to use your expired <abbr title=\"biometric residence permit\">BRP</abbr> for 24 months after the expiry date printed on the card, or until 31 December 2026 - whichever comes first.</p>\n\n<p>You can only use it to:</p>\n\n<ul>\n  <li>sign in to <a href=\"/evisa/view-evisa-get-share-code-prove-immigration-status\">view your eVisa and get a share code</a>\n</li>\n  <li>create a <abbr title=\"UK Visas and Immigration\">UKVI</abbr> account to <a href=\"/get-access-evisa\">get access to your eVisa</a>\n</li>\n  <li>apply to extend your permission to stay in the UK</li>\n</ul>\n\n<p>You can <a href=\"/evisa\">use your eVisa to prove your immigration status</a> for any other reason.</p>\n\n<h2 id=\"if-theres-a-problem-with-your-expired-brp\">If there’s a problem with your expired <abbr title=\"biometric residence permit\">BRP</abbr>\n</h2>\n\n<p>If there’s a problem with your expired <abbr title=\"biometric residence permit\">BRP</abbr>, you cannot use it. You must destroy it.</p>\n\n<p>You need to check:</p>\n\n<ul>\n  <li>if you can <a href=\"/get-access-evisa\">get access to an eVisa</a> </li>\n  <li>that the details on your eVisa are correct - if not, you’ll need to <a href=\"/report-error-evisa\">report an error with your eVisa</a>\n</li>\n</ul>\n\n<p>You can <a href=\"/ask-for-a-visa-administrative-review/if-youre-in-the-uk\">ask for an administrative review</a> if both of the following apply:</p>\n\n<ul>\n  <li>you applied for your visa from inside the UK</li>\n  <li>there are mistakes in the length or conditions of your visa</li>\n</ul>\n\n<h2 id=\"if-your-expired-brp-is-lost-or-stolen\">If your expired <abbr title=\"biometric residence permit\">BRP</abbr> is lost or stolen</h2>\n\n<p>You must <a rel=\"external\" href=\"https://www.biometric-residence-permit.service.gov.uk/lost-stolen/where\">report a lost or stolen <abbr title=\"biometric residence permit\">BRP</abbr></a>, even though it’s expired.</p>\n\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>You can be fined up to £1,000 and made to leave the UK if you do not report a lost or stolen BRP. </p>\n</div>\n\n<p>You can get someone to report it for you, for example a legal representative, a charity, a family member, employer, college or university.</p>\n\n<p>The Home Office will contact you within one working day of reporting it.</p>\n\n<h3 id=\"if-you-find-your-brp-after-reporting-it-lost-or-stolen\">If you find your <abbr title=\"biometric residence permit\">BRP</abbr> after reporting it lost or stolen</h3>\n\n<p>You will not be able to use your <abbr title=\"biometric residence permit\">BRP</abbr> if you find it after you report it lost or stolen. You must destroy it. </p>\n\n<h2 id=\"destroy-your-expired-brp\">Destroy your expired <abbr title=\"biometric residence permit\">BRP</abbr>\n</h2>\n\n<p>To destroy your expired <abbr title=\"biometric residence permit\">BRP</abbr>, cut the card into pieces and dispose of it.</p>\n\n<p>Make sure you cut through:</p>\n\n<ul>\n  <li>your personal details</li>\n  <li>the royal coat of arms</li>\n  <li>the gold biometric chip, if your card has one</li>\n</ul>\n\n<h2 id=\"if-youve-found-someone-elses-lost-or-stolen-brp\">If you’ve found someone else’s lost or stolen <abbr title=\"biometric residence permit\">BRP</abbr>\n</h2>\n\n<p>If you’re in the UK, post the <abbr title=\"biometric residence permit\">BRP</abbr> to the Home Office using an envelope without a window.</p>\n\n<div class=\"address\"><div class=\"adr org fn\"><p>\nReturns Unit<br>PO Box 195<br>Bristol<br>BS20 1BT\n</p></div></div>\n\n<p>Do not send any other items or documents with the <abbr title=\"biometric residence permit\">BRP</abbr> - they’ll be destroyed.</p>\n\n<p>If you’re outside the UK, hand the <abbr title=\"biometric residence permit\">BRP</abbr> in to the police or to the <a href=\"/world/embassies\">nearest British embassy or consulate</a>.</p>\n\n",
+    "external_related_links": []
+  },
+  "document_type": "answer",
+  "first_published_at": "2014-01-17T14:10:44+00:00",
+  "links": {
+    "available_translations": [
+      {
+        "api_path": "/api/content/biometric-residence-permits",
+        "api_url": "https://www.gov.uk/api/content/biometric-residence-permits",
+        "base_path": "/biometric-residence-permits",
+        "content_id": "6bcb87c7-0d26-4fb0-8079-c2dfa09220f3",
+        "document_type": "answer",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2024-10-31T17:00:02Z",
+        "schema_name": "answer",
+        "title": "Biometric residence permits (BRPs)",
+        "web_url": "https://www.gov.uk/biometric-residence-permits",
+        "withdrawn": false
+      }
+    ],
+    "mainstream_browse_pages": [
+      {
+        "api_path": "/api/content/browse/visas-immigration/settle-in-the-uk",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/settle-in-the-uk",
+        "base_path": "/browse/visas-immigration/settle-in-the-uk",
+        "content_id": "b5c53aed-51d4-430c-b79f-b09f669ce30a",
+        "description": "Ways to settle in the UK, indefinite leave to remain (ILR) and routes to British citizenship",
+        "document_type": "mainstream_browse_page",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2022-12-21T09:00:19Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "Live permanently in the UK",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/settle-in-the-uk",
+        "withdrawn": false
+      },
+      {
+        "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+        "base_path": "/browse/visas-immigration/what-you-need-to-do",
+        "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+        "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+        "document_type": "mainstream_browse_page",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2026-09-18T14:20:41Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "What you need to do",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+        "withdrawn": false
+      }
+    ],
+    "ordered_related_items": [
+      {
+        "api_path": "/api/content/change-circumstances-visa-brp",
+        "api_url": "https://www.gov.uk/api/content/change-circumstances-visa-brp",
+        "base_path": "/change-circumstances-visa-brp",
+        "content_id": "6d76323e-808a-42ab-a5a2-ed17c8f2a828",
+        "document_type": "guide",
+        "links": {
+          "mainstream_browse_pages": [
+            {
+              "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+              "base_path": "/browse/visas-immigration/what-you-need-to-do",
+              "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+              "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+              "document_type": "mainstream_browse_page",
+              "links": {
+                "parent": [
+                  {
+                    "api_path": "/api/content/browse/visas-immigration",
+                    "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+                    "base_path": "/browse/visas-immigration",
+                    "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+                    "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+                    "document_type": "mainstream_browse_page",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2021-06-03T13:56:26Z",
+                    "schema_name": "mainstream_browse_page",
+                    "title": "Visas and immigration",
+                    "web_url": "https://www.gov.uk/browse/visas-immigration",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "public_updated_at": "2026-09-18T14:20:41Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "What you need to do",
+              "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2024-10-31T17:01:09Z",
+        "schema_name": "guide",
+        "title": "Report a change of circumstances if you have a visa or expired BRP ",
+        "web_url": "https://www.gov.uk/change-circumstances-visa-brp",
+        "withdrawn": false
+      }
+    ],
+    "organisations": [
+      {
+        "analytics_identifier": "OT554",
+        "api_path": "/api/content/government/organisations/uk-visas-and-immigration",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/uk-visas-and-immigration",
+        "base_path": "/government/organisations/uk-visas-and-immigration",
+        "content_id": "04148522-b0c1-4137-b687-5f3c3bdd561a",
+        "details": {
+          "acronym": "UKVI",
+          "brand": "home-office",
+          "default_news_image": null,
+          "logo": {
+            "crest": "ho",
+            "formatted_title": "UK Visas and Immigration"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "UK Visas and Immigration",
+        "web_url": "https://www.gov.uk/government/organisations/uk-visas-and-immigration",
+        "withdrawn": false
+      }
+    ],
+    "parent": [
+      {
+        "api_path": "/api/content/browse/visas-immigration/what-you-need-to-do",
+        "api_url": "https://www.gov.uk/api/content/browse/visas-immigration/what-you-need-to-do",
+        "base_path": "/browse/visas-immigration/what-you-need-to-do",
+        "content_id": "8ff60b56-b0e8-4019-af4c-80ca1ad04c29",
+        "description": "Check if you need a UK Visa, electronic travel authorisation (ETA) or get access to an eVisa to prove your immigration status if you’re not a British citizen or Irish national",
+        "document_type": "mainstream_browse_page",
+        "links": {
+          "parent": [
+            {
+              "api_path": "/api/content/browse/visas-immigration",
+              "api_url": "https://www.gov.uk/api/content/browse/visas-immigration",
+              "base_path": "/browse/visas-immigration",
+              "content_id": "df6fcdc4-62bc-4e05-90e3-cb2e452453a4",
+              "description": "Apply to visit, work, study, settle or seek asylum in the UK",
+              "document_type": "mainstream_browse_page",
+              "links": {},
+              "locale": "en",
+              "public_updated_at": "2021-06-03T13:56:26Z",
+              "schema_name": "mainstream_browse_page",
+              "title": "Visas and immigration",
+              "web_url": "https://www.gov.uk/browse/visas-immigration",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2026-09-18T14:20:41Z",
+        "schema_name": "mainstream_browse_page",
+        "title": "What you need to do",
+        "web_url": "https://www.gov.uk/browse/visas-immigration/what-you-need-to-do",
+        "withdrawn": false
+      }
+    ],
+    "primary_publishing_organisation": [
+      {
+        "analytics_identifier": "OT1056",
+        "api_path": "/api/content/government/organisations/government-digital-service",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/government-digital-service",
+        "base_path": "/government/organisations/government-digital-service",
+        "content_id": "af07d5a5-df63-4ddc-9383-6a666845ebe9",
+        "details": {
+          "acronym": "GDS",
+          "brand": "government-digital-service",
+          "default_news_image": null,
+          "logo": {
+            "crest": "gds",
+            "formatted_title": "Government<br/>Digital Service"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Government Digital Service",
+        "web_url": "https://www.gov.uk/government/organisations/government-digital-service",
+        "withdrawn": false
+      }
+    ],
+    "taxons": [
+      {
+        "api_path": "/api/content/entering-staying-uk/travel-identity-documents-for-foreign-nationals",
+        "api_url": "https://www.gov.uk/api/content/entering-staying-uk/travel-identity-documents-for-foreign-nationals",
+        "base_path": "/entering-staying-uk/travel-identity-documents-for-foreign-nationals",
+        "content_id": "18c7918f-cde5-4e66-b5f4-cd15c33cc1cc",
+        "details": {
+          "internal_name": "Travel and identity documents for foreign nationals",
+          "notes_for_editors": "",
+          "visible_to_departmental_editors": false
+        },
+        "document_type": "taxon",
+        "links": {
+          "parent_taxons": [
+            {
+              "api_path": "/api/content/entering-staying-uk",
+              "api_url": "https://www.gov.uk/api/content/entering-staying-uk",
+              "base_path": "/entering-staying-uk",
+              "content_id": "ba3a9702-da22-487f-86c1-8334a730e559",
+              "details": {
+                "internal_name": "Entering and staying in the UK",
+                "notes_for_editors": "",
+                "visible_to_departmental_editors": true
+              },
+              "document_type": "taxon",
+              "links": {
+                "root_taxon": [
+                  {
+                    "api_path": "/api/content/",
+                    "api_url": "https://www.gov.uk/api/content/",
+                    "base_path": "/",
+                    "content_id": "f3bbdec2-0e62-4520-a7fd-6ffd5d36e03a",
+                    "document_type": "homepage",
+                    "links": {},
+                    "locale": "en",
+                    "public_updated_at": "2026-02-18T13:00:23Z",
+                    "schema_name": "homepage",
+                    "title": "GOV.UK homepage",
+                    "web_url": "https://www.gov.uk/",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "phase": "live",
+              "public_updated_at": "2018-07-11T08:58:32Z",
+              "schema_name": "taxon",
+              "title": "Entering and staying in the UK",
+              "web_url": "https://www.gov.uk/entering-staying-uk",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "phase": "live",
+        "public_updated_at": "2018-07-11T08:58:32Z",
+        "schema_name": "taxon",
+        "title": "Travel and identity documents for foreign nationals",
+        "web_url": "https://www.gov.uk/entering-staying-uk/travel-identity-documents-for-foreign-nationals",
+        "withdrawn": false
+      }
+    ]
+  },
+  "locale": "en",
+  "phase": "live",
+  "public_updated_at": "2024-10-31T17:00:02+00:00",
+  "publishing_app": "publisher",
+  "publishing_request_id": "21-1780666160.874-10.13.22.58-2521",
+  "publishing_scheduled_at": null,
+  "rendering_app": "frontend",
+  "scheduled_publishing_delay_seconds": null,
+  "schema_name": "answer",
+  "title": "Biometric residence permits (BRPs)",
+  "updated_at": "2026-09-18T15:20:42+01:00",
+  "withdrawn_notice": {}
+}

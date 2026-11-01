@@ -1,0 +1,506 @@
+{
+  "version": "1.0",
+  "notes": "Annotation aids only. key_phrases are used to locate answer-bearing chunks in the gov.uk snapshot; they are never used at inference time. Queries were written from user needs, then labelled against the source text.",
+  "queries": [
+    {
+      "id": "q01",
+      "question": "How many hours can I work per week during term time on a Student visa?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "20 hours per week during term time for a full-time degree-level course at a higher education provider with a track record of compliance.",
+      "key_phrases": ["20 hours per week during term-time"],
+      "section_hints": ["immigration-rules-student__work-conditions-for-a-student"]
+    },
+    {
+      "id": "q02",
+      "question": "How much does a Student visa application cost from outside the UK?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£558.",
+      "key_phrases": ["£558 to apply for a Student visa from outside the UK"],
+      "section_hints": ["student-visa__overview"]
+    },
+    {
+      "id": "q03",
+      "question": "How long does a Student visa decision usually take if I apply from outside the UK?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Usually 3 weeks when applying from outside the UK.",
+      "key_phrases": ["decision within 3 weeks", "3 weeks, if you're outside the UK"],
+      "section_hints": ["student-visa__overview", "student-visa__apply-online"]
+    },
+    {
+      "id": "q04",
+      "question": "What is the earliest I can apply for a Student visa from outside the UK?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "6 months before the course starts.",
+      "key_phrases": ["6 months before you start your course"],
+      "section_hints": ["student-visa__overview"]
+    },
+    {
+      "id": "q05",
+      "question": "How long can I stay on a Student visa if my course is below degree level?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Usually up to 2 years.",
+      "key_phrases": ["below degree level, you can usually stay in the UK for up to 2 years"],
+      "section_hints": ["student-visa__overview"]
+    },
+    {
+      "id": "q06",
+      "question": "What English level do I need for a degree-level course?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Equivalent to CEFR level B2 for degree-level study.",
+      "key_phrases": ["CEFR level B2"],
+      "section_hints": ["student-visa__knowledge-of-english"]
+    },
+    {
+      "id": "q07",
+      "question": "What is the Graduate visa application fee?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£937.",
+      "key_phrases": ["£937 application fee"],
+      "section_hints": ["graduate-visa__overview", "graduate-visa__how-much-it-costs"]
+    },
+    {
+      "id": "q08",
+      "question": "How long does a Graduate visa last if I apply on or after 1 January 2027?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "18 months.",
+      "key_phrases": ["18 months if you apply on or after 1 January 2027"],
+      "section_hints": ["graduate-visa__overview"]
+    },
+    {
+      "id": "q09",
+      "question": "How long does a Graduate visa last for a PhD graduate?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "3 years for a PhD or other doctoral qualification.",
+      "key_phrases": ["PhD or other doctoral qualification, it will last for 3 years"],
+      "section_hints": ["graduate-visa__overview"]
+    },
+    {
+      "id": "q10",
+      "question": "How much is the Immigration Health Surcharge for a student per year?",
+      "category": "exact",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£776 per year for students.",
+      "key_phrases": ["£776 per year for students"],
+      "section_hints": ["ihs__how-much-pay"]
+    },
+    {
+      "id": "q11",
+      "question": "What's the maximum weekly employment allowed while my course is running?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "20 hours per week during term time for eligible degree-level students.",
+      "key_phrases": ["20 hours per week during term-time"],
+      "section_hints": ["immigration-rules-student__work-conditions-for-a-student"]
+    },
+    {
+      "id": "q12",
+      "question": "How much cash do I need in my bank account to cover living costs in London?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£1,529 per month for up to 9 months for courses in London.",
+      "key_phrases": ["£1,529"],
+      "section_hints": ["student-visa__money", "financial-evidence__how-much-money-you-need-student-visa"]
+    },
+    {
+      "id": "q13",
+      "question": "Can time spent outside the UK during term breaks count toward the Graduate visa study requirement?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Yes. Time outside the UK during term breaks or weekends still counts if you were in the UK when your provider needed you there.",
+      "key_phrases": ["left the UK during term breaks or on weekends"],
+      "section_hints": ["graduate-visa__course-you-studied"]
+    },
+    {
+      "id": "q14",
+      "question": "Can I be self-employed on a Graduate visa?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Yes, self-employment is allowed on a Graduate visa.",
+      "key_phrases": ["be self-employed"],
+      "section_hints": ["graduate-visa__overview"]
+    },
+    {
+      "id": "q15",
+      "question": "As a Chinese national, do I need to provide financial evidence upfront for a Student visa?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "China is on the differential evidence list, so you may not need to provide evidence upfront, but you must still meet the requirement and UKVI may ask for it.",
+      "key_phrases": ["China", "differential evidence requirement"],
+      "section_hints": ["student-visa__money", "financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence"]
+    },
+    {
+      "id": "q16",
+      "question": "Can my partner join me if I'm studying a one-year taught master's starting in 2026?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Generally no. For a postgraduate course starting on or after 1 January 2024, the course must be a PhD/doctorate or research-based higher degree lasting 9 months or longer; a taught master's does not qualify.",
+      "key_phrases": ["If your postgraduate level course starts on or after 1 January 2024", "research-based higher degree"],
+      "section_hints": ["student-visa__family-members"]
+    },
+    {
+      "id": "q17",
+      "question": "How long is an ATAS certificate valid for a visa application?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "6 months from the date it is issued.",
+      "key_phrases": ["valid for 6 months"],
+      "section_hints": ["atas__"]
+    },
+    {
+      "id": "q18",
+      "question": "How long does an ATAS application take?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "At least 30 working days (6 weeks); complex applications can take longer.",
+      "key_phrases": ["30 working days (6 weeks)"],
+      "section_hints": ["atas__"]
+    },
+    {
+      "id": "q19",
+      "question": "Can I use my expired BRP to prove my immigration status?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Not for general proof; use your eVisa. An expired BRP can only be used for limited purposes for 24 months after expiry or until 31 December 2026, whichever comes first.",
+      "key_phrases": ["24 months after the expiry date"],
+      "section_hints": ["brp__biometric-residence-permits-brps", "evisa__set-up-ukvi-account"]
+    },
+    {
+      "id": "q20",
+      "question": "What should I do if my eVisa details are wrong?",
+      "category": "paraphrase",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Report an error. UKVI aims to fix most issues within 5 working days, and up to 15 working days for complex cases.",
+      "key_phrases": ["report an error", "5 working days"],
+      "section_hints": ["evisa__report-error-evisa"]
+    },
+    {
+      "id": "q21",
+      "question": "What is the maintenance amount per month for a course outside London?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£1,171 per month for up to 9 months.",
+      "key_phrases": ["£1,171"],
+      "section_hints": ["student-visa__money", "financial-evidence__how-much-money-you-need-student-visa"]
+    },
+    {
+      "id": "q22",
+      "question": "How much extra money do I need for a dependant outside London?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£680 per month for up to 9 months.",
+      "key_phrases": ["£680"],
+      "section_hints": ["student-visa__family-members", "financial-evidence__how-much-money-you-need-student-visa"]
+    },
+    {
+      "id": "q23",
+      "question": "What is the IHS cost for a 2-year Student visa?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£1,552.",
+      "key_phrases": ["£1,552"],
+      "section_hints": ["ihs__how-much-pay"]
+    },
+    {
+      "id": "q24",
+      "question": "How much is the Graduate visa IHS for 3 years?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£3,105.",
+      "key_phrases": ["£3,105"],
+      "section_hints": ["graduate-visa__how-much-it-costs", "ihs__how-much-pay"]
+    },
+    {
+      "id": "q25",
+      "question": "How many days in a row must maintenance funds be held?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "28 consecutive days.",
+      "key_phrases": ["28 days"],
+      "section_hints": ["student-visa__money", "financial-evidence__evidence-you-need-to-provide"]
+    },
+    {
+      "id": "q26",
+      "question": "How long before my course can I apply for a Student visa from inside the UK?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "3 months before the course starts.",
+      "key_phrases": ["3 months before your course starts"],
+      "section_hints": ["student-visa__overview", "student-visa__apply-online", "student-visa__extend-your-visa"]
+    },
+    {
+      "id": "q27",
+      "question": "How long can I stay on a Student visa at degree level?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Usually up to 5 years.",
+      "key_phrases": ["up to 5 years"],
+      "section_hints": ["student-visa__overview"]
+    },
+    {
+      "id": "q28",
+      "question": "How long does a Graduate visa decision usually take?",
+      "category": "numeric",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Usually 8 weeks.",
+      "key_phrases": ["within 8 weeks"],
+      "section_hints": ["graduate-visa__apply", "graduate-visa__overview"]
+    },
+    {
+      "id": "q29",
+      "question": "I'm doing a PhD and want to bring my partner. How long can I stay after graduation, and what is the Graduate visa fee?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "3 years on the Graduate visa; £937 application fee.",
+      "key_phrases": ["PhD or other doctoral qualification, it will last for 3 years", "£937"],
+      "section_hints": ["graduate-visa__overview", "graduate-visa__how-much-it-costs"]
+    },
+    {
+      "id": "q30",
+      "question": "I'm a Chinese national applying for a one-year master's in London. Do I need to show maintenance funds upfront, and how much per month?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "China is on the differential evidence list, so you may not need to provide evidence upfront unless asked; the London maintenance amount is £1,529 per month.",
+      "key_phrases": ["China", "£1,529"],
+      "section_hints": ["student-visa__money", "financial-evidence__nationalities-that-do-not-need-to-provide-financial-evidence"]
+    },
+    {
+      "id": "q31",
+      "question": "I'm extending my Student visa inside the UK. What is the fee and how long does a decision take?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£558, and a decision usually within 8 weeks.",
+      "key_phrases": ["£558 to extend this visa", "within 8 weeks"],
+      "section_hints": ["student-visa__extend-your-visa"]
+    },
+    {
+      "id": "q32",
+      "question": "I have a visit visa and want to switch to a Student visa. Can I, and when is the earliest I can apply?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "You cannot switch from a visit visa. If you are eligible on another route, the earliest you can apply is 3 months before the course starts.",
+      "key_phrases": ["You cannot switch to this visa if you have one of the following visas", "3 months before your course starts"],
+      "section_hints": ["student-visa__switch-to-this-visa"]
+    },
+    {
+      "id": "q33",
+      "question": "I'm bringing my partner and child to London. How much maintenance do they each need, and what is the visa fee per person?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "£845 per month each; £558 visa fee per person.",
+      "key_phrases": ["£845 a month", "£558 for the visa"],
+      "section_hints": ["student-visa__family-members"]
+    },
+    {
+      "id": "q34",
+      "question": "If my Student visa expires on 1 December, when must my new course begin and when must I apply?",
+      "category": "multi_hop",
+      "language": "en",
+      "answerable": true,
+      "reference_answer": "Apply for a new visa before 1 December; the new course must begin by 29 December.",
+      "key_phrases": ["must apply for a new visa before 1 December", "new course must begin by 29 December"],
+      "section_hints": ["student-visa__extend-your-visa", "student-visa__switch-to-this-visa"]
+    },
+    {
+      "id": "q35",
+      "question": "Can I bring my dog with me on a Student visa?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus does not cover bringing pets. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q36",
+      "question": "What IELTS band score do I need for a Student visa?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus specifies CEFR levels, not IELTS bands. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q37",
+      "question": "How much is the Child Student visa application fee?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus does not state the Child Student visa application fee. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q38",
+      "question": "Do I need to register with the police after arriving in the UK?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus does not cover police registration. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q39",
+      "question": "What is the minimum salary for a Skilled Worker visa?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus mentions the Skilled Worker route but does not state its salary threshold. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q40",
+      "question": "How do I apply for British citizenship after my Student visa?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus does not cover British citizenship applications. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q41",
+      "question": "What tuition fees does the University of York charge for international students?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus is gov.uk visa guidance, not university fee data. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q42",
+      "question": "Do I need private health insurance in addition to the Immigration Health Surcharge?",
+      "category": "unanswerable",
+      "language": "en",
+      "answerable": false,
+      "reference_answer": "The corpus does not cover private health insurance. The correct behaviour is refusal.",
+      "key_phrases": [],
+      "section_hints": []
+    },
+    {
+      "id": "q43",
+      "question": "学期期间每周最多能工作多少小时？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "符合条件的学生在学期期间每周最多工作 20 小时。",
+      "key_phrases": ["20 hours per week during term-time"],
+      "section_hints": ["immigration-rules-student__work-conditions-for-a-student"]
+    },
+    {
+      "id": "q44",
+      "question": "伦敦地区每月生活费需要准备多少钱？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "每月 £1,529，最多 9 个月。",
+      "key_phrases": ["£1,529"],
+      "section_hints": ["student-visa__money", "financial-evidence__how-much-money-you-need-student-visa"]
+    },
+    {
+      "id": "q45",
+      "question": "毕业生签证申请费是多少？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "£937。",
+      "key_phrases": ["£937 application fee"],
+      "section_hints": ["graduate-visa__overview", "graduate-visa__how-much-it-costs"]
+    },
+    {
+      "id": "q46",
+      "question": "博士毕业后毕业生签证可以停留多久？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "博士或其他博士学位可获得 3 年毕业生签证。",
+      "key_phrases": ["PhD or other doctoral qualification, it will last for 3 years"],
+      "section_hints": ["graduate-visa__overview"]
+    },
+    {
+      "id": "q47",
+      "question": "申请学生签证需要提供英语成绩吗？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "通常需要证明英语能力；可通过 SELT、英国学历等证明，部分国籍或学历可豁免。",
+      "key_phrases": ["prove your knowledge of the English language", "SELT"],
+      "section_hints": ["student-visa__knowledge-of-english"]
+    },
+    {
+      "id": "q48",
+      "question": "我可以带配偶和孩子一起去英国吗？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "取决于课程类型和资助情况；通常需为政府资助的 6 个月以上课程，或 9 个月以上的全日制研究生课程，且 2024 年 1 月 1 日后开课的课程须为博士或研究型高等学位。",
+      "key_phrases": ["postgraduate level course", "research-based higher degree"],
+      "section_hints": ["student-visa__family-members"]
+    },
+    {
+      "id": "q49",
+      "question": "BRP 过期了还能用吗？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "不能用于一般身份证明；应使用 eVisa。过期 BRP 仅在有限用途下可用，期限为到期后 24 个月或 2026 年 12 月 31 日，以较早者为准。",
+      "key_phrases": ["24 months after the expiry date"],
+      "section_hints": ["brp__biometric-residence-permits-brps", "evisa__set-up-ukvi-account"]
+    },
+    {
+      "id": "q50",
+      "question": "ATAS 认证需要多长时间？",
+      "category": "chinese",
+      "language": "zh",
+      "answerable": true,
+      "reference_answer": "至少 30 个工作日（6 周），复杂申请可能更久。",
+      "key_phrases": ["30 working days (6 weeks)"],
+      "section_hints": ["atas__"]
+    }
+  ]
+}

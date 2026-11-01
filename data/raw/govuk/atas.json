@@ -1,0 +1,912 @@
+{
+  "analytics_identifier": null,
+  "base_path": "/guidance/academic-technology-approval-scheme",
+  "content_id": "5dbc0b66-7631-11e4-a3cb-005056011aef",
+  "description": "Apply for an Academic Technology Approval Scheme (ATAS) certificate, to study certain subjects in the UK. ",
+  "details": {
+    "attachments": [],
+    "body": "<div class=\"govspeak\"><h2 id=\"the-academic-technology-approval-scheme\">The Academic Technology Approval Scheme</h2>\n\n<p>The Academic Technology Approval Scheme (ATAS) applies to certain foreign students and researchers who want to study or conduct research in specific sensitive technology-related fields in the UK. The Foreign, Commonwealth &amp; Development Office (FCDO) administers the scheme and issues ATAS certificates.</p>\n\n<p>ATAS only applies to employers who are also holders of a student sponsor licence. For further guidance read: <a href=\"https://www.gov.uk/uk-visa-sponsorship-employers/check-whether-your-worker-needs-an-atas-certificate\">UK visa sponsorship for employers: check whether your worker needs an ATAS certificate</a></p>\n\n<h2 id=\"common-terms\">Common terms</h2>\n\n<p>We use the following terms in this guidance:</p>\n\n<p><strong>Higher Education Institution</strong> (HEI) refers to the university offering a postgraduate programme of study, research or contractual employment.</p>\n\n<p><strong>Research Institution</strong> is an organisation where an individual is employed to conduct research.</p>\n\n<p><strong>Student</strong> refers to those undertaking taught courses or research at a Masters or PhD level.</p>\n\n<p><strong>Contracted researcher</strong> refers to individuals who are contractually employed by an HEI or Research Institution.</p>\n\n<p><strong>Visiting academic researcher</strong> is someone visiting a HEI or Research Institution temporarily (for up to 12 months) to teach or participate in research that doesn’t lead to a UK qualification for them.</p>\n\n<p><strong>Common Aggregate Hierarchy code (CAH3)</strong> is a subject code linked to courses or research areas offered by HEIs or Research Institutions.</p>\n\n<p><strong>Standard Occupational Classification (SOC)</strong> is a four-digit employment code used to group jobs by the skills and qualifications needed for the role.</p>\n\n<p><strong>Financial sponsor</strong> is the person or institution funding your studies or research.</p>\n\n<p><strong>Duplicate application</strong> is when an individual tries to submit a new ATAS application, but they already have an existing application in the system in a state of ‘submitted’, ‘accepted’, ‘changes required’ and the:</p>\n\n<ul>\n  <li>\n    <p>date of birth is identical</p>\n  </li>\n  <li>\n    <p>passport number is identical</p>\n  </li>\n  <li>\n    <p>the CAH 3 Code is identical</p>\n  </li>\n  <li>\n    <p>HEI or Research Institution details are identical</p>\n  </li>\n</ul>\n\n<p>Other common terms related to the status and outcome of an ATAS application:</p>\n\n<ul>\n  <li>\n    <p><strong>Submitted</strong> is the status of an application when it is received into the ATAS IT system for assessment. You can choose to withdraw your application at this stage.</p>\n  </li>\n  <li>\n    <p><strong>Requires Changes</strong> is when an error is identified within the ATAS application. You can correct the mistake and resubmit your application or withdraw it at this stage.</p>\n  </li>\n  <li>\n    <p><strong>Part-complete</strong> is when the application is still being edited and has not been submitted.</p>\n  </li>\n  <li>\n    <p><strong>Withdrawn</strong> is the status of an application that has been removed from the ATAS IT system. You will no longer have access to it for editing and it will not be assessed.</p>\n  </li>\n  <li>\n    <p><strong>Decided</strong> is when an ATAS application has been fully assessed and the outcome is emailed to the applicant.</p>\n  </li>\n  <li>\n    <p><strong>Granted</strong> is when ATAS clearance is agreed. You will be issued with an ATAS certificate by email.</p>\n  </li>\n  <li>\n    <p><strong>Refused</strong> is when ATAS clearance is denied. An ATAS certificate will not be issued.</p>\n  </li>\n</ul>\n\n<h2 id=\"when-you-dont-need-an-atas-certificate\">When you don’t need an ATAS certificate</h2>\n\n<p>If you’re studying for a postgraduate diploma or PGCE, you do not need an ATAS certificate.</p>\n\n<p>You do not need to apply for an ATAS certificate if:</p>\n\n<ul>\n  <li>you have Indefinite Leave to Remain (ILR) in the UK</li>\n  <li>you are exempt from UK Immigration Control</li>\n  <li>ATAS does not apply to your specific visa conditions. You should read the conditions of your visa carefully</li>\n</ul>\n\n<p><strong>Example:</strong>  an individual will not need an ATAS certificate if they hold a valid Global Talent Visa for employment as a contracted researcher in the UK.</p>\n\n<p>You also do not need to apply if you are a national or citizen of:  </p>\n\n<ul>\n  <li>\n    <p>Australia</p>\n  </li>\n  <li>\n    <p>Austria</p>\n  </li>\n  <li>\n    <p>Belgium</p>\n  </li>\n  <li>\n    <p>Bulgaria</p>\n  </li>\n  <li>\n    <p>Canada</p>\n  </li>\n  <li>\n    <p>Croatia</p>\n  </li>\n  <li>\n    <p>Republic of Cyprus</p>\n  </li>\n  <li>\n    <p>Czech Republic</p>\n  </li>\n  <li>\n    <p>Denmark</p>\n  </li>\n  <li>\n    <p>Estonia</p>\n  </li>\n  <li>\n    <p>Finland</p>\n  </li>\n  <li>\n    <p>France</p>\n  </li>\n  <li>\n    <p>Germany</p>\n  </li>\n  <li>\n    <p>Greece</p>\n  </li>\n  <li>\n    <p>Hungary</p>\n  </li>\n  <li>\n    <p>Iceland</p>\n  </li>\n  <li>\n    <p>Ireland</p>\n  </li>\n  <li>\n    <p>Italy</p>\n  </li>\n  <li>\n    <p>Japan</p>\n  </li>\n  <li>\n    <p>Latvia</p>\n  </li>\n  <li>\n    <p>Liechtenstein</p>\n  </li>\n  <li>\n    <p>Lithuania</p>\n  </li>\n  <li>\n    <p>Luxembourg</p>\n  </li>\n  <li>\n    <p>Malta</p>\n  </li>\n  <li>\n    <p>Netherlands</p>\n  </li>\n  <li>\n    <p>New Zealand</p>\n  </li>\n  <li>\n    <p>Norway</p>\n  </li>\n  <li>\n    <p>Poland</p>\n  </li>\n  <li>\n    <p>Portugal</p>\n  </li>\n  <li>\n    <p>Republic of Korea (South Korea)</p>\n  </li>\n  <li>\n    <p>Romania</p>\n  </li>\n  <li>\n    <p>Singapore</p>\n  </li>\n  <li>\n    <p>Slovakia</p>\n  </li>\n  <li>\n    <p>Slovenia</p>\n  </li>\n  <li>\n    <p>Spain</p>\n  </li>\n  <li>\n    <p>Sweden</p>\n  </li>\n  <li>\n    <p>Switzerland</p>\n  </li>\n  <li>\n    <p>United States of America</p>\n  </li>\n</ul>\n\n<p>You do not need an ATAS certificate If you are a dual national or dual citizen and one of your nationalities/citizenships is for an exempt country listed above.</p>\n\n<p>However, you must have a valid passport from an exempt country listed above and a valid UK visa linked to it. This may show directly in your passport or online if you have an eVisa. Your HEI or Research Institution may check this before the start of your taught course, research programme or employment.</p>\n\n<h2 id=\"when-you-need-an-atas-certificate\">When you need an ATAS certificate</h2>\n\n<p>Students and contracted researchers of all other nationalities that are not listed above must apply for an ATAS certificate if your taught course, research or employment requires it. Those applying for an undergraduate course with an integrated Masters year may also need ATAS clearance.</p>\n\n<p>If you are undertaking a taught course, research at masters or PhD level, or employment your subject area will have a Common Aggregator Hierarchy (CAH3) code and your HEI or Research Institution will typically include this on your official offer letter. Or they will be able to confirm it separately. </p>\n\n<div role=\"note\" aria-label=\"Information\" class=\"application-notice info-notice\">\n  <p><a rel=\"external\" href=\"https://www.academic-technology-approval.service.gov.uk/\">Check if you need an ATAS certificate</a>.</p>\n</div>\n\n<p>If you are a contracted researcher, the HEI or Research Institution will also confirm if your employment has a standard occupational classification (SOC) that requires an ATAS certificate.</p>\n\n<p><a href=\"https://www.gov.uk/government/publications/academic-technology-approval-scheme-atas-occupation-codes/academic-technology-approval-scheme-atas-occupation-codes\">Read guidance on Academic Technology Approval Scheme (ATAS): occupation codes</a></p>\n\n<p>For some visas you will need to have an ATAS certificate before applying for the visa so it can be checked as part of your visa application. If your course or employment requires an ATAS certificate, you must get one <strong>before</strong> applying for a:</p>\n\n<ul>\n  <li>Student visa</li>\n  <li>Skilled Worker visa</li>\n  <li>Intra Company Transfer (ICT) visa</li>\n  <li>Global Business Mobility visa</li>\n  <li>Scale-up visa</li>\n  <li>Temporary Work – International Agreement visa</li>\n  <li>Temporary Work – Government Authorised Exchange visa</li>\n</ul>\n\n<p>Other visas do not require you to provide an ATAS certificate at the point when making your visa application, but you <strong>must</strong> always obtain an ATAS certificate before starting a programme or employment that requires it as this will be checked by your HEI or Research Institution. You do not need an ATAS certificate before applying for a:</p>\n\n<ul>\n  <li>Standard Visit visa (including visiting as an Academic)</li>\n  <li>Global Talent visa (for individuals who obtain a Global Talent Visa and later decide to study an ATAS relevant course, applies to study only)</li>\n  <li>Graduate visa (applies study only)</li>\n  <li>High Potential Individual visa (applies to study and research)</li>\n  <li>Innovator Founder visa (applies to study only)</li>\n  <li>Start-up visa (applies to study only)</li>\n  <li>UK Ancestry visa (applies to study only)</li>\n  <li>British National Overseas visa (BNO) (applies to study only)</li>\n  <li>if you are a dependant of someone who has a Work or Study visa (applies to study only)</li>\n</ul>\n\n<p>For more information on ATAS Immigration Rules visit <a href=\"https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-atas-academic-technology-approval-scheme-atas\">Immigration Rules Appendix ATAS</a>.</p>\n\n<h3 id=\"exchange-or-study-abroad-scheme-courses\">Exchange or study abroad scheme courses</h3>\n\n<p>If an ATAS certificate is required, it must cover the period of any planned study taking place in the UK.</p>\n\n<p>You may be subject to UK Export Control Legislation. <a href=\"https://www.gov.uk/guidance/export-controls-applying-to-academic-research\">Read guidance on export controls on academic research</a>.</p>\n\n<h3 id=\"joint-programmes\">Joint programmes</h3>\n\n<p>You must tell us if your programme involves research or taught courses that are jointly awarded or delivered at more than one HEI in the UK. In the ATAS application form you should include your main institution in the drop-down box.</p>\n\n<p>If you are a student, include all additional institutions in the ‘what will you be studying’ open text box.</p>\n\n<p>If you are a researcher, include all additional institutions in the ‘research statement’ open text box.</p>\n\n<h2 id=\"atas-immigration-rules\">ATAS immigration rules</h2>\n\n<p>You need your ATAS certificate to apply for some UK visas.</p>\n\n<p><a href=\"https://www.gov.uk/apply-to-come-to-the-uk\">Read about how to apply for a visa to come to the UK</a>.</p>\n\n<p>Your ATAS certificate is valid for 6 months for use as part of a visa application from the ATAS certificate’s date of issue. For some visas your ATAS certificate will be checked as part of the visa application process.</p>\n\n<p>Some visas have particular timeframes for when you can apply, for example based on your course start date for a Student visa. You should check the visa requirements on GOV.UK for details before making your visa application.</p>\n\n<p>If you need an ATAS certificate it must be approved before you can start in the UK as a student or contracted researcher. </p>\n\n<p>The ATAS certificate is valid for the duration of your course or research, as long as you have a valid UK visa.</p>\n\n<p>If your visa expires during your course or research period, you must reapply for a new ATAS certificate and a new UK visa.</p>\n\n<p>If you apply to extend your UK visa before it expires, your current visa conditions will continue while you are waiting for a decision, even if the expiry date passes while you are waiting.</p>\n\n<p>Check when your current visa is due to expire and allow enough time to complete the ATAS application and visa renewal processes.</p>\n\n<p>If you are applying for asylum in the UK, you must also apply for an ATAS certificate for any course or employment that requires one.</p>\n\n<h3 id=\"if-you-are-already-in-the-uk\">If you are already in the UK</h3>\n\n<p>If you are already in the UK on a valid UK visa and are changing course or research project, you will still need an ATAS certificate if your new course, research project or employment requires it.</p>\n\n<p>You must provide the HEI or Research Institution with a valid ATAS certificate before starting your new course or area of research.</p>\n\n<p><a href=\"https://www.gov.uk/guidance/immigration-rules/immigration-rules-appendix-atas-academic-technology-approval-scheme-atas\">Read information on ATAS Immigration Rules</a>.</p>\n\n<h2 id=\"how-to-apply\">How to apply</h2>\n\n<p>You need to <a rel=\"external\" href=\"https://www.academic-technology-approval.service.gov.uk/create-an-account\">create an online account</a>, fill in and submit an application form on the ATAS website.</p>\n\n<div role=\"note\" aria-label=\"Warning\" class=\"application-notice help-notice\">\n<p>Due to an ongoing technical issue, do not use Gmail within your ATAS application. Use an alternative email address instead.</p>\n</div>\n\n<p>You <strong>do not</strong> need to pay for the ATAS application. </p>\n\n<p>You must provide the first name (given name) and surname of your referees, employers, and financial sponsors (do not use initials).</p>\n\n<p>When you have completed your application, check your responses carefully before submitting.</p>\n\n<p>Your application must include:</p>\n\n<ul>\n  <li>\n    <p>the relevant CAH3 code, provided by the HEI or Research Institution</p>\n  </li>\n  <li>\n    <p>details of your previous studies</p>\n  </li>\n  <li>\n    <p>your full name, date of birth, and the address of where you currently live</p>\n  </li>\n  <li>\n    <p>your passport details for the one you will use in your visa application.  If you are already in the UK, include the passport you entered on or if it has expired include your current passport</p>\n  </li>\n  <li>\n    <p>details of previous and current employment (if applicable). If you have not been employed, put ‘not applicable / never employed’. You should also explain on the form (in one of the open text boxes) any gaps in your employment history, for example if you were unemployed or a full-time parent</p>\n  </li>\n  <li>\n    <p>details of all your published papers (if applicable)</p>\n  </li>\n  <li>\n    <p>contact details for 2 referees you have ideally known for over 3 years. One should be a referee from your home country and the other an academic referee. If you do not have a home referee because you live outside of your home country, state this on the application form in one of the open text boxes and include an alternative academic or professional referee</p>\n  </li>\n  <li>\n    <p>details of how you will be financially sponsored within the UK. If you are waiting on a funding decision from your financial sponsor, state this on the application form</p>\n  </li>\n</ul>\n\n<p>Apply online: <a rel=\"external\" href=\"https://www.academic-technology-approval.service.gov.uk/\">Academic Technology Approval Scheme (ATAS) certificate</a></p>\n\n<h2 id=\"use-accurate-information-in-your-atas-application\">Use accurate information in your ATAS application</h2>\n\n<p>You must give accurate, complete and truthful information in your ATAS application. If you give false, misleading or incomplete information, <strong>your application will be refused</strong>.</p>\n\n<h3 id=\"what-we-check\">What we check</h3>\n\n<p>We check the information you provide against academic and official records.</p>\n\n<p>We also review any previous ATAS applications and other relevant documents.</p>\n\n<p>If we cannot confirm your information, or if there are unexplained inconsistencies, we will treat this as false information.</p>\n\n<h3 id=\"be-responsible-for-your-application\">Be responsible for your application</h3>\n\n<p>You are responsible for all the information you submit, even if someone helps you to complete your application. This includes help from advisers, agents, colleagues or digital tools.</p>\n\n<h3 id=\"use-ai-tools-safely\">Use AI tools safely</h3>\n\n<p>You may use AI tools to improve the clarity or structure of your application.</p>\n\n<p>But you must <strong>not</strong> use AI tools to create, change or invent information about your identity, qualifications, experience or research.</p>\n\n<p>AI tools can generate text that we cannot verify, so you must check any content produced using AI before you submit it.</p>\n\n<p>If you submit false or unverifiable information produced by AI, <strong>your application will be refused</strong>.</p>\n\n<h3 id=\"what-happens-if-you-give-false-information\">What happens if you give false information</h3>\n\n<p>By submitting your application, you confirm that all information is accurate and can be checked.</p>\n\n<p>If you provide false, altered or unverifiable information, <strong>your application will be refused</strong>.</p>\n\n<h2 id=\"students-additional-application-form-guidance\">Students: additional application form guidance</h2>\n\n<p>If you are studying towards a postgraduate qualification, you should select the ‘student applicant’ option displayed in the online ATAS form even if you are also doing paid research work temporarily.</p>\n\n<p>You are a ‘visiting student’ if you intend to visit the UK temporarily as part of an overseas study or research project that will lead to a <strong>non-UK qualification</strong> equivalent to a UK masters or PhD.</p>\n\n<p>When completing the online form, you must:</p>\n\n<ol>\n  <li>Select the option ‘Taught/research student’.</li>\n  <li>Then select:</li>\n</ol>\n\n<ul>\n  <li>\n    <p><strong>‘Taught’</strong> if you are coming to the UK to study (for example MEng, MSc)</p>\n  </li>\n  <li>\n    <p><strong>‘Research’</strong> if you coming to the UK to carry out research (for example Masters by Research, PhD)</p>\n  </li>\n</ul>\n\n<h3 id=\"your-application-must-include\">Your application must include:</h3>\n\n<ul>\n  <li>full name of your HEI and course of study</li>\n  <li>primary supervisor’s name</li>\n  <li>for taught courses, list all elective or optional modules available to you (if there are no elective or optional modules, list the core modules)</li>\n  <li>for research courses and PhD’s, describe the nature and scope of your main research project and list any core modules. If you have not yet been assigned a research project, give the HEI’s description and a list of topics for potential research projects</li>\n  <li>details of your course modules or research proposal should fully reflect what has been listed and agreed by your HEI</li>\n  <li>personal statement</li>\n</ul>\n\n<h2 id=\"students-further-information\">Students: further information</h2>\n\n<p>If your course or research subject requires it, you will need an ATAS certificate:</p>\n\n<ul>\n  <li>as part of your visa application (for some visa routes)</li>\n  <li>to register on your course where you have limited permission to stay/immigration status (this applies to almost all visa categories)</li>\n  <li>if your course details change</li>\n  <li>you will need an ATAS certificate for some undergraduate courses that have an integrated master’s year. (your HEI will confirm if your undergraduate course requires an ATAS certificate)</li>\n</ul>\n\n<h3 id=\"applying-to-more-than-one-hei\">Applying to more than one HEI</h3>\n\n<p>You can submit multiple ATAS applications for <strong>different</strong> courses or research areas at different HEI’s consecutively, however the system will not accept duplicate applications.</p>\n\n<h3 id=\"applying-for-courses-with-the-same-hei-and-cah3-code\">Applying for courses with the same HEI and CAH3 code</h3>\n\n<p>To apply for more than one course at the same HEI and the courses have the same CAH3 code, you must wait for a decision to be made on the first application, before submitting a second application.</p>\n\n<p>After you receive the first ATAS certificate, you can then apply a second time using the same HEI and CAH3 code.</p>\n\n<h3 id=\"if-your-course-dates-have-changed\">If your course dates have changed</h3>\n\n<p>You will need a new ATAS certificate if your course end date is delayed by 3 months or more. In this situation, contact your HEI and notify the ATAS team for further guidance.</p>\n\n<p>Contact the ATAS team by email: <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a></p>\n\n<h3 id=\"if-your-field-of-study-has-changed\">If your field of study has changed</h3>\n\n<p>If you have a UK visa with an ATAS certificate you can only study within the field you applied for.</p>\n\n<p>You must apply for a new ATAS certificate if:</p>\n\n<ul>\n  <li>the content of your course changes</li>\n  <li>your primary supervisor changes</li>\n</ul>\n\n<h3 id=\"applying-to-write-a-thesis\">Applying to write a thesis</h3>\n\n<p>If your visa expires before you have written your thesis, you must reapply for an ATAS certificate and renew your visa.</p>\n\n<h2 id=\"contracted-researchers-additional-application-form-guidance\">Contracted Researchers: additional application form guidance</h2>\n\n<p>If you are working on a full or part-time basis as a contracted researcher, you should select the ‘Researcher’ option displayed in the online application form. The ATAS researcher route applies to contracted researchers that are employed in a HEI or Research Institute in the UK or who have an offer of employment in the UK, and to visiting academic researchers.</p>\n\n<p>When completing the form, you must:</p>\n\n<ol>\n  <li>Select the option <strong>‘Researcher’</strong>.</li>\n  <li>Continue completing the application.</li>\n</ol>\n\n<p>Your application must include the following:</p>\n\n<ul>\n  <li>full name of your HEI or Research Institution</li>\n  <li>name of your project lead or line manager</li>\n  <li>the research statement you agreed with your HEI or Research Institution</li>\n  <li>a personal statement explaining why you want to pursue that particular area of research and your future ambitions</li>\n  <li>if you are extending your research project, ensure your application reflects the new length of your visit/employment. You should use the date you submit your ATAS extension application as the start date</li>\n</ul>\n\n<h2 id=\"contracted-researchers-further-information\">Contracted Researchers: further information</h2>\n\n<p>If you apply for an ATAS certificate as a contracted researcher, you can begin your employment on or at any time after the issue start date on your ATAS certificate.</p>\n\n<p>You do not need to have a final employment contract before applying for an ATAS certificate, but you must have an agreed research proposal/statement.</p>\n\n<p>If you have one of these types of visas, you can study on a course alongside your research:</p>\n\n<ul>\n  <li>Skilled Worker visa</li>\n  <li>Intra Company Transfer (ICT) visa</li>\n  <li>Global Business Mobility visa</li>\n  <li>Scale-up visa</li>\n  <li>Temporary Work - International Agreement visa</li>\n  <li>Temporary Work - Government Authorised Exchange visa</li>\n  <li>a Global Talent Visa (for individuals who obtain a Global Talent Visa and later decide to study an ATAS relevant course)</li>\n  <li>High Potential Individual</li>\n  <li>an Innovator Visa</li>\n  <li>a Start-up Visa</li>\n  <li>a UK Ancestry Visa</li>\n  <li>a British National (Overseas) Visa</li>\n</ul>\n\n<p>If you plan to take an additional course alongside your research, you must include information for both the research project and the course when you apply for an ATAS certificate.</p>\n\n<p>You must apply for a new ATAS certificate if:</p>\n\n<ul>\n  <li>your HEI or Research Institution of employment changes</li>\n  <li>the content of your research project or scope of research changes</li>\n  <li>your job title changes</li>\n</ul>\n\n<p>Contact the ATAS team by email: <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a></p>\n\n<h3 id=\"researching-at-more-than-onehei-or-research-institute\">Researching at more than one HEI or research institute</h3>\n\n<p>If ATAS is a requirement or a condition of your UK visa and you are joining a joint research programme that is jointly awarded or delivered at more than one HEI or Research Institution, you should submit one ATAS application form but list all institutions on the form.</p>\n\n<p>Include your main institution in the drop-down box and list all additional institutions in the ‘research statement’ open text box.</p>\n\n<p>You can submit multiple ATAS applications for different areas of research consecutively, but the system will not accept duplicate applications.</p>\n\n<p>Apply online: <a rel=\"external\" href=\"https://www.academic-technology-approval.service.gov.uk/\">Academic Technology Approval Scheme (ATAS) certificate</a></p>\n\n<h3 id=\"if-your-employment-start-date-is-delayed\">If your employment start date is delayed</h3>\n\n<p>You do not need to apply for a new ATAS certificate whilst the current one is valid.</p>\n\n<p>However, you must apply for a new ATAS certificate if your visa expires during your employment.</p>\n\n<h3 id=\"if-you-do-not-have-a-research-proposal-letter\">If you do not have a research proposal letter</h3>\n\n<p>You should provide (where applicable) the research statements specifically agreed with your HEI or Research Institution.</p>\n\n<h3 id=\"visiting-academic-researcher\">Visiting Academic Researcher</h3>\n\n<p>If you’re visiting the UK temporarily (up to 12 months) for professional research you should apply for an ATAS certificate using the ‘Researcher’ option in the online form.</p>\n\n<p>Visiting Researchers can apply for a Standard Visitor visa before you get an ATAS certificate, however, you will need to obtain an ATAS certificate before starting any research activity in the UK. You should do this before travelling to the UK.</p>\n\n<p>The HEI or Research Institution must check your ATAS certificate before allowing the research to start. If you do not provide this, you will not be able to start.</p>\n\n<p>Apply online: <a rel=\"external\" href=\"https://www.academic-technology-approval.service.gov.uk/\">Academic Technology Approval Scheme (ATAS) certificate</a></p>\n\n<h2 id=\"the-application-process-\">The application process  </h2>\n\n<p>ATAS applications take at least 30 working days (6 weeks) to process, and some complex ones can take longer. There is no ‘fast track’ service’.</p>\n\n<p>More people apply from April to August, so processing times may be longer during this period.  </p>\n\n<p>The ATAS IT system does not accept duplicate applications.</p>\n\n<p>After your application has been submitted, you can only change your: </p>\n\n<ul>\n  <li>email address</li>\n  <li>phone number</li>\n  <li>marital status</li>\n</ul>\n\n<p>If your passport expires or is lost whilst your application is being processed, you must email the ATAS team the details of your new passport.  </p>\n\n<p>Contact the ATAS team by email: <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a></p>\n\n<h2 id=\"outcome-of-your-application\">Outcome of your application</h2>\n\n<p>The ATAS team will tell you the outcome of your ATAS application by email. They will also tell the HEI or Research Institution involved.</p>\n\n<p>Check your spam or junk folders regularly in case the email has been filtered out.</p>\n\n<h3 id=\"successful-applications\">Successful applications</h3>\n\n<p>The ATAS certificate will be emailed to you.</p>\n\n<p>When you receive the certificate, you should:</p>\n\n<ol>\n  <li>\n    <p>Check the details on it are correct and match with your offer or research area agreed with your HEI or Research Institution.</p>\n  </li>\n  <li>\n    <p>Upload your ATAS certificate as part of your visa application documents.</p>\n  </li>\n  <li>\n    <p>Contact the ATAS Team at <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a> if any of the details on the ATAS certificate are not correct.</p>\n  </li>\n</ol>\n\n<h3 id=\"if-your-application-is-unsuccessful\">If your application is unsuccessful</h3>\n\n<p>You cannot study or conduct research in the UK without an ATAS certificate if it is a condition or requirement of your visa.</p>\n\n<p>You must wait 90 days before reapplying for an ATAS certificate for the same course or research at the same institution with the same CAH3 code. </p>\n\n<p>You can apply again for an ATAS certificate for a different course or research area at the same HEI, or you can apply to a different HEI.</p>\n\n<h3 id=\"appeals\">Appeals</h3>\n\n<p>If you are refused ATAS clearance you can ask for an appeal by contacting the ATAS Team at: <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a></p>\n\n<h2 id=\"contacting-the-atasteam\">Contacting the ATAS team</h2>\n\n<p>For application enquiries email: <a href=\"mailto:ATAS@fcdo.gov.uk\">ATAS@fcdo.gov.uk</a> </p>\n\n<p>The ATAS team works from Monday to Friday 9am to 5pm.</p>\n\n<p>We aim to answer your email within 5 working days, but this may take longer during busy periods.</p>\n\n<h2 id=\"privacy-policy\">Privacy policy</h2>\n\n<p>We will store your ATAS application on our secure server. When we have made a decision on your application, we will share this with UK Visas and Immigration, Home Office and the HEI you have applied to. We will not share your details with anyone else unless there are justified grounds to do so.</p>\n\n<p>For further information, <a href=\"https://www.gov.uk/government/publications/fcdo-privacy-notice-academic-technology-approval-scheme-atas\">view our privacy notice</a>.</p>\n\n</div>",
+    "change_history": [
+      {
+        "note": "Added a new section warning against the use of AI‑generated false details.",
+        "public_timestamp": "2026-03-24T10:09:39Z"
+      },
+      {
+        "note": "Note added that ATAS online applications will not be available 5 December 2025.",
+        "public_timestamp": "2025-11-26T14:13:47Z"
+      },
+      {
+        "note": "Information has been added about a current issue for people applying for an ATAS certificate using a Gmail address.",
+        "public_timestamp": "2025-06-10T12:39:34Z"
+      },
+      {
+        "note": "Guidance fully reviewed and updated.",
+        "public_timestamp": "2025-01-08T13:56:29Z"
+      },
+      {
+        "note": "Removal of site maintenance dates ",
+        "public_timestamp": "2024-02-19T16:35:39Z"
+      },
+      {
+        "note": "Amendment to unavailability message timing",
+        "public_timestamp": "2024-02-02T09:42:06Z"
+      },
+      {
+        "note": "Offline maintenance message updated ",
+        "public_timestamp": "2024-01-30T12:21:30Z"
+      },
+      {
+        "note": "ATAS online applications will be unavailable from 5pm on 25 January to 9am 26 January (GMT).\r\n\r\n",
+        "public_timestamp": "2024-01-23T17:21:35Z"
+      },
+      {
+        "note": "ATAS application processing times may take longer than usual between 22 December 2023 to 2 January 2024. Do not contact the enquiries team within 6 weeks of submitting your application.",
+        "public_timestamp": "2023-12-21T11:36:44Z"
+      },
+      {
+        "note": "Updated how long student and researcher ATAS applications take to process.\r\n",
+        "public_timestamp": "2023-10-09T08:49:41Z"
+      },
+      {
+        "note": "The ATAS application system will not be available between 5pm on Friday 7 July 2023 to Sunday 9 July 2023, due to scheduled technical maintenance.",
+        "public_timestamp": "2023-07-04T13:20:08Z"
+      },
+      {
+        "note": "The ATAS system will be offline between 5pm (British Summer Time) on Friday 16 June 2023 to 6pm on Sunday 18 June 2023 due to scheduled maintenance.",
+        "public_timestamp": "2023-06-09T11:37:51Z"
+      },
+      {
+        "note": "Update to 'How long applications take' section. Student and researcher ATAS applications take at least 20 working days to process. During April to September, it can take at least 30 working days to complete.",
+        "public_timestamp": "2022-05-27T10:46:19Z"
+      },
+      {
+        "note": "ATAS application processing times may take longer than usual between 23 December 2021 to 4 January 2022. Do not contact the enquiries team within 6 weeks of submitting your application.",
+        "public_timestamp": "2021-12-07T14:27:51Z"
+      },
+      {
+        "note": "September update added to \"How long applications take\" section.",
+        "public_timestamp": "2021-09-01T14:02:35Z"
+      },
+      {
+        "note": "Updated with additional information for researchers",
+        "public_timestamp": "2021-05-14T11:00:05Z"
+      },
+      {
+        "note": "Updated to reflect borders and immigration system changes",
+        "public_timestamp": "2020-10-06T17:34:05Z"
+      },
+      {
+        "note": "The ATAS online certificate service is not available from 5 to 9 October 2020",
+        "public_timestamp": "2020-10-05T12:05:27Z"
+      },
+      {
+        "note": "Updated to include Advanced Conventional Military Technology (ACMT) as a subject in scope for ATAS certification",
+        "public_timestamp": "2020-09-30T18:14:53Z"
+      },
+      {
+        "note": "ATAS is currently unavailable due to the coronavirus (COVID-19) outbreak.  ",
+        "public_timestamp": "2020-04-03T14:49:52Z"
+      },
+      {
+        "note": "Application process update: ATAS applications can now take up to 30 days. ",
+        "public_timestamp": "2020-03-20T16:53:36Z"
+      },
+      {
+        "note": "ATAS information updated for study/research for less than 6 months.",
+        "public_timestamp": "2018-02-06T17:29:47Z"
+      },
+      {
+        "note": "Added information on the ATAS certificate requirements for postgraduate students.",
+        "public_timestamp": "2018-01-24T12:34:04Z"
+      },
+      {
+        "note": "Note added on email messages to Chinese students.",
+        "public_timestamp": "2017-03-03T18:17:46Z"
+      },
+      {
+        "note": "Note added on Christmas availability.",
+        "public_timestamp": "2016-12-16T17:30:42Z"
+      },
+      {
+        "note": "updated detailed guide",
+        "public_timestamp": "2016-01-19T14:54:38Z"
+      },
+      {
+        "note": "updated notice",
+        "public_timestamp": "2015-09-16T16:52:57Z"
+      },
+      {
+        "note": "Easter announcement.",
+        "public_timestamp": "2015-03-30T14:49:21Z"
+      },
+      {
+        "note": "Service update: ATAS application website now up and running.",
+        "public_timestamp": "2013-10-31T18:03:08Z"
+      },
+      {
+        "note": "Service update notice added: The ATAS application website is down temporarily.",
+        "public_timestamp": "2013-10-28T17:37:23Z"
+      },
+      {
+        "note": "Added \"Important: ATAS Service Update\" section",
+        "public_timestamp": "2013-08-09T03:42:07Z"
+      },
+      {
+        "note": "Updated contact information",
+        "public_timestamp": "2013-07-18T09:52:54Z"
+      },
+      {
+        "note": "Removing downtime message as ATAS will not be affected by downtime after all.",
+        "public_timestamp": "2013-05-03T11:15:02Z"
+      },
+      {
+        "note": "Added a note to online application to notify of downtime on 4th May.",
+        "public_timestamp": "2013-05-03T10:03:42Z"
+      },
+      {
+        "note": "‘ATAS is currently accepting applications. Note that the existing service is scheduled to be replaced by a new online service shortly. Your application should not be affected by the change.’ replaced ‘The ATAS service is currently closed to new applications pending its re-launch on 15 April. Due to technical difficulties the site is re-opening one week later than originally scheduled. We apologise for any inconvenience caused. Please ask your University to contact us on your behalf if your application will consequently require urgent attention after 15 April.’",
+        "public_timestamp": "2013-04-15T10:40:21Z"
+      },
+      {
+        "note": "The ATAS service is currently closed to new applications pending its re-launch on 15 April. Due to technical difficulties the site is  re-opening one week later than originally scheduled. We apologise for any inconvenience caused. Please ask your University to contact us on your behalf if your application will consequently require urgent attention after 15 April.",
+        "public_timestamp": "2013-04-08T13:53:23Z"
+      },
+      {
+        "note": "Added apply online information.",
+        "public_timestamp": "2013-03-25T16:14:55Z"
+      },
+      {
+        "note": "First published.",
+        "public_timestamp": "2013-03-25T00:00:00Z"
+      }
+    ],
+    "emphasised_organisations": [
+      "f9fcf3fe-2751-4dca-97ca-becaeceb4b26"
+    ],
+    "first_public_at": "2013-03-25T00:00:00.000+00:00",
+    "headers": [
+      {
+        "id": "the-academic-technology-approval-scheme",
+        "level": 2,
+        "text": "The Academic Technology Approval Scheme"
+      },
+      {
+        "id": "common-terms",
+        "level": 2,
+        "text": "Common terms"
+      },
+      {
+        "id": "when-you-dont-need-an-atas-certificate",
+        "level": 2,
+        "text": "When you don’t need an ATAS certificate"
+      },
+      {
+        "headers": [
+          {
+            "id": "exchange-or-study-abroad-scheme-courses",
+            "level": 3,
+            "text": "Exchange or study abroad scheme courses"
+          },
+          {
+            "id": "joint-programmes",
+            "level": 3,
+            "text": "Joint programmes"
+          }
+        ],
+        "id": "when-you-need-an-atas-certificate",
+        "level": 2,
+        "text": "When you need an ATAS certificate"
+      },
+      {
+        "headers": [
+          {
+            "id": "if-you-are-already-in-the-uk",
+            "level": 3,
+            "text": "If you are already in the UK"
+          }
+        ],
+        "id": "atas-immigration-rules",
+        "level": 2,
+        "text": "ATAS immigration rules"
+      },
+      {
+        "id": "how-to-apply",
+        "level": 2,
+        "text": "How to apply"
+      },
+      {
+        "headers": [
+          {
+            "id": "what-we-check",
+            "level": 3,
+            "text": "What we check"
+          },
+          {
+            "id": "be-responsible-for-your-application",
+            "level": 3,
+            "text": "Be responsible for your application"
+          },
+          {
+            "id": "use-ai-tools-safely",
+            "level": 3,
+            "text": "Use AI tools safely"
+          },
+          {
+            "id": "what-happens-if-you-give-false-information",
+            "level": 3,
+            "text": "What happens if you give false information"
+          }
+        ],
+        "id": "use-accurate-information-in-your-atas-application",
+        "level": 2,
+        "text": "Use accurate information in your ATAS application"
+      },
+      {
+        "headers": [
+          {
+            "id": "your-application-must-include",
+            "level": 3,
+            "text": "Your application must include:"
+          }
+        ],
+        "id": "students-additional-application-form-guidance",
+        "level": 2,
+        "text": "Students: additional application form guidance"
+      },
+      {
+        "headers": [
+          {
+            "id": "applying-to-more-than-one-hei",
+            "level": 3,
+            "text": "Applying to more than one HEI"
+          },
+          {
+            "id": "applying-for-courses-with-the-same-hei-and-cah3-code",
+            "level": 3,
+            "text": "Applying for courses with the same HEI and CAH3 code"
+          },
+          {
+            "id": "if-your-course-dates-have-changed",
+            "level": 3,
+            "text": "If your course dates have changed"
+          },
+          {
+            "id": "if-your-field-of-study-has-changed",
+            "level": 3,
+            "text": "If your field of study has changed"
+          },
+          {
+            "id": "applying-to-write-a-thesis",
+            "level": 3,
+            "text": "Applying to write a thesis"
+          }
+        ],
+        "id": "students-further-information",
+        "level": 2,
+        "text": "Students: further information"
+      },
+      {
+        "id": "contracted-researchers-additional-application-form-guidance",
+        "level": 2,
+        "text": "Contracted Researchers: additional application form guidance"
+      },
+      {
+        "headers": [
+          {
+            "id": "researching-at-more-than-onehei-or-research-institute",
+            "level": 3,
+            "text": "Researching at more than one HEI or research institute"
+          },
+          {
+            "id": "if-your-employment-start-date-is-delayed",
+            "level": 3,
+            "text": "If your employment start date is delayed"
+          },
+          {
+            "id": "if-you-do-not-have-a-research-proposal-letter",
+            "level": 3,
+            "text": "If you do not have a research proposal letter"
+          },
+          {
+            "id": "visiting-academic-researcher",
+            "level": 3,
+            "text": "Visiting Academic Researcher"
+          }
+        ],
+        "id": "contracted-researchers-further-information",
+        "level": 2,
+        "text": "Contracted Researchers: further information"
+      },
+      {
+        "id": "the-application-process-",
+        "level": 2,
+        "text": "The application process  "
+      },
+      {
+        "headers": [
+          {
+            "id": "successful-applications",
+            "level": 3,
+            "text": "Successful applications"
+          },
+          {
+            "id": "if-your-application-is-unsuccessful",
+            "level": 3,
+            "text": "If your application is unsuccessful"
+          },
+          {
+            "id": "appeals",
+            "level": 3,
+            "text": "Appeals"
+          }
+        ],
+        "id": "outcome-of-your-application",
+        "level": 2,
+        "text": "Outcome of your application"
+      },
+      {
+        "id": "contacting-the-atasteam",
+        "level": 2,
+        "text": "Contacting the ATAS team"
+      },
+      {
+        "id": "privacy-policy",
+        "level": 2,
+        "text": "Privacy policy"
+      }
+    ],
+    "political": false,
+    "related_mainstream_content": [],
+    "tags": {
+      "browse_pages": []
+    }
+  },
+  "document_type": "detailed_guide",
+  "first_published_at": "2013-03-25T00:00:00+00:00",
+  "links": {
+    "available_translations": [
+      {
+        "api_path": "/api/content/guidance/academic-technology-approval-scheme",
+        "api_url": "https://www.gov.uk/api/content/guidance/academic-technology-approval-scheme",
+        "base_path": "/guidance/academic-technology-approval-scheme",
+        "content_id": "5dbc0b66-7631-11e4-a3cb-005056011aef",
+        "document_type": "detailed_guide",
+        "links": {},
+        "locale": "en",
+        "public_updated_at": "2026-03-24T10:09:39Z",
+        "schema_name": "detailed_guide",
+        "title": "Academic Technology Approval Scheme (ATAS)",
+        "web_url": "https://www.gov.uk/guidance/academic-technology-approval-scheme",
+        "withdrawn": false
+      }
+    ],
+    "government": [
+      {
+        "api_path": "/api/content/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+        "api_url": "https://www.gov.uk/api/content/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+        "base_path": "/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government",
+        "content_id": "591c83aa-3b74-437d-a342-612bddd97572",
+        "details": {
+          "current": false,
+          "ended_on": "2015-05-08T00:00:00+00:00",
+          "started_on": "2010-05-12T00:00:00+00:00"
+        },
+        "document_type": "government",
+        "links": {},
+        "locale": "en",
+        "title": "2010 to 2015 Conservative and Liberal Democrat coalition government",
+        "web_url": "https://www.gov.uk/government/2010-to-2015-conservative-and-liberal-democrat-coalition-government"
+      }
+    ],
+    "lead_organisations": [
+      {
+        "analytics_identifier": "D13",
+        "api_path": "/api/content/government/organisations/foreign-commonwealth-office",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/foreign-commonwealth-office",
+        "base_path": "/government/organisations/foreign-commonwealth-office",
+        "content_id": "9adfc4ed-9f6c-4976-a6d8-18d34356367c",
+        "details": {
+          "acronym": "FCO",
+          "brand": "foreign-commonwealth-office",
+          "default_news_image": {
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/media/5a37dae3ed915d5a5f966021/s960_Main-building-gov.uk.jpg",
+            "url": "https://assets.publishing.service.gov.uk/media/5a37dae240f0b649cceb1839/s300_Main-building-gov.uk.jpg"
+          },
+          "logo": {
+            "crest": "single-identity",
+            "formatted_title": "Foreign &amp;<br/>Commonwealth <br/>Office"
+          },
+          "organisation_govuk_status": {
+            "status": "replaced",
+            "updated_at": "2020-09-02T00:00:00.000+01:00",
+            "url": "http://www.gov.uk/fco"
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Foreign & Commonwealth Office",
+        "web_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-office",
+        "withdrawn": false
+      }
+    ],
+    "organisations": [
+      {
+        "analytics_identifier": "D1315",
+        "api_path": "/api/content/government/organisations/foreign-commonwealth-development-office",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/foreign-commonwealth-development-office",
+        "base_path": "/government/organisations/foreign-commonwealth-development-office",
+        "content_id": "f9fcf3fe-2751-4dca-97ca-becaeceb4b26",
+        "details": {
+          "acronym": "FCDO",
+          "brand": "foreign-commonwealth-development-office",
+          "default_news_image": {
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/media/621e4de4e90e0710be0354d7/s960_fcdo-main-building.jpg",
+            "url": "https://assets.publishing.service.gov.uk/media/621e4de48fa8f5490aff83b4/s300_fcdo-main-building.jpg"
+          },
+          "logo": {
+            "crest": "single-identity",
+            "formatted_title": "Foreign, Commonwealth<br/>&amp; Development Office"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Foreign, Commonwealth & Development Office",
+        "web_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+        "withdrawn": false
+      }
+    ],
+    "original_primary_publishing_organisation": [
+      {
+        "analytics_identifier": "D13",
+        "api_path": "/api/content/government/organisations/foreign-commonwealth-office",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/foreign-commonwealth-office",
+        "base_path": "/government/organisations/foreign-commonwealth-office",
+        "content_id": "9adfc4ed-9f6c-4976-a6d8-18d34356367c",
+        "details": {
+          "acronym": "FCO",
+          "brand": "foreign-commonwealth-office",
+          "default_news_image": {
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/media/5a37dae3ed915d5a5f966021/s960_Main-building-gov.uk.jpg",
+            "url": "https://assets.publishing.service.gov.uk/media/5a37dae240f0b649cceb1839/s300_Main-building-gov.uk.jpg"
+          },
+          "logo": {
+            "crest": "single-identity",
+            "formatted_title": "Foreign &amp;<br/>Commonwealth <br/>Office"
+          },
+          "organisation_govuk_status": {
+            "status": "replaced",
+            "updated_at": "2020-09-02T00:00:00.000+01:00",
+            "url": "http://www.gov.uk/fco"
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Foreign & Commonwealth Office",
+        "web_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-office",
+        "withdrawn": false
+      }
+    ],
+    "primary_publishing_organisation": [
+      {
+        "analytics_identifier": "D1315",
+        "api_path": "/api/content/government/organisations/foreign-commonwealth-development-office",
+        "api_url": "https://www.gov.uk/api/content/government/organisations/foreign-commonwealth-development-office",
+        "base_path": "/government/organisations/foreign-commonwealth-development-office",
+        "content_id": "f9fcf3fe-2751-4dca-97ca-becaeceb4b26",
+        "details": {
+          "acronym": "FCDO",
+          "brand": "foreign-commonwealth-development-office",
+          "default_news_image": {
+            "high_resolution_url": "https://assets.publishing.service.gov.uk/media/621e4de4e90e0710be0354d7/s960_fcdo-main-building.jpg",
+            "url": "https://assets.publishing.service.gov.uk/media/621e4de48fa8f5490aff83b4/s300_fcdo-main-building.jpg"
+          },
+          "logo": {
+            "crest": "single-identity",
+            "formatted_title": "Foreign, Commonwealth<br/>&amp; Development Office"
+          },
+          "organisation_govuk_status": {
+            "status": "live",
+            "updated_at": null,
+            "url": null
+          }
+        },
+        "document_type": "organisation",
+        "links": {},
+        "locale": "en",
+        "schema_name": "organisation",
+        "title": "Foreign, Commonwealth & Development Office",
+        "web_url": "https://www.gov.uk/government/organisations/foreign-commonwealth-development-office",
+        "withdrawn": false
+      }
+    ],
+    "related_to_step_navs": [
+      {
+        "api_path": "/api/content/study-uk-student-visa",
+        "api_url": "https://www.gov.uk/api/content/study-uk-student-visa",
+        "base_path": "/study-uk-student-visa",
+        "content_id": "cafcc40a-c1ff-4997-adb4-2fef47af194d",
+        "details": {
+          "step_by_step_nav": {
+            "steps": [
+              {
+                "contents": [
+                  {
+                    "text": "You can apply for a Student visa if you’re 16 or over and want to study on a further or higher education course in the UK. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/student-visa",
+                        "text": "Check what you can and cannot do on this visa"
+                      },
+                      {
+                        "href": "/student-visa/course",
+                        "text": "Check what courses you can study on this visa"
+                      },
+                      {
+                        "href": "/student-visa/family-members",
+                        "text": "Check if you can bring your partner or children ('dependants') with you"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "If you're under 18 and you want to study at an independent school in the UK, you may be eligible for a Child Student visa instead. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/check-uk-visa",
+                        "text": "Check which visas you're eligible for"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Check if this visa is right for you"
+              },
+              {
+                "contents": [
+                  {
+                    "contents": [
+                      {
+                        "href": "/student-visa/documents-you-must-provide",
+                        "text": "Check what documents you can use as evidence"
+                      },
+                      {
+                        "href": "/student-visa/knowledge-of-english",
+                        "text": "Prove your knowledge of the English language"
+                      },
+                      {
+                        "href": "/tb-test-visa",
+                        "text": "Check if you need a tuberculosis (TB) test"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "If you're doing a masters degree or above, you may need to apply for the Academic Technology Approval Scheme (ATAS) certificate. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/guidance/academic-technology-approval-scheme",
+                        "text": "Check if you need to apply for ATAS"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Prepare the evidence you need"
+              },
+              {
+                "contents": [
+                  {
+                    "contents": [
+                      {
+                        "context": "£558",
+                        "href": "/student-visa/apply",
+                        "text": "Apply from outside the UK"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "You'll need to prove your identity as part of your application. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "text": "You'll usually get a decision within 3 weeks.",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/guidance/visa-decision-waiting-times-applications-outside-the-uk",
+                        "text": "Find out if you can pay more to get a faster decision"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Apply from outside the UK"
+              },
+              {
+                "contents": [
+                  {
+                    "contents": [
+                      {
+                        "context": "£558",
+                        "href": "/student-visa/extend-your-visa",
+                        "text": "Apply to extend if you're already in the UK on Student visa (or a Tier 4 (General) visa)"
+                      },
+                      {
+                        "context": "£558",
+                        "href": "/student-visa/switch-to-this-visa",
+                        "text": "Apply to switch to this visa if you're already in the UK"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "You'll need to prove your identity as part of your application. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "text": "You'll usually get a decision within 8 weeks.",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "context": "you’ll be told if you can when you apply",
+                        "href": "/faster-decision-visa-settlement",
+                        "text": "You may be able to pay more to get a faster decision"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "logic": "or",
+                "title": "Apply from inside the UK"
+              },
+              {
+                "contents": [
+                  {
+                    "text": "If your application is successful, you'll get an eVisa. This is an online record of your immigration status.",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "context": "by setting up a UKVI account.",
+                        "href": "/get-access-evisa",
+                        "text": "Get access to your eVisa"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "You’ll need to link your travel document to your UKVI account. This should be the travel document you use to come to the UK.",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/view-prove-immigration-status",
+                        "text": "You may have to prove your immigration status when you travel to the UK"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Get access to your eVisa"
+              },
+              {
+                "contents": [
+                  {
+                    "contents": [
+                      {
+                        "href": "/hand-luggage-restrictions",
+                        "text": "Check what you can bring in your hand luggage"
+                      },
+                      {
+                        "href": "/bringing-cash-into-uk",
+                        "text": "Check what to do if you're bringing cash with you"
+                      },
+                      {
+                        "href": "/duty-free-goods",
+                        "text": "Check what goods you can bring with you"
+                      },
+                      {
+                        "href": "/bringing-food-animals-plants-into-uk",
+                        "text": "Check what food, animals or plants you can bring into the UK"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Check what you can bring into the UK with you"
+              },
+              {
+                "contents": [
+                  {
+                    "contents": [
+                      {
+                        "href": "/uk-border-control/at-border-control",
+                        "text": "Check what you need to show at the UK border"
+                      }
+                    ],
+                    "type": "list"
+                  }
+                ],
+                "title": "Check what you need to show at the UK border"
+              },
+              {
+                "contents": [
+                  {
+                    "text": "You might be able to extend your visa to stay longer in the UK. ",
+                    "type": "paragraph"
+                  },
+                  {
+                    "contents": [
+                      {
+                        "href": "/student-visa/extend-your-visa",
+                        "text": "Check if you can extend your visa"
+                      }
+                    ],
+                    "type": "list"
+                  },
+                  {
+                    "text": "If you break the conditions of your visa you may not be able to come to the UK again.",
+                    "type": "paragraph"
+                  }
+                ],
+                "title": "After you arrive in the UK"
+              }
+            ],
+            "title": "Study in the UK on a Student visa "
+          }
+        },
+        "document_type": "step_by_step_nav",
+        "links": {
+          "pages_related_to_step_nav": [
+            {
+              "api_path": "/api/content/guidance/academic-technology-approval-scheme",
+              "api_url": "https://www.gov.uk/api/content/guidance/academic-technology-approval-scheme",
+              "base_path": "/guidance/academic-technology-approval-scheme",
+              "content_id": "5dbc0b66-7631-11e4-a3cb-005056011aef",
+              "document_type": "detailed_guide",
+              "links": {},
+              "locale": "en",
+              "public_updated_at": "2026-03-24T10:09:39Z",
+              "schema_name": "detailed_guide",
+              "title": "Academic Technology Approval Scheme (ATAS)",
+              "web_url": "https://www.gov.uk/guidance/academic-technology-approval-scheme",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "public_updated_at": "2026-03-23T17:17:10Z",
+        "schema_name": "step_by_step_nav",
+        "title": "Study in the UK on a Student visa ",
+        "web_url": "https://www.gov.uk/study-uk-student-visa",
+        "withdrawn": false
+      }
+    ],
+    "taxons": [
+      {
+        "api_path": "/api/content/entering-staying-uk/student-visas",
+        "api_url": "https://www.gov.uk/api/content/entering-staying-uk/student-visas",
+        "base_path": "/entering-staying-uk/student-visas",
+        "content_id": "51b699cf-d4dc-488c-a87e-070560d37791",
+        "description": "",
+        "details": {
+          "internal_name": "Student visas",
+          "notes_for_editors": "",
+          "visible_to_departmental_editors": false
+        },
+        "document_type": "taxon",
+        "links": {
+          "parent_taxons": [
+            {
+              "api_path": "/api/content/entering-staying-uk/visas-entry-clearance",
+              "api_url": "https://www.gov.uk/api/content/entering-staying-uk/visas-entry-clearance",
+              "base_path": "/entering-staying-uk/visas-entry-clearance",
+              "content_id": "29480b00-dc4d-49a0-b48c-25dda8569325",
+              "description": "",
+              "details": {
+                "internal_name": "Visas and entry clearance",
+                "notes_for_editors": "",
+                "visible_to_departmental_editors": false
+              },
+              "document_type": "taxon",
+              "links": {
+                "parent_taxons": [
+                  {
+                    "api_path": "/api/content/entering-staying-uk",
+                    "api_url": "https://www.gov.uk/api/content/entering-staying-uk",
+                    "base_path": "/entering-staying-uk",
+                    "content_id": "ba3a9702-da22-487f-86c1-8334a730e559",
+                    "details": {
+                      "internal_name": "Entering and staying in the UK",
+                      "notes_for_editors": "",
+                      "visible_to_departmental_editors": true
+                    },
+                    "document_type": "taxon",
+                    "links": {
+                      "root_taxon": [
+                        {
+                          "api_path": "/api/content/",
+                          "api_url": "https://www.gov.uk/api/content/",
+                          "base_path": "/",
+                          "content_id": "f3bbdec2-0e62-4520-a7fd-6ffd5d36e03a",
+                          "document_type": "homepage",
+                          "links": {},
+                          "locale": "en",
+                          "public_updated_at": "2026-02-18T13:00:23Z",
+                          "schema_name": "homepage",
+                          "title": "GOV.UK homepage",
+                          "web_url": "https://www.gov.uk/",
+                          "withdrawn": false
+                        }
+                      ]
+                    },
+                    "locale": "en",
+                    "phase": "live",
+                    "public_updated_at": "2018-07-11T08:58:32Z",
+                    "schema_name": "taxon",
+                    "title": "Entering and staying in the UK",
+                    "web_url": "https://www.gov.uk/entering-staying-uk",
+                    "withdrawn": false
+                  }
+                ]
+              },
+              "locale": "en",
+              "phase": "live",
+              "public_updated_at": "2018-07-11T08:58:33Z",
+              "schema_name": "taxon",
+              "title": "Visas and entry clearance",
+              "web_url": "https://www.gov.uk/entering-staying-uk/visas-entry-clearance",
+              "withdrawn": false
+            }
+          ]
+        },
+        "locale": "en",
+        "phase": "live",
+        "public_updated_at": "2018-07-11T08:58:33Z",
+        "schema_name": "taxon",
+        "title": "Student visas",
+        "web_url": "https://www.gov.uk/entering-staying-uk/student-visas",
+        "withdrawn": false
+      }
+    ]
+  },
+  "locale": "en",
+  "phase": "live",
+  "public_updated_at": "2026-03-24T10:09:39+00:00",
+  "publishing_app": "whitehall",
+  "publishing_request_id": "21-1787826342.040-10.13.21.83-2783",
+  "publishing_scheduled_at": "2022-04-11T09:30:00+01:00",
+  "rendering_app": "frontend",
+  "scheduled_publishing_delay_seconds": 2,
+  "schema_name": "detailed_guide",
+  "title": "Academic Technology Approval Scheme (ATAS)",
+  "updated_at": "2026-10-19T09:08:03+01:00",
+  "withdrawn_notice": {}
+}

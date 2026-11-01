@@ -15,5 +15,15 @@ class DenseRetriever:
         self._store = store
 
     def retrieve(self, query: str, k: int) -> list[ScoredChunk]:
-        query_vec = self._embedder.embed([query])[0]
-        return self._store.search(query_vec, k)
+        if len(self._store) == 0:
+            return []
+        query_vec = self._embedder.embed_query(query)
+        hits = self._store.search(query_vec, k)
+        return [
+            ScoredChunk(
+                chunk=hit.chunk,
+                score=hit.score,
+                components={"dense": hit.score},
+            )
+            for hit in hits
+        ]

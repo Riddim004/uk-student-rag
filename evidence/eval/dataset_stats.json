@@ -1,0 +1,23 @@
+{
+  "categories": {
+    "chinese": 8,
+    "exact": 10,
+    "multi_hop": 6,
+    "numeric": 8,
+    "paraphrase": 10,
+    "unanswerable": 8
+  },
+  "labels": {
+    "max_chunks_per_answerable_query": 4,
+    "mean_chunks_per_answerable_query": 1.74,
+    "min_chunks_per_answerable_query": 1,
+    "queries_with_multiple_chunks": 23
+  },
+  "n_queries": 50,
+  "n_queries_answerable": 42,
+  "n_queries_unanswerable": 8,
+  "splits": {
+    "dev": 25,
+    "test": 25
+  }
+}

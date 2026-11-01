@@ -7,32 +7,55 @@ from dataclasses import dataclass, field
 
 @dataclass(frozen=True)
 class Document:
-    """A source document before chunking."""
+    """A retrievable source section before chunking.
+
+    ``id`` is the stable section id (one part of a gov.uk guide, or one H2
+    section of a detailed guide). ``doc_id`` is the parent source page.
+    """
 
     id: str
     text: str
     title: str = ""
-    source: str = ""  # URL or file path
+    source: str = ""  # canonical URL or file path
+    doc_id: str = ""
+    section_id: str = ""
+    section_path: tuple[str, ...] = ()
+    updated_at: str = ""
+    fetched_at: str = ""
+    source_type: str = ""
+    ordinal: int = 0
 
 
 @dataclass(frozen=True)
 class Chunk:
     """A retrievable slice of a document."""
 
-    id: str  # e.g. "doc1#3"
+    id: str  # e.g. "student-visa__money#3"
     doc_id: str
     ordinal: int
     text: str
     title: str = ""
     source: str = ""
+    section_id: str = ""
+    section_ids: tuple[str, ...] = ()
+    section_path: tuple[str, ...] = ()
+    updated_at: str = ""
+    fetched_at: str = ""
+    source_type: str = ""
 
 
 @dataclass(frozen=True)
 class ScoredChunk:
-    """A chunk paired with a retrieval score (higher = more relevant)."""
+    """A chunk paired with a retrieval score (higher = more relevant).
+
+    ``components`` keeps the per-retriever scores that produced the final
+    ranking (sparse, dense, rrf, rerank). Keeping them makes the relevance gate
+    and the "why this answer" UI possible without re-running retrievers.
+    """
 
     chunk: Chunk
     score: float
+    components: dict[str, float] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -44,6 +67,9 @@ class Citation:
     doc_id: str
     title: str
     source: str
+    section_path: tuple[str, ...] = ()
+    updated_at: str = ""
+    snippet: str = ""
 
 
 @dataclass(frozen=True)
@@ -54,3 +80,7 @@ class Answer:
     citations: list[Citation] = field(default_factory=list)
     refused: bool = False
     contexts: list[ScoredChunk] = field(default_factory=list)
+    refused_reason: str = ""
+    mode: str = ""
+    degraded: bool = False
+    degraded_reason: str = ""

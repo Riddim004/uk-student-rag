@@ -28,10 +28,14 @@ class InMemoryVectorStore:
     def add(self, chunks: list[Chunk], vectors: list[list[float]]) -> None:
         if len(chunks) != len(vectors):
             raise ValueError("chunks and vectors must be the same length")
+        if vectors and self._vectors and len(vectors[0]) != len(self._vectors[0]):
+            raise ValueError("all vectors must have the same dimension")
         self._chunks.extend(chunks)
         self._vectors.extend(vectors)
 
     def search(self, query_vector: list[float], k: int) -> list[ScoredChunk]:
+        if self._vectors and len(query_vector) != len(self._vectors[0]):
+            raise ValueError("query vector dimension does not match the index")
         scored = [
             ScoredChunk(chunk=chunk, score=_dot(query_vector, vec))
             for chunk, vec in zip(self._chunks, self._vectors)

@@ -1,38 +1,32 @@
-"""Standard information-retrieval metrics.
+"""Standard information-retrieval metrics + bootstrap confidence intervals.
 
 All functions take a ranked list of retrieved ids (best first) and the set of
-relevant ids, and return a score in ``[0, 1]``. Pure and dependency-free so
-they are trivial to unit-test with hand-checked expected values.
-
-Relevance here is graded at the *document* level: a retrieved chunk id like
-``visa#3`` counts as hitting document ``visa``. This matches how the eval set is
-labelled (by document), and is handled by the runner before calling these.
+relevant ids. ``precision_at_k`` divides by ``k`` (not by the number of items
+actually returned), which is the standard definition and avoids inflating a
+retriever that returns very few results.
 """
 
 from __future__ import annotations
 
+import math
+import random
+from statistics import mean
+
 
 def recall_at_k(retrieved: list[str], relevant: set[str], k: int) -> float:
-    """Fraction of relevant items that appear in the top-k."""
-    if not relevant:
+    if not relevant or k <= 0:
         return 0.0
-    topk = set(retrieved[:k])
-    return len(topk & relevant) / len(relevant)
+    return len(set(retrieved[:k]) & relevant) / len(relevant)
 
 
 def precision_at_k(retrieved: list[str], relevant: set[str], k: int) -> float:
-    """Fraction of the top-k that are relevant."""
     if k <= 0:
         return 0.0
-    topk = retrieved[:k]
-    if not topk:
-        return 0.0
-    hits = sum(1 for item in topk if item in relevant)
-    return hits / len(topk)
+    hits = sum(1 for item in retrieved[:k] if item in relevant)
+    return hits / k
 
 
 def mrr(retrieved: list[str], relevant: set[str]) -> float:
-    """Reciprocal rank of the first relevant item (0 if none retrieved)."""
     for rank, item in enumerate(retrieved, start=1):
         if item in relevant:
             return 1.0 / rank
@@ -40,12 +34,12 @@ def mrr(retrieved: list[str], relevant: set[str]) -> float:
 
 
 def hit_rate(retrieved: list[str], relevant: set[str], k: int) -> float:
-    """1.0 if any relevant item is in the top-k, else 0.0."""
+    if k <= 0:
+        return 0.0
     return 1.0 if set(retrieved[:k]) & relevant else 0.0
 
 
 def average_precision(retrieved: list[str], relevant: set[str]) -> float:
-    """Average precision — rewards ranking relevant items higher."""
     if not relevant:
         return 0.0
     hits = 0
@@ -55,3 +49,44 @@ def average_precision(retrieved: list[str], relevant: set[str]) -> float:
             hits += 1
             summed += hits / rank
     return summed / len(relevant)
+
+
+def ndcg_at_k(retrieved: list[str], relevant: set[str], k: int) -> float:
+    """Binary-relevance nDCG@k."""
+    if not relevant or k <= 0:
+        return 0.0
+    dcg = sum(
+        1.0 / math.log2(rank + 1)
+        for rank, item in enumerate(retrieved[:k], start=1)
+        if item in relevant
+    )
+    ideal_hits = min(len(relevant), k)
+    idcg = sum(1.0 / math.log2(rank + 1) for rank in range(1, ideal_hits + 1))
+    return dcg / idcg if idcg else 0.0
+
+
+def bootstrap_mean_ci(
+    values: list[float],
+    n_boot: int = 2000,
+    alpha: float = 0.05,
+    seed: int = 42,
+) -> tuple[float, float, float]:
+    """Return (mean, lower, upper) for the mean of ``values``.
+
+    Deterministic for a fixed seed; resamples queries, not documents.
+    """
+    if not values:
+        return 0.0, 0.0, 0.0
+    point = mean(values)
+    if len(values) == 1:
+        return point, point, point
+    rng = random.Random(seed)
+    n = len(values)
+    samples = []
+    for _ in range(n_boot):
+        draw = [values[rng.randrange(n)] for _ in range(n)]
+        samples.append(sum(draw) / n)
+    samples.sort()
+    low = samples[max(0, int((alpha / 2) * n_boot) - 1)]
+    high = samples[min(n_boot - 1, int((1 - alpha / 2) * n_boot))]
+    return point, low, high
